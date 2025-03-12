@@ -1,0 +1,28 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Python virtual environment
+kg_env/
+venv/
+pyvenv.cfg
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.Python
+pip-log.txt
+pip-delete-this-directory.txts

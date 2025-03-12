@@ -1,0 +1,49 @@
+# SPARQL查询示例
+
+# 示例1：查询所有的类
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?class
+WHERE {
+    ?class rdf:type owl:Class .
+}
+                
+
+# 示例2：查询所有的知识图谱术语
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX kg: <http://knowledge-graph.org/kg-schema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?term ?label
+WHERE {
+    ?term rdf:type kg:KGTerm .
+    ?term rdfs:label ?label .
+}
+                
+
+# 示例3：查询所有的"is_a"关系
+
+PREFIX kg: <http://knowledge-graph.org/kg-schema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?subject ?object
+WHERE {
+    ?subject kg:is_a ?object .
+}
+                
+
+# 示例4：查询含有"知识图谱"实体的三元组
+
+PREFIX kg: <http://knowledge-graph.org/kg-schema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?predicate ?object ?objectLabel
+WHERE {
+    ?subject rdfs:label "知识图谱"@zh .
+    ?subject ?predicate ?object .
+    ?object rdfs:label ?objectLabel .
+}
+                

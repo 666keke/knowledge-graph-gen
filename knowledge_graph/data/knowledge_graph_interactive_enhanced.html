@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>知识图谱交互式可视化</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            font-family: "Microsoft YaHei", "SimHei", "STHeiti", sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        #mynetwork {
+            width: 100%;
+            height: 800px;
+            border: 1px solid lightgray;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .controls {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .slider-container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .slider-label {
+            width: 150px;
+            font-weight: bold;
+        }
+        .slider {
+            flex-grow: 1;
+            margin: 0 15px;
+        }
+        .slider-value {
+            width: 50px;
+            text-align: center;
+        }
+        button {
+            padding: 8px 15px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+            font-family: inherit;
+        }
+        button:hover {
+            background-color: #3367d6;
+        }
+        .info-panel {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #4285f4;
+        }
+        h2 {
+            margin-top: 0;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>知识图谱交互式可视化</h1>
+    
+    <div class="controls">
+        <h2>可视化控制</h2>
+        <div class="slider-container">
+            <span class="slider-label">关系度过滤:</span>
+            <input type="range" id="relevanceSlider" class="slider" min="0" max="100" value="0">
+            <span class="slider-value" id="relevanceValue">0</span>
+        </div>
+        
+        <button id="resetButton">重置视图</button>
+        <button id="highlightCentralButton">突出显示核心节点</button>
+    </div>
+    
+    <div id="mynetwork"></div>
+    
+    <div class="info-panel">
+        <h2>操作指南</h2>
+        <p>· 点击节点: 高亮显示与该节点相连的关系，其他节点将变为半透明</p>
+        <p>· 拖动滑块: 根据节点与知识图谱主题的关系度过滤显示节点</p>
+        <p>· 鼠标悬停: 查看节点或关系的详细信息</p>
+        <p>· 滚轮缩放: 放大或缩小图谱</p>
+        <p>· 重置视图: 恢复图谱初始状态</p>
+        <p>· 突出显示核心节点: 高亮显示关系度最高的节点</p>
+    </div>
+    
+    <script type="text/javascript">
+    // 加载原始HTML文件中的网络数据
+    document.addEventListener('DOMContentLoaded', function() {
+        // 使用iframe加载原始网络数据
+        var iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = 'knowledge_graph_interactive.html';
+        document.body.appendChild(iframe);
+        
+        iframe.onload = function() {
+            try {
+                // 从iframe中获取网络数据
+                var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                var scriptContent = Array.from(iframeDoc.querySelectorAll('script'))
+                    .map(script => script.textContent)
+                    .join('\n');
+                
+                // 提取节点和边数据
+                var nodesMatch = scriptContent.match(/var nodes = new vis\.DataSet\(([^;]+)\);/);
+                var edgesMatch = scriptContent.match(/var edges = new vis\.DataSet\(([^;]+)\);/);
+                
+                if (nodesMatch && edgesMatch) {
+                    // 执行提取的数据定义
+                    eval('var nodes = new vis.DataSet(' + nodesMatch[1] + ');');
+                    eval('var edges = new vis.DataSet(' + edgesMatch[1] + ');');
+                    
+                    // 创建网络
+                    var container = document.getElementById('mynetwork');
+                    var data = {
+                        nodes: nodes,
+                        edges: edges
+                    };
+                    var options = {
+                        "nodes": {
+                            "font": {
+                                "face": "Microsoft YaHei, Arial, sans-serif",
+                                "size": 14
+                            }
+                        },
+                        "edges": {
+                            "font": {
+                                "face": "Microsoft YaHei, Arial, sans-serif",
+                                "size": 12
+                            },
+                            "smooth": {
+                                "type": "continuous",
+                                "forceDirection": "none"
+                            }
+                        },
+                        "physics": {
+                            "barnesHut": {
+                                "gravitationalConstant": -80000,
+                                "centralGravity": 0.3,
+                                "springLength": 250,
+                                "springConstant": 0.04,
+                                "damping": 0.09
+                            },
+                            "maxVelocity": 50,
+                            "minVelocity": 0.1,
+                            "solver": "barnesHut",
+                            "stabilization": {
+                                "enabled": true,
+                                "iterations": 1000,
+                                "updateInterval": 100,
+                                "onlyDynamicEdges": false,
+                                "fit": true
+                            },
+                            "timestep": 0.5
+                        }
+                    };
+                    var network = new vis.Network(container, data, options);
+                    
+                    // 添加交互功能
+                    var allNodes = network.body.nodes;
+                    var allEdges = network.body.edges;
+                    
+                    // 节点点击事件
+                    network.on("click", function(params) {
+                        if (params.nodes.length > 0) {
+                            highlightConnections(params.nodes[0]);
+                        } else {
+                            resetHighlight();
+                        }
+                    });
+                    
+                    // 关系度滑块
+                    var relevanceSlider = document.getElementById('relevanceSlider');
+                    var relevanceValue = document.getElementById('relevanceValue');
+                    
+                    relevanceSlider.addEventListener('input', function() {
+                        relevanceValue.textContent = this.value;
+                        filterNodesByRelevance(parseInt(this.value));
+                    });
+                    
+                    // 重置按钮
+                    document.getElementById('resetButton').addEventListener('click', function() {
+                        resetView();
+                    });
+                    
+                    // 突出显示核心节点按钮
+                    document.getElementById('highlightCentralButton').addEventListener('click', function() {
+                        highlightCentralNodes();
+                    });
+                    
+                    // 高亮节点及其连接
+                    function highlightConnections(nodeId) {
+                        // 重置所有节点和边的透明度
+                        for (var nodeKey in allNodes) {
+                            allNodes[nodeKey].opacity = 0.3;
+                        }
+                        
+                        for (var edgeKey in allEdges) {
+                            allEdges[edgeKey].opacity = 0.3;
+                        }
+                        
+                        // 高亮选中节点
+                        allNodes[nodeId].opacity = 1.0;
+                        
+                        // 高亮与选中节点相连的边和节点
+                        for (var edgeKey in allEdges) {
+                            var edge = allEdges[edgeKey];
+                            if (edge.fromId === nodeId || edge.toId === nodeId) {
+                                edge.opacity = 1.0;
+                                
+                                // 高亮相连的节点
+                                if (edge.fromId === nodeId) {
+                                    allNodes[edge.toId].opacity = 1.0;
+                                } else {
+                                    allNodes[edge.fromId].opacity = 1.0;
+                                }
+                            }
+                        }
+                        
+                        // 刷新网络
+                        network.redraw();
+                    }
+                    
+                    // 根据关系度过滤节点
+                    function filterNodesByRelevance(threshold) {
+                        for (var nodeKey in allNodes) {
+                            var node = allNodes[nodeKey];
+                            
+                            // 获取节点的关系度
+                            var relevance = node.options.value || 0;
+                            
+                            // 如果关系度低于阈值，则隐藏节点
+                            if (relevance < threshold) {
+                                node.opacity = 0.0;
+                                node.hidden = true;
+                            } else {
+                                node.opacity = 1.0;
+                                node.hidden = false;
+                            }
+                        }
+                        
+                        // 更新边的可见性
+                        for (var edgeKey in allEdges) {
+                            var edge = allEdges[edgeKey];
+                            var fromNode = allNodes[edge.fromId];
+                            var toNode = allNodes[edge.toId];
+                            
+                            // 如果一个节点隐藏，则边也隐藏
+                            if (fromNode.hidden || toNode.hidden) {
+                                edge.opacity = 0.0;
+                                edge.hidden = true;
+                            } else {
+                                edge.opacity = 1.0;
+                                edge.hidden = false;
+                            }
+                        }
+                        
+                        // 刷新网络
+                        network.redraw();
+                    }
+                    
+                    // 重置高亮
+                    function resetHighlight() {
+                        for (var nodeKey in allNodes) {
+                            allNodes[nodeKey].opacity = 1.0;
+                        }
+                        
+                        for (var edgeKey in allEdges) {
+                            allEdges[edgeKey].opacity = 1.0;
+                        }
+                        
+                        // 刷新网络
+                        network.redraw();
+                    }
+                    
+                    // 重置视图
+                    function resetView() {
+                        // 重置滑块
+                        relevanceSlider.value = 0;
+                        relevanceValue.textContent = "0";
+                        
+                        // 重置所有节点和边的可见性
+                        for (var nodeKey in allNodes) {
+                            allNodes[nodeKey].opacity = 1.0;
+                            allNodes[nodeKey].hidden = false;
+                        }
+                        
+                        for (var edgeKey in allEdges) {
+                            allEdges[edgeKey].opacity = 1.0;
+                            allEdges[edgeKey].hidden = false;
+                        }
+                        
+                        // 刷新网络并适应视图
+                        network.redraw();
+                        network.fit();
+                    }
+                    
+                    // 突出显示核心节点（关系度最高的节点）
+                    function highlightCentralNodes() {
+                        // 找出关系度最高的前10个节点
+                        var nodeValuePairs = [];
+                        for (var nodeKey in allNodes) {
+                            nodeValuePairs.push({
+                                id: nodeKey,
+                                value: allNodes[nodeKey].options.value || 0
+                            });
+                        }
+                        
+                        // 按关系度排序
+                        nodeValuePairs.sort(function(a, b) {
+                            return b.value - a.value;
+                        });
+                        
+                        // 取前10个节点
+                        var topNodes = nodeValuePairs.slice(0, 10);
+                        var topNodeIds = topNodes.map(function(node) { return node.id; });
+                        
+                        // 重置所有节点和边的透明度
+                        for (var nodeKey in allNodes) {
+                            allNodes[nodeKey].opacity = 0.2;
+                        }
+                        
+                        for (var edgeKey in allEdges) {
+                            allEdges[edgeKey].opacity = 0.2;
+                        }
+                        
+                        // 高亮前10个节点
+                        for (var i = 0; i < topNodeIds.length; i++) {
+                            var nodeId = topNodeIds[i];
+                            if (allNodes[nodeId]) {
+                                allNodes[nodeId].opacity = 1.0;
+                                
+                                // 高亮与该节点相连的边
+                                for (var edgeKey in allEdges) {
+                                    var edge = allEdges[edgeKey];
+                                    if (edge.fromId === nodeId || edge.toId === nodeId) {
+                                        edge.opacity = 0.8;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        // 刷新网络
+                        network.redraw();
+                    }
+                } else {
+                    console.error('无法从原始HTML中提取网络数据');
+                }
+                
+                // 移除iframe
+                document.body.removeChild(iframe);
+            } catch (e) {
+                console.error('加载网络数据时出错:', e);
+            }
+        };
+    });
+    </script>
+</body>
+</html>
+        
