@@ -1,1082 +1,152 @@
 text,label,type
-Knowledge Graph,PERSON,NER
-21980年代后期,DATE,NER
-格罗宁根大学,ORG,NER
-特文特大学,ORG,NER
-GoogleBing,PERSON,NER
+Graph,PERSON,NER
 谷歌,ORG,NER
-2012年5月17日,DATE,NER
-2006年,DATE,NER
-linked,PERSON,NER
-URI,ORG,NER
-RDF,ORG,NER
-3 三元组,DATE,NER
-通用,ORG,NER
+2012年,DATE,NER
 三元组,CARDINAL,NER
-中国,GPE,NER
-19880908,CARDINAL,NER
-(attributevalue,QUANTITY,NER
 数据层,CARDINAL,NER
-百科类,PERCENT,NER
-第一,ORDINAL,NER
-named,PERSON,NER
-NER,PERSON,NER
-2004年,DATE,NER
-70,CARDINAL,NER
-72008年,DATE,NER
-82010年,DATE,NER
-中汇集属性信息,ORG,NER
-10,CARDINAL,NER
-第三方,ORDINAL,NER
-数据化,CARDINAL,NER
-ontology,PERSON,NER
-11,CARDINAL,NER
-康熙),PERSON,NER
-2011年,DATE,NER
-1000,CARDINAL,NER
-12,CARDINAL,NER
-Freebase,CARDINAL,NER
-13,CARDINAL,NER
-Data Microsoft,PRODUCT,NER
-Data The World Book Encyclopedia Y,ORG,NER
-圖譜,n,JIEBA
 图谱,n,JIEBA
-英語,nz,JIEBA
 结构化,n,JIEBA
 语义,n,JIEBA
 知识库,n,JIEBA
 符号,n,JIEBA
-形式,n,JIEBA
 物理,n,JIEBA
 世界,n,JIEBA
 概念,n,JIEBA
 关系,n,JIEBA
-基本,n,JIEBA
-单位,n,JIEBA
-实体,n,JIEBA
-属性,n,JIEBA
-网状,n,JIEBA
-知识结构,n,JIEBA
 网页,n,JIEBA
 链接,n,JIEBA
 用户,n,JIEBA
 主题,n,JIEBA
-字符串,n,JIEBA
 检索,vn,JIEBA
-搜索引擎,n,JIEBA
-图形,n,JIEBA
-方式,n,JIEBA
-大量,n,JIEBA
-定位,n,JIEBA
+全面,n,JIEBA
 深度,ns,JIEBA
-數據,n,JIEBA
-结构,n,JIEBA
-数据模型,n,JIEBA
-联系,n,JIEBA
-實體,n,JIEBA
-格罗宁根,ns,JIEBA
-大学,n,JIEBA
-特文特,nr,JIEBA
-启动,vn,JIEBA
-项目,n,JIEBA
-界面,n,JIEBA
-定义,n,JIEBA
-功能,n,JIEBA
-辅助,vn,JIEBA
-问世,n,JIEBA
-网络,n,JIEBA
-技术,n,JIEBA
-研究,vn,JIEBA
-领域,n,JIEBA
+搜索引擎,n,JIEBA
+表示法,n,JIEBA
 数据,n,JIEBA
-思想,n,JIEBA
-技术标准,n,JIEBA
-基础,n,JIEBA
-条件,n,JIEBA
-代表,n,JIEBA
-元素,n,JIEBA
-类别,n,JIEBA
-对象,n,JIEBA
-类型,n,JIEBA
-事物,n,JIEBA
-种类,n,JIEBA
-人物,n,JIEBA
-地理,n,JIEBA
-特征,n,JIEBA
-特性,n,JIEBA
-特点,n,JIEBA
-参数,n,JIEBA
-国籍,n,JIEBA
-外延,n,JIEBA
-全局,n,JIEBA
-标识,n,JIEBA
-刻画,n,JIEBA
-关联,ns,JIEBA
-逻辑,n,JIEBA
-架构,n,JIEBA
 模式,n,JIEBA
 事实,n,JIEBA
-数据库,n,JIEBA
-本体,n,JIEBA
-规范,n,JIEBA
-体系,n,JIEBA
-部分,n,JIEBA
 融合,vn,JIEBA
-发展,vn,JIEBA
-百科,nz,JIEBA
-网站,n,JIEBA
-数据源,n,JIEBA
-信息,n,JIEBA
-自动,vn,JIEBA
-资源,n,JIEBA
-人工,n,JIEBA
-异构,n,JIEBA
-单元,n,JIEBA
-命名,n,JIEBA
-自动识别,n,JIEBA
-关键,n,JIEBA
-准确率,n,JIEBA
-效率,n,JIEBA
-质量,n,JIEBA
-影响,vn,JIEBA
-准召率,n,JIEBA
-理想,n,JIEBA
-字典,n,JIEBA
-算法,n,JIEBA
-论文,nz,JIEBA
-实例,n,JIEBA
-建模,n,JIEBA
-利用,n,JIEBA
-模型,n,JIEBA
-海量,n,JIEBA
-列表,n,JIEBA
-语料库,n,JIEBA
-面向,n,JIEBA
-监督,vn,JIEBA
-分类,n,JIEBA
-日志,ns,JIEBA
-聚类,n,JIEBA
-文本,n,JIEBA
-语料,n,JIEBA
-信息源,n,JIEBA
-公众,n,JIEBA
-昵称,n,JIEBA
-教育,vn,JIEBA
-背景,n,JIEBA
-结果,n,JIEBA
-层次性,nz,JIEBA
-逻辑性,n,JIEBA
-歧义,n,JIEBA
-错误,n,JIEBA
-指将,n,JIEBA
-产品,n,JIEBA
-关系数据库,n,JIEBA
-网络化,n,JIEBA
-一段距离,n,JIEBA
 加工,vn,JIEBA
-评估,vn,JIEBA
-关系数据,n,JIEBA
-乾隆,nr,JIEBA
-父亲,n,JIEBA
-雍正,nr,JIEBA
-祖父,n,JIEBA
-孙子,nr,JIEBA
-老虎,nr,JIEBA
-猫科,n,JIEBA
-食肉,n,JIEBA
+关键技术,n,JIEBA
 问题,n,JIEBA
-对应,vn,JIEBA
-句子,n,JIEBA
-训练,vn,JIEBA
-斯蒂,nr,JIEBA
-系统,n,JIEBA
-置信度,n,JIEBA
-全网,n,JIEBA
-范围,n,JIEBA
-过程,n,JIEBA
-频率,n,JIEBA
-评分,n,JIEBA
-先验,n,JIEBA
-修正,nr,JIEBA
-方法,n,JIEBA
-正误,n,JIEBA
-不确定性,n,JIEBA
-扩展性,n,JIEBA
+精确性,n,JIEBA
 挑战,vn,JIEBA
-消歧,n,JIEBA
-效果,n,JIEBA
-空间,n,JIEBA
-标准,n,JIEBA
-指标,n,JIEBA
-思维,n,JIEBA
-Knowledge Graph）,DEFINITION,REGEX
-数据层和模式层,DEFINITION,REGEX
-英語：Knowledge Graph,PARENTHESIS,REGEX
-linked data,PARENTHESIS,REGEX
-uniform resource identifier,PARENTHESIS,REGEX
-resource description framework,PARENTHESIS,REGEX
-Web ontology language,PARENTHESIS,REGEX
-"E, R, S",PARENTHESIS,REGEX
-概念的外延,PARENTHESIS,REGEX
-"attributevalue pair, AVP",PARENTHESIS,REGEX
-fact,PARENTHESIS,REGEX
-information extraction,PARENTHESIS,REGEX
-named entity recognition，NER,PARENTHESIS,REGEX
-entity linking,PARENTHESIS,REGEX
-"乾隆, 父亲, 雍正",PARENTHESIS,REGEX
-"雍正, 父亲, 康熙",PARENTHESIS,REGEX
-"乾隆, 祖父, 康熙",PARENTHESIS,REGEX
-"康熙, 孙子, 乾隆",PARENTHESIS,REGEX
-"老虎, 科, 猫科",PARENTHESIS,REGEX
-"猫科, 目, 食肉目",PARENTHESIS,REGEX
-"老虎, 目, 食肉目",PARENTHESIS,REGEX
+Knowledge Graph,PARENTHESIS,REGEX
 知识图谱,KG_TERM,TERM
-语义网,KG_TERM,TERM
-图数据库,KG_TERM,TERM
-推理,KG_TERM,TERM
 知识抽取,KG_TERM,TERM
-知识表示,KG_TERM,TERM
-知识推理,KG_TERM,TERM
-知识融合,KG_TERM,TERM
-实体识别,KG_TERM,TERM
-命名实体,KG_TERM,TERM
-关系抽取,KG_TERM,TERM
-语义网络,KG_TERM,TERM
-知识获取,KG_TERM,TERM
-知识计算,KG_TERM,TERM
-知识图谱可以指,DEFINITION,REGEX
-消歧義,PARENTHESIS,REGEX
-nlneq,PERSON,NER
-001,CARDINAL,NER
-00,CARDINAL,NER
-100,CARDINAL,NER
-111,CARDINAL,NER
-0000,CARDINAL,NER
-1001,CARDINAL,NER
-1010,CARDINAL,NER
-1100,CARDINAL,NER
-二元,CARDINAL,NER
-101,CARDINAL,NER
-literal,PERSON,NER
-string,PERSON,NER
-汉语,LANGUAGE,NER
-日语,LANGUAGE,NER
-朝鲜,GPE,NER
-256,CARDINAL,NER
-Unicode字符串数据类型（通常是UTF16,ORG,NER
-UN,NORP,NER
-字符,n,JIEBA
-序列,n,JIEBA
-编程语言,n,JIEBA
-数据类型,n,JIEBA
-整体,n,JIEBA
-子串,n,JIEBA
-长度,ns,JIEBA
-运算,vn,JIEBA
-模式匹配,nz,JIEBA
-顺序存储,n,JIEBA
-字母表,n,JIEBA
-数目,n,JIEBA
-整数,n,JIEBA
-空串,n,JIEBA
-可数,n,JIEBA
-子集,n,JIEBA
-偶数,n,JIEBA
-函数,n,JIEBA
-同态,n,JIEBA
-因子,n,JIEBA
-偏序,n,JIEBA
-次序,n,JIEBA
-全序,n,JIEBA
-字母,n,JIEBA
-词典,n,JIEBA
-理论,n,JIEBA
-经常出现,vn,JIEBA
-条目,n,JIEBA
-语言,n,JIEBA
-语法,n,JIEBA
-常值,n,JIEBA
-字串,n,JIEBA
-实际,n,JIEBA
-极大值,n,JIEBA
-数量,n,JIEBA
-内存,n,JIEBA
-名字,n,JIEBA
-历史,n,JIEBA
-分配,vn,JIEBA
-字节,n,JIEBA
-字符集,n,JIEBA
-区域,n,JIEBA
-编码,n,JIEBA
-程序员,n,JIEBA
-典型,n,JIEBA
-意音,n,JIEBA
-文字,n,JIEBA
-朝鲜语,nz,JIEBA
-合理,vn,JIEBA
-个字符,n,JIEBA
-常规,n,JIEBA
-单字节,n,JIEBA
-字形,n,JIEBA
-现存,n,JIEBA
-代码,n,JIEBA
-程度,n,JIEBA
-设计,vn,JIEBA
-位面,n,JIEBA
-传输,vn,JIEBA
-标记,n,JIEBA
-规则,n,JIEBA
-面向对象,n,JIEBA
-情况,n,JIEBA
-表示法,n,JIEBA
-数组,n,JIEBA
-结束符,n,JIEBA
-数值,n,JIEBA
-例子,n,JIEBA
-意义,n,JIEBA
-处理程序,n,JIEBA
-实用程序,n,JIEBA
-文件,n,JIEBA
-string）,DEFINITION,REGEX
-在串中查找某个子串求取一个子串在串的某个位置上插入一个子串以及删除一个子串等,DEFINITION,REGEX
-长度相等,DEFINITION,REGEX
-concatenation）是Σ上的重要二元运算,DEFINITION,REGEX
-substring）或因子（英語：factor）,DEFINITION,REGEX
-literal）或字串常值（英語：string literal）,DEFINITION,REGEX
-定长字符串,DEFINITION,REGEX
-保持对ASCII码的单字节表示,DEFINITION,REGEX
-上面的字符串的长度为5个字符,DEFINITION,REGEX
-当然,DEFINITION,REGEX
-很多UNIX实用程序进行简单的字符串处理,DEFINITION,REGEX
-英語：string,PARENTHESIS,REGEX
-0  n   displaystyle 0leq nlneq infty,PARENTHESIS,REGEX
-或字,PARENTHESIS,REGEX
-序列的长度,PARENTHESIS,REGEX
-就是Σ的任何子集,PARENTHESIS,REGEX
-"ε, 1, 00, 11, 001, 010, 100, 111, 0000, 0011, 0101, 0110, 1001, 1010, 1100, 1111,",PARENTHESIS,REGEX
-英語：concatenation,PARENTHESIS,REGEX
-英語：substring,PARENTHESIS,REGEX
-英語：factor,PARENTHESIS,REGEX
-可能为空,PARENTHESIS,REGEX
-cf. 字母序,PARENTHESIS,REGEX
-Data type,PARENTHESIS,REGEX
-英語：literal,PARENTHESIS,REGEX
-英語：string literal,PARENTHESIS,REGEX
-但有限,PARENTHESIS,REGEX
-合称为CJK,PARENTHESIS,REGEX
-每字符一个字节编码的极限,PARENTHESIS,REGEX
-通常是UTF16，因为它在Unicode补充位面介入之前就被增加了,PARENTHESIS,REGEX
-mutable,PARENTHESIS,REGEX
-immutable,PARENTHESIS,REGEX
-如在ASCII代码中,PARENTHESIS,REGEX
-如在unicode中,PARENTHESIS,REGEX
-一般是NUL，ASCII代码是0，在C编程语言中使用这种方法,PARENTHESIS,REGEX
-在Pascal语言中使用这种方法,PARENTHESIS,REGEX
-如插入和删除,PARENTHESIS,REGEX
-科學,n,JIEBA
-人工智能,n,JIEBA
-領域,n,JIEBA
-問題,n,JIEBA
-儲存,n,JIEBA
-處理,vn,JIEBA
-資料,n,JIEBA
-目標,n,JIEBA
-程式,n,JIEBA
-人類,n,JIEBA
-智慧,nr,JIEBA
-答案,n,JIEBA
-角度,n,JIEBA
-Knowledge base,PERSON,NER
-管理,vn,JIEBA
-有关,vn,JIEBA
-整理,n,JIEBA
-领域专家,n,JIEBA
-Graph,PERSON,NER
-柯尼斯堡七桥,PRODUCT,NER
-1736年,DATE,NER
-欧拉于,ORG,NER
-柯尼斯堡,PERSON,NER
-欧拉路,LOC,NER
-周游,PERSON,NER
-莱布尼茨,PERSON,NER
-45,CARDINAL,NER
-1857年,DATE,NER
-英语,LANGUAGE,NER
-西尔维斯特,PERSON,NER
-1878年,DATE,NER
-一个多世纪,DATE,NER
-1935至1937年,DATE,NER
-1959年,CARDINAL,NER
-法兰西斯古德里,PERSON,NER
-1852年,DATE,NER
-哈密顿,PERSON,NER
-凯莱,ORG,NER
-Alfred Kempe,FAC,NER
-泰特,GPE,NER
-Peter,PERSON,NER
-德拉姆齐,GPE,NER
-Hadwige,PERSON,NER
-Hugo Hadwiger,PERSON,NER
-一百多年后,DATE,NER
-1969年,DATE,NER
-Heinrich Heesch,ORG,NER
-1976年,DATE,NER
-阿佩爾,PERSON,NER
-1936,CARDINAL,NER
-1860年之1930年,DATE,NER
-惠特尼,DATE,NER
-物理学家基尔霍夫,ORG,NER
-1845年,DATE,NER
-埃尔德什,PERSON,NER
-Alfréd Rényi,ORG,NER
-與之相關,GPE,NER
-Esubsete,PRODUCT,NER
-displaystyle,PERSON,NER
-"E,phi",CARDINAL,NER
-"Eto leftleftx,yright",PERSON,NER
-射到,LOC,NER
-图 G,PERSON,NER
-displaystyle G,PERSON,NER
-平面图,GPE,NER
-库拉托夫斯基,PERCENT,NER
-图论,n,JIEBA
-数学,n,JIEBA
-分支,n,JIEBA
-群论,n,JIEBA
-矩阵,n,JIEBA
-拓扑学,n,JIEBA
-顶点,n,JIEBA
-边所,n,JIEBA
-边则,n,JIEBA
-七桥,ns,JIEBA
-欧拉,ns,JIEBA
-创始人,n,JIEBA
+语义搜索,KG_TERM,TERM
+通用,ORG,NER
+初学,n,JIEBA
 文章,n,JIEBA
-笔画,n,JIEBA
-德蒙,ns,JIEBA
-骑士,n,JIEBA
-分析,vn,JIEBA
-数棱数,n,JIEBA
-面数,n,JIEBA
-公式,n,JIEBA
-柯西,nr,JIEBA
-起源,n,JIEBA
-遊戲,n,JIEBA
-路径,n,JIEBA
-名词,n,JIEBA
-世纪,n,JIEBA
-树状,n,JIEBA
-分子,n,JIEBA
-化学,n,JIEBA
-性质,n,JIEBA
-计数问题,n,JIEBA
-成果,n,JIEBA
-波利亚,ns,JIEBA
-研究成果,n,JIEBA
-计数,n,JIEBA
-化合物,n,JIEBA
-术语,n,JIEBA
-四色问题,n,JIEBA
-产生,n,JIEBA
-平面,n,JIEBA
-地图,n,JIEBA
-颜色,n,JIEBA
-染色,n,JIEBA
-法兰西斯,ns,JIEBA
-古德里,nr,JIEBA
-摩根,nz,JIEBA
-证明,n,JIEBA
-希伍德,nr,JIEBA
-拉姆齐,nr,JIEBA
-亏格,n,JIEBA
-曲面,n,JIEBA
-着色,n,JIEBA
-计算机,n,JIEBA
-利用计算机,n,JIEBA
-托夫斯,nr,JIEBA
-基和,nz,JIEBA
-内容,n,JIEBA
-代数,n,JIEBA
-道路,n,JIEBA
-物理学家,n,JIEBA
-电路,n,JIEBA
-定律,n,JIEBA
-概率,n,JIEBA
-埃尔德,nr,JIEBA
-什和,ns,JIEBA
-圖論,n,JIEBA
-定義,n,JIEBA
-有序,n,JIEBA
-無序,n,JIEBA
-頂點,n,JIEBA
-端點,n,JIEBA
-自環,vn,JIEBA
-個數,n,JIEBA
-性質,n,JIEBA
-空集合,n,JIEBA
-階是,n,JIEBA
-邊數,n,JIEBA
-次數,n,JIEBA
-图同构,n,JIEBA
-子图,nr,JIEBA
-同構,n,JIEBA
-定理,vn,JIEBA
-重构,n,JIEBA
-阶图,n,JIEBA
-将图,n,JIEBA
-Graph theory）,DEFINITION,REGEX
-icosian game）（icosian game）,DEFINITION,REGEX
-Nicolaas Govert de Bruijn）做了一些推广,DEFINITION,REGEX
-是否任何一幅画在平面上的地图都可以用四种颜色染色,DEFINITION,REGEX
-Alfred Kempe）等在内的许多人都曾给出过错误的证明,DEFINITION,REGEX
-Peter Guthrie Tait）（Peter Guthrie Tait）希伍德拉姆齐和Hadwige（英语：Hugo Hadwiger）（Hugo Hadwiger）对此问题的研究与推广引发了对嵌入具有不同亏格的曲面的图的着色问题的研究,DEFINITION,REGEX
-Heinrich Heesch）发表了一个用计算机解决此问题的方法,DEFINITION,REGEX
-Alfréd Rényi）关于随机图连通的渐进概率的研究使得图论产生了新的分支随机图论,DEFINITION,REGEX
-( x,DEFINITION,REGEX
-(x,DEFINITION,REGEX
-圖是有序三元組 G  ( V,DEFINITION,REGEX
-E    x,DEFINITION,REGEX
-Eto leftleftx,DEFINITION,REGEX
-圖的階是其頂點個數  V  displaystyle V,DEFINITION,REGEX
-给定两个图 G displaystyle G 和 H displaystyle H,DEFINITION,REGEX
-类似地,DEFINITION,REGEX
-平面图判定：判定给定的图是否是平面图（此问题与子图的关系,DEFINITION,REGEX
-一个n阶图是否能够由其所有n1阶导出子图唯一确定,DEFINITION,REGEX
-英語：Graph theory,PARENTHESIS,REGEX
-英语：icosian game,PARENTHESIS,REGEX
-icosian game,PARENTHESIS,REGEX
-英语：Nicolaas Govert de Bruijn,PARENTHESIS,REGEX
-英语：Alfred Kempe,PARENTHESIS,REGEX
-英语：Peter Guthrie Tait,PARENTHESIS,REGEX
-Peter Guthrie Tait,PARENTHESIS,REGEX
-英语：Hugo Hadwiger,PARENTHESIS,REGEX
-英语：Heinrich Heesch,PARENTHESIS,REGEX
-英语：Alfréd Rényi,PARENTHESIS,REGEX
-"V , E",PARENTHESIS,REGEX
-"V,E",PARENTHESIS,REGEX
-"x , y",PARENTHESIS,REGEX
-"x,y",PARENTHESIS,REGEX
-換句話說，邊連接了頂點對,PARENTHESIS,REGEX
-"V , E , ϕ",PARENTHESIS,REGEX
-"V,E,phi",PARENTHESIS,REGEX
-此時 E displaystyle E 不再如前面限定是該集合的子集,PARENTHESIS,REGEX
-於是邊連接了頂點對,PARENTHESIS,REGEX
-自環會被算兩次,PARENTHESIS,REGEX
-此问题与子图的关系，参见库拉托夫斯基定理,PARENTHESIS,REGEX
-Reconstruction conjecture,PARENTHESIS,REGEX
-中国大陆,GPE,NER
-科学知识,n,JIEBA
-可视化,n,JIEBA
-绘制,n,JIEBA
-学科,n,JIEBA
-学术研究,n,JIEBA
-主体,n,JIEBA
-进程,n,JIEBA
-工具,n,JIEBA
-节点,n,JIEBA
-作者,n,JIEBA
-学术,n,JIEBA
-机构,n,JIEBA
-科学,n,JIEBA
-文献,n,JIEBA
-关键词,n,JIEBA
-连线,n,JIEBA
-合作,vn,JIEBA
-大陆,n,JIEBA
-地区,n,JIEBA
-内涵,n,JIEBA
-图书,n,JIEBA
-情报学,n,JIEBA
-侧重于,n,JIEBA
-计算机领域,n,JIEBA
-客观,n,JIEBA
-Mapping Knowledge Domains,PARENTHESIS,REGEX
-如RDF,PARENTHESIS,REGEX
-图书馆信息学,ORG,NER
-圖書,PERSON,NER
-library and information science,ORG,NER
-LIS,PERSON,NER
-20世纪70年代,DATE,NER
-英文,LANGUAGE,NER
-日文,LANGUAGE,NER
-台湾,GPE,NER
-图书馆,n,JIEBA
-信息学,n,JIEBA
-資訊,n,JIEBA
-图书馆学,n,JIEBA
-出版学,n,JIEBA
-档案学,n,JIEBA
-博物馆学,n,JIEBA
-文献学,nr,JIEBA
-文献分类,n,JIEBA
-中同,ns,JIEBA
-同属,n,JIEBA
-上位,n,JIEBA
-情报,n,JIEBA
-和訊,nz,JIEBA
-汉译,nr,JIEBA
-资讯,n,JIEBA
-广义,ns,JIEBA
-上訊息,n,JIEBA
-自然界,n,JIEBA
-社会,n,JIEBA
-消息,n,JIEBA
-訊息,n,JIEBA
-方可,n,JIEBA
-业务流程,n,JIEBA
-哲学,n,JIEBA
-业务,n,JIEBA
-情报检索,n,JIEBA
-编辑,n,JIEBA
-热点,n,JIEBA
-技术性,n,JIEBA
-流传,vn,JIEBA
-档案,n,JIEBA
-专业,n,JIEBA
-流派,n,JIEBA
-平台,n,JIEBA
-传播,vn,JIEBA
-学问,n,JIEBA
-"英語：library and information science, LIS",PARENTHESIS,REGEX
-查询,KG_TERM,TERM
-2012年,DATE,NER
-2012年5月16日,DATE,NER
-美国,GPE,NER
-百科1,PERCENT,NER
-Missing,GPE,NER
-570亿,CARDINAL,NER
-18亿,CARDINAL,NER
-34 2012年11月4日,DATE,NER
-西班牙语,LANGUAGE,NER
-56,CARDINAL,NER
-六十年代,DATE,NER
-1998年,DATE,NER
-2003年,DATE,NER
-10 自2003年,DATE,NER
-11 12,DATE,NER
-15,CARDINAL,NER
-16,CARDINAL,NER
-2013年5月,DATE,NER
-阿米特辛格尔,PERSON,NER
-1.,CARDINAL,NER
-阿密特,PERSON,NER
-Conversational,NORP,NER
-17,CARDINAL,NER
-IO大会,FAC,NER
-圣克鲁斯,PERSON,NER
-约翰娜怀特,PERSON,NER
-1718,DATE,NER
-来源,n,JIEBA
-目标,n,JIEBA
-汇总,n,JIEBA
-概况,n,JIEBA
-维基百科,nz,JIEBA
-系統,n,JIEBA
-含义,n,JIEBA
-法语,nz,JIEBA
-德语,nz,JIEBA
-葡萄牙语,nz,JIEBA
-俄罗斯语,nz,JIEBA
-意大利语,nz,JIEBA
-万维网,nz,JIEBA
-系统性,n,JIEBA
-智能,n,JIEBA
-专著,n,JIEBA
-区别,n,JIEBA
-文档,n,JIEBA
-框架,n,JIEBA
-联网,nz,JIEBA
-专家,n,JIEBA
-工作,vn,JIEBA
-大会,n,JIEBA
-辛格尔,nr,JIEBA
-设想,n,JIEBA
-对话,n,JIEBA
-预测,vn,JIEBA
-电脑,n,JIEBA
-梦想,n,JIEBA
-负责人,n,JIEBA
-观众,n,JIEBA
-地名,n,JIEBA
-谈话,vn,JIEBA
-怀特,nr,JIEBA
-地方,n,JIEBA
-Google Knowledge Graph,DEFINITION,REGEX
-西班牙语法语德语葡萄牙语日语俄罗斯语及意大利语,DEFINITION,REGEX
-搜索引擎的三个主要功能将需要改进,DEFINITION,REGEX
-Conversational search）技术包含阿密特推出的一种热关键词的搜索技术,DEFINITION,REGEX
-知识图谱知道,DEFINITION,REGEX
-英語：Google Knowledge Graph，也称Google知识图,PARENTHESIS,REGEX
-2012Missing required parameter 1month!,PARENTHESIS,REGEX
-Semantic Link Network,PARENTHESIS,REGEX
-详细比较了与六十年代提出的语义网Semantic Net的区别,PARENTHESIS,REGEX
-英語：Conversational search,PARENTHESIS,REGEX
-專注于,PERSON,NER
-丹麦,GPE,NER
-UCPH Department of Computer Science,ORG,NER
-北欧,LOC,NER
-epistemologist,PERSON,NER
-10 三个月,DATE,NER
-第二年,DATE,NER
-欧洲大陆,LOC,NER
-automatic,PERSON,NER
-斯拉夫,PERSON,NER
-艾兹,PERSON,NER
-12 早期,DATE,NER
-艾伦,PERSON,NER
-Rózs,PERSON,NER
-佐邱奇,PERSON,NER
-1623年,DATE,NER
-布莱兹,PERSON,NER
-帕斯卡,PERSON,NER
-1642年,DATE,NER
-1673年,DATE,NER
-莱布尼兹,PERSON,NER
-1694年,DATE,NER
-二进制,CARDINAL,NER
-埃达洛夫莱斯,PERSON,NER
-维多利亚时代,DATE,NER
-1415,CARDINAL,NER
-20世纪40年代,DATE,NER
-17计算机,DATE,NER
-20世纪50年代至20世纪60年代早期,DATE,NER
-18,CARDINAL,NER
-普渡大学,ORG,NER
-1962年,DATE,NER
-19,CARDINAL,NER
-50年,CARDINAL,NER
-20,CARDINAL,NER
-之一,CARDINAL,NER
-IBM,ORG,NER
-704,MONEY,NER
-709计算机,DATE,NER
-2020世纪50年代后期,DATE,NER
-資訊革命,ORG,NER
-公元17501850年,DATE,NER
-新石器革命（,ORG,NER
-第三,ORDINAL,NER
-Peter Wegner,ORG,NER
-Amnon H,FAC,NER
-Eden,PERSON,NER
-3233 CSAB,DATE,NER
-Computing Sciences Accreditation Board,ORG,NER
-for Computing Machinery,PERSON,NER
-IEEE计算机协会,ORG,NER
-Society,PERSON,NER
-34,CARDINAL,NER
-35,CARDINAL,NER
-Peter J,PRODUCT,NER
-Denning,PERSON,NER
-第二,ORDINAL,NER
-千禧年,DATE,NER
-36,CARDINAL,NER
-信息论,ORG,NER
-克劳德香农,ORG,NER
-并发性,DATE,NER
-concurrency,PERSON,NER
-Petri网,ORG,NER
-加密,PERSON,NER
-电机工程学,ORG,NER
-37,CARDINAL,NER
-38,CARDINAL,NER
-Special Interest,ORG,NER
-for Computational,PERSON,NER
-北美,LOC,NER
-EMNLP(Conference,ORG,NER
-2010年10月,DATE,NER
-档案馆,PERSON,NER
-CSTA,ORG,NER
-12 Computer,QUANTITY,NER
-14,CARDINAL,NER
-Computing,GPE,NER
-CinC,PERSON,NER
-三级,CARDINAL,NER
-计算机科学,n,JIEBA
-计算机系统,n,JIEBA
-实用技术,n,JIEBA
-形容,n,JIEBA
-图形学,n,JIEBA
-复杂性,n,JIEBA
-語言,n,JIEBA
-理論,n,JIEBA
-程式设计,n,JIEBA
-事业,n,JIEBA
-信息技术,n,JIEBA
-经验,n,JIEBA
-玩游戏,n,JIEBA
-游戏,n,JIEBA
-浏览器,n,JIEBA
-软件,n,JIEBA
-程序,n,JIEBA
-计算机本身,n,JIEBA
-重点,n,JIEBA
-院系,n,JIEBA
-科学家,n,JIEBA
-建议,n,JIEBA
-数据处理,n,JIEBA
-哥本哈根大学,nt,JIEBA
-科学系,n,JIEBA
-学院,n,JIEBA
-教授,n,JIEBA
-北欧国家,n,JIEBA
-计算技术,n,JIEBA
-通讯,nz,JIEBA
-圖靈,n,JIEBA
-工程,n,JIEBA
-流程,n,JIEBA
-圖人,n,JIEBA
-數學家,n,JIEBA
-論者,n,JIEBA
-期刊,n,JIEBA
-欧洲,ns,JIEBA
-语族,n,JIEBA
-赫尔,nr,JIEBA
-戴克,nr,JIEBA
-天文学,nt,JIEBA
-望远镜,nr,JIEBA
-部署,n,JIEBA
-计算机硬件,n,JIEBA
-商业,n,JIEBA
-信息系统,n,JIEBA
-计算机相关,n,JIEBA
-交叉,n,JIEBA
-工程学,n,JIEBA
-认知科学,n,JIEBA
-经济学,n,JIEBA
-观察者,n,JIEBA
-哥德尔,nr,JIEBA
-图灵,n,JIEBA
-阿隆佐,nr,JIEBA
-邱奇,nr,JIEBA
-数学家,n,JIEBA
-数理逻辑,n,JIEBA
-范畴,nr,JIEBA
-论域,n,JIEBA
-有益,n,JIEBA
-交流,n,JIEBA
-电子计算机,n,JIEBA
-任务,n,JIEBA
-机器,n,JIEBA
-古希腊,ns,JIEBA
-时期,n,JIEBA
-古老,nr,JIEBA
-仪器,n,JIEBA
-机械,n,JIEBA
-计算器,n,JIEBA
-记录,n,JIEBA
-理论家,n,JIEBA
-埃达,ns,JIEBA
-查尔斯,nr,JIEBA
-巴贝奇,nr,JIEBA
-维多利亚,ns,JIEBA
-时代,n,JIEBA
-差分,n,JIEBA
-打孔机,n,JIEBA
-局限,n,JIEBA
-充其量,n,JIEBA
-电子,n,JIEBA
-数值积分,n,JIEBA
-指代,n,JIEBA
-祖先,nr,JIEBA
-学位点,n,JIEBA
-科学研究,n,JIEBA
-学术界,n,JIEBA
-公司,n,JIEBA
-革命,vn,JIEBA
-参与者,n,JIEBA
-事情,n,JIEBA
-指令,n,JIEBA
-階段,n,JIEBA
-时间,n,JIEBA
-科学技术,n,JIEBA
-可用性,n,JIEBA
-有效性,n,JIEBA
-专业人士,n,JIEBA
-操作员,n,JIEBA
-普及,ns,JIEBA
-专人,n,JIEBA
-时候,n,JIEBA
-援助,vn,JIEBA
-根本性,n,JIEBA
-贡献,n,JIEBA
-电子学,n,JIEBA
-信息时代,n,JIEBA
-奠基,n,JIEBA
-驱动力,n,JIEBA
-工业革命,nz,JIEBA
-新石器,n,JIEBA
-人类,n,JIEBA
-范式,n,JIEBA
-硬件,n,JIEBA
-协会,n,JIEBA
-数据结构,n,JIEBA
-编程,n,JIEBA
-计算机网络,n,JIEBA
-数据库系统,n,JIEBA
-分布式计算,n,JIEBA
-符号计算,n,JIEBA
-经典,n,JIEBA
-方面,n,JIEBA
-杂项,n,JIEBA
-数论,n,JIEBA
-递归论,n,JIEBA
-检验,vn,JIEBA
-目的,n,JIEBA
-消耗,n,JIEBA
-大奖,nz,JIEBA
-难题,n,JIEBA
-香农,nz,JIEBA
-信号处理,n,JIEBA
-密码学,n,JIEBA
-个体,n,JIEBA
-语言学,n,JIEBA
-活跃,vn,JIEBA
-学术期刊,n,JIEBA
-出版物,n,JIEBA
-动机,n,JIEBA
-可靠性,n,JIEBA
-健壮性,n,JIEBA
-成本,n,JIEBA
-高可靠性,n,JIEBA
-保安,nz,JIEBA
-自动机,n,JIEBA
-语义学,n,JIEBA
-数字,n,JIEBA
-概念设计,n,JIEBA
-运作,vn,JIEBA
-地址,n,JIEBA
-组件,n,JIEBA
-性能,n,JIEBA
-电脑程式,n,JIEBA
-核心,n,JIEBA
-基石,n,JIEBA
-作业系统,n,JIEBA
-记忆体,n,JIEBA
-系统资源,n,JIEBA
-供需,n,JIEBA
-优先,vn,JIEBA
-装置,n,JIEBA
-网路,n,JIEBA
-事务,n,JIEBA
-使用者,n,JIEBA
-电脑设备,n,JIEBA
-介面,n,JIEBA
-数学模型,n,JIEBA
 网络连接,n,JIEBA
-全球,n,JIEBA
-连接成,nr,JIEBA
-计算机技术,n,JIEBA
-中断,ns,JIEBA
-预期,vn,JIEBA
-解密,nr,JIEBA
-管理系统,n,JIEBA
-查询语言,nr,JIEBA
-视觉,n,JIEBA
-图像,n,JIEBA
-图像处理,n,JIEBA
-运用,vn,JIEBA
-电子游戏,n,JIEBA
-科学计算,n,JIEBA
-多媒体技术,n,JIEBA
-图形图像,n,JIEBA
-动画,n,JIEBA
-声音,n,JIEBA
-媒体,n,JIEBA
-综合,vn,JIEBA
-感官,n,JIEBA
-动物,n,JIEBA
-人造,n,JIEBA
-研究者,n,JIEBA
-专长,n,JIEBA
-符号学,n,JIEBA
-电机,n,JIEBA
-精神,n,JIEBA
-神经,n,JIEBA
-生理学,n,JIEBA
-智力,n,JIEBA
+信息,n,JIEBA
+代表,n,JIEBA
+实体,n,JIEBA
+网络,n,JIEBA
+行业,n,JIEBA
 金融,n,JIEBA
-先驱,n,JIEBA
-试验,vn,JIEBA
-终极,n,JIEBA
-高质量,n,JIEBA
-价格,n,JIEBA
-可维护性,n,JIEBA
-争议,n,JIEBA
-话题,n,JIEBA
-分会,n,JIEBA
-程序设计,n,JIEBA
-媒介,n,JIEBA
-中学,n,JIEBA
-职业培训,n,JIEBA
-课程,n,JIEBA
-工业,n,JIEBA
-技能,n,JIEBA
-日益,n,JIEBA
-经济,n,JIEBA
-页面,n,JIEBA
-备份,n,JIEBA
-互联网,n,JIEBA
-教师,n,JIEBA
-报告,n,JIEBA
-毕业,n,JIEBA
-篇文章,n,JIEBA
-无党派,n,JIEBA
-宣传,vn,JIEBA
-联邦,n,JIEBA
-政府,n,JIEBA
-政策,n,JIEBA
-计划,n,JIEBA
-工科,n,JIEBA
-门类,n,JIEBA
-细分,n,JIEBA
-datalogy,QUOTED_TERM,REGEX
-Computer science is no more about computers than astronomy is about telescopes.,QUOTED_TERM,REGEX
-Computer science,DEFINITION,REGEX
-UCPH Department of Computer Science）,DEFINITION,REGEX
-圖靈工程師（turingineer）,DEFINITION,REGEX
-计算机科学并不只是关于计算机,DEFINITION,REGEX
-Rózsa Péter）,DEFINITION,REGEX
-Stepped reckoner）的建造工作并于1694年竣工,DEFINITION,REGEX
-Peter Wegner（英语：Peter Wegner）提出计算机科学可以分成三个领域：数学工程学科學,DEFINITION,REGEX
-31 作为一个学科,DEFINITION,REGEX
-IEEE Computer Society）（IEEECS）的代表组成34,DEFINITION,REGEX
-计算理论,DEFINITION,REGEX
-计算机能够思考吗,DEFINITION,REGEX
-The Failure to Teach K12 Computer Science in the Digital Age的报告,DEFINITION,REGEX
-Computing in the Core（CinC）被建立,DEFINITION,REGEX
-英語：Computer science，有时缩写为CS,PARENTHESIS,REGEX
-比如信息技术,PARENTHESIS,REGEX
-computer science,PARENTHESIS,REGEX
-computing science,PARENTHESIS,REGEX
-英语：UCPH Department of Computer Science,PARENTHESIS,REGEX
-turingineer,PARENTHESIS,REGEX
-flowchartsman,PARENTHESIS,REGEX
-applied metamathematician,PARENTHESIS,REGEX
-applied epistemologist,PARENTHESIS,REGEX
-information,PARENTHESIS,REGEX
-computation,PARENTHESIS,REGEX
-斯拉夫语族,PARENTHESIS,REGEX
-"""Computer science is no more about computers than astronomy is about telescopes.""",PARENTHESIS,REGEX
-英语：Rózsa Péter,PARENTHESIS,REGEX
-英语：Stepped reckoner,PARENTHESIS,REGEX
-如ABC计算机电子数值积分计算机,PARENTHESIS,REGEX
-International Business Machines的缩写,PARENTHESIS,REGEX
-公元前80005000年,PARENTHESIS,REGEX
-英语：Peter Wegner,PARENTHESIS,REGEX
-以前被叫做Computing Sciences Accreditation Board,PARENTHESIS,REGEX
-ACM,PARENTHESIS,REGEX
-英语：IEEE Computer Society,PARENTHESIS,REGEX
-IEEECS,PARENTHESIS,REGEX
-code,PARENTHESIS,REGEX
-security,PARENTHESIS,REGEX
-或者计算科学,PARENTHESIS,REGEX
-Special Interest Group on Information Retrieval,PARENTHESIS,REGEX
-Knowledge Discovery and Data Mining,PARENTHESIS,REGEX
-the Association for the Advance of Artificial Intelligence,PARENTHESIS,REGEX
-Annual Meeting of the Association for Computational Linguistics,PARENTHESIS,REGEX
-The North American Chapter of the Association for Computational Linguistics,PARENTHESIS,REGEX
-Conference on Empirical Methods in Natural Language Processing,PARENTHESIS,REGEX
-International Joint Conference on Artificial Intelligence,PARENTHESIS,REGEX
-页面存档备份，存于互联网档案馆,PARENTHESIS,REGEX
-一级门类,PARENTHESIS,REGEX
+社交,n,JIEBA
+场景,n,JIEBA
+详细描述,n,JIEBA
+建模,n,JIEBA
+初学篇,PARENTHESIS,REGEX
+语义网,KG_TERM,TERM
+语义网络,KG_TERM,TERM
+可视化,n,JIEBA
+技术,n,JIEBA
+美团,n,JIEBA
+利用,n,JIEBA
+框架,n,JIEBA
+布局,n,JIEBA
+策略,n,JIEBA
+视觉,n,JIEBA
+功能,n,JIEBA
+业务,n,JIEBA
+设计,vn,JIEBA
+效果,n,JIEBA
+发展,vn,JIEBA
+方向,n,JIEBA
+图谱可视化,KG_TERM,TERM
+阿里云文,PERSON,NER
+举例,n,JIEBA
+文档,n,JIEBA
+银行,n,JIEBA
+欺诈,vn,JIEBA
+分析,vn,JIEBA
+理论,n,JIEBA
+案例,n,JIEBA
+检测,vn,JIEBA
+答案,n,JIEBA
+1.,CARDINAL,NER
+博客,nr,JIEBA
+定义,n,JIEBA
+结构,n,JIEBA
+数据类型,n,JIEBA
+架构,n,JIEBA
+感兴趣,n,JIEBA
+初学者,n,JIEBA
+逻辑,n,JIEBA
+本体,n,JIEBA
+质量,n,JIEBA
+推理,KG_TERM,TERM
+图谱构建,KG_TERM,TERM
+IBM,ORG,NER
+图形,n,JIEBA
+数据库,n,JIEBA
+驱动,vn,JIEBA
+原理,n,JIEBA
+机器,n,JIEBA
+对象,n,JIEBA
+零售,vn,JIEBA
+娱乐,vn,JIEBA
+医疗,n,JIEBA
+领域,n,JIEBA
+机器学习,KG_TERM,TERM
+自然语言处理,KG_TERM,TERM
+百度,ORG,NER
+学科,n,JIEBA
+目的,n,JIEBA
+百科,nz,JIEBA
+资源,n,JIEBA
+研究,vn,JIEBA
+动态,n,JIEBA
+规律,n,JIEBA
+方法,n,JIEBA
+核心,n,JIEBA
+智能化,nr,JIEBA
+文本,n,JIEBA
+监控,vn,JIEBA
+风险,n,JIEBA
+多学科融合目的的现代理论,PARENTHESIS,REGEX
+GitHub仓库,FAC,NER
+仓库,n,JIEBA
+学习材料,n,JIEBA
+系统,n,JIEBA
+纲要,n,JIEBA
+文献,n,JIEBA
+工具,n,JIEBA
+对话,n,JIEBA
 NLP,KG_TERM,TERM
+华为云,NORP,NER
+平台,n,JIEBA
+华为,nr,JIEBA
+服务,vn,JIEBA
+增量,n,JIEBA
+高可靠性,n,JIEBA
+实时性,n,JIEBA
+特征,n,JIEBA
+CC,PERSON,NER
+第21,ORDINAL,NER
+数图,n,JIEBA
+焦点,n,JIEBA
+报告,n,JIEBA
+转型,n,JIEBA
+管理,vn,JIEBA
+趋势,n,JIEBA
+编辑,n,JIEBA
+寄语,n,JIEBA
+智能,n,JIEBA
+重要性,n,JIEBA
+生命周期,n,JIEBA
+教育,vn,JIEBA
+知识图谱 | CCF DL Focus On Knowledge Graph,DEFINITION,REGEX

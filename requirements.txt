@@ -119,3 +119,4 @@ zope.interface==7.2
 
 # 需要额外安装的语言模型
 # python -m spacy download zh_core_web_sm 
+# playwright install

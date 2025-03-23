@@ -2,829 +2,62 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-kg:0000 a kg:Entity ;
-    rdfs:label "0000"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
-
-kg:001 a kg:Entity ;
-    rdfs:label "001"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
-
-kg:0__n___displaystyle_0leq_nlneq_infty a kg:Entity ;
-    rdfs:label "0  n   displaystyle 0leq nlneq infty"@zh .
-
 kg:1 a kg:Entity ;
     rdfs:label "1."@zh .
 
-kg:10 a kg:Entity ;
-    rdfs:label "10"@zh ;
-    kg:based_on kg:命名,
-        kg:命名实体,
-        kg:日志,
-        kg:特征,
-        kg:语义 ;
-    kg:includes kg:关系,
-        kg:关系数据,
-        kg:关系数据库,
-        kg:数据库 ;
-    kg:is_a kg:命名,
-        kg:命名实体,
-        kg:字符,
-        kg:字符串,
-        kg:形式,
-        kg:日志,
-        kg:特征,
-        kg:语义,
-        kg:语言 ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:100 a kg:Entity ;
-    rdfs:label "100"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
-
-kg:1000 a kg:Entity ;
-    rdfs:label "1000"@zh ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:1001 a kg:Entity ;
-    rdfs:label "1001"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
-
-kg:101 a kg:Entity ;
-    rdfs:label "101"@zh ;
-    kg:is_a kg:字符,
-        kg:字符串,
-        kg:形式,
-        kg:语言 .
-
-kg:1010 a kg:Entity ;
-    rdfs:label "1010"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
-
-kg:10_三个月 a kg:Entity ;
-    rdfs:label "10 三个月"@zh .
-
-kg:10_自2003年 a kg:Entity ;
-    rdfs:label "10 自2003年"@zh .
-
-kg:1100 a kg:Entity ;
-    rdfs:label "1100"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
-
-kg:111 a kg:Entity ;
-    rdfs:label "111"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
-
-kg:11_12 a kg:Entity ;
-    rdfs:label "11 12"@zh .
-
-kg:12_Computer a kg:Entity ;
-    rdfs:label "12 Computer"@zh .
-
-kg:12_早期 a kg:Entity ;
-    rdfs:label "12 早期"@zh ;
-    kg:affects kg:哥德尔,
-        kg:图灵,
-        kg:影响,
-        kg:艾伦,
-        kg:英语,
-        kg:英语Rózsa_Péter .
-
-kg:13 a kg:Entity ;
-    rdfs:label "13"@zh ;
-    kg:extends kg:信息,
-        kg:扩展性,
-        kg:问题 ;
-    kg:supports kg:15,
-        kg:信息,
-        kg:智能,
-        kg:物理,
-        kg:社会 .
-
-kg:14 a kg:Entity ;
-    rdfs:label "14"@zh .
-
-kg:1415 a kg:Entity ;
-    rdfs:label "1415"@zh .
-
-kg:16 a kg:Entity ;
-    rdfs:label "16"@zh ;
-    kg:is_a kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:1623年 a kg:Entity ;
-    rdfs:label "1623年"@zh .
-
-kg:1642年 a kg:Entity ;
-    rdfs:label "1642年"@zh .
-
-kg:1673年 a kg:Entity ;
-    rdfs:label "1673年"@zh ;
-    kg:is_a kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:1694年 a kg:Entity ;
-    rdfs:label "1694年"@zh ;
-    kg:is_a kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:17 a kg:Entity ;
-    rdfs:label "17"@zh .
-
-kg:1718 a kg:Entity ;
-    rdfs:label "1718"@zh .
-
-kg:1736年 a kg:Entity ;
-    rdfs:label "1736年"@zh ;
-    kg:is_a kg:创始人,
-        kg:图论,
-        kg:文章,
-        kg:第一,
-        kg:领域 .
-
-kg:17计算机 a kg:Entity ;
-    rdfs:label "17计算机"@zh ;
-    kg:extends kg:研究 ;
-    kg:used_for kg:数学,
-        kg:科学,
-        kg:计算机科学,
-        kg:运算,
-        kg:领域 .
-
-kg:18 a kg:Entity ;
-    rdfs:label "18"@zh ;
-    kg:composed_of kg:19,
-        kg:1962年,
-        kg:大学,
-        kg:普渡大学 .
-
-kg:1845年 a kg:Entity ;
-    rdfs:label "1845年"@zh .
-
-kg:1857年 a kg:Entity ;
-    rdfs:label "1857年"@zh ;
-    kg:is_a kg:图论,
-        kg:路径,
-        kg:问题 .
-
-kg:1860年之1930年 a kg:Entity ;
-    rdfs:label "1860年之1930年"@zh ;
-    kg:uses kg:道路 .
-
-kg:1878年 a kg:Entity ;
-    rdfs:label "1878年"@zh .
-
-kg:1935至1937年 a kg:Entity ;
-    rdfs:label "1935至1937年"@zh .
-
-kg:1936 a kg:Entity ;
-    rdfs:label "1936"@zh .
-
-kg:1959年 a kg:Entity ;
-    rdfs:label "1959年"@zh .
-
-kg:1969年 a kg:Entity ;
-    rdfs:label "1969年"@zh ;
-    kg:is_a kg:教授 .
-
-kg:1976年 a kg:Entity ;
-    rdfs:label "1976年"@zh .
-
-kg:19880908 a kg:Entity ;
-    rdfs:label "19880908"@zh .
-
-kg:1998年 a kg:Entity ;
-    rdfs:label "1998年"@zh .
-
-kg:20 a kg:Entity ;
-    rdfs:label "20"@zh ;
-    kg:composed_of kg:ACM,
-        kg:互联网,
-        kg:备份,
-        kg:档案,
-        kg:档案馆,
-        kg:页面,
-        kg:页面存档备份存于互联网档案馆 ;
-    kg:is_a kg:之一,
-        kg:事情,
-        kg:参与者,
-        kg:时期,
-        kg:祖先,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:革命 ;
-    kg:used_for kg:指代,
-        kg:祖先 .
-
-kg:2003年 a kg:Entity ;
-    rdfs:label "2003年"@zh .
-
-kg:2004年 a kg:Entity ;
-    rdfs:label "2004年"@zh ;
-    kg:based_on kg:数据,
-        kg:论文 .
-
-kg:2006年 a kg:Entity ;
-    rdfs:label "2006年"@zh ;
-    kg:is_a kg:万维网,
-        kg:关联,
-        kg:数据,
-        kg:方法,
-        kg:语义 .
-
-kg:2010年10月 a kg:Entity ;
-    rdfs:label "2010年10月"@zh ;
-    kg:composed_of kg:ACM,
-        kg:互联网,
-        kg:备份,
-        kg:档案,
-        kg:档案馆,
-        kg:页面,
-        kg:页面存档备份存于互联网档案馆 .
-
-kg:2011年 a kg:Entity ;
-    rdfs:label "2011年"@zh ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:2012Missing_required_parameter_1month a kg:Entity ;
-    rdfs:label "2012Missing required parameter 1month!"@zh .
-
-kg:2012年 a kg:Entity ;
-    rdfs:label "2012年"@zh ;
-    kg:is_a kg:万维网,
-        kg:关联,
-        kg:数据,
-        kg:方法,
-        kg:语义 .
-
-kg:2012年5月16日 a kg:Entity ;
-    rdfs:label "2012年5月16日"@zh .
-
-kg:2013年5月 a kg:Entity ;
-    rdfs:label "2013年5月"@zh .
-
-kg:2020世纪50年代后期 a kg:Entity ;
-    rdfs:label "2020世纪50年代后期"@zh ;
-    kg:is_a kg:事情 .
-
-kg:20世纪40年代 a kg:Entity ;
-    rdfs:label "20世纪40年代"@zh ;
-    kg:is_a kg:祖先 ;
-    kg:used_for kg:指代,
-        kg:祖先 .
-
-kg:20世纪50年代至20世纪60年代早期 a kg:Entity ;
-    rdfs:label "20世纪50年代至20世纪60年代早期"@zh .
-
-kg:20世纪70年代 a kg:Entity ;
-    rdfs:label "20世纪70年代"@zh ;
-    kg:composed_of kg:信息,
-        kg:信息学,
-        kg:图书馆,
-        kg:图书馆学,
-        kg:领域 .
-
-kg:21980年代后期 a kg:Entity ;
-    rdfs:label "21980年代后期"@zh .
-
-kg:256 a kg:Entity ;
-    rdfs:label "256"@zh .
-
-kg:3233_CSAB a kg:Entity ;
-    rdfs:label "3233 CSAB"@zh ;
-    kg:composed_of kg:for_Computing_Machinery .
-
-kg:34 a kg:Entity ;
-    rdfs:label "34"@zh .
-
-kg:34_2012年11月4日 a kg:Entity ;
-    rdfs:label "34 2012年11月4日"@zh .
-
-kg:35 a kg:Entity ;
-    rdfs:label "35"@zh ;
-    kg:is_a kg:研究,
-        kg:科学,
-        kg:科学研究,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 .
-
-kg:36 a kg:Entity ;
-    rdfs:label "36"@zh ;
-    kg:is_a kg:理论,
-        kg:计算理论 .
-
-kg:37 a kg:Entity ;
-    rdfs:label "37"@zh ;
-    kg:implements kg:研究,
-        kg:高质量 ;
-    kg:is_a kg:研究,
-        kg:设计 .
-
-kg:38 a kg:Entity ;
-    rdfs:label "38"@zh .
-
-kg:3_三元组 a kg:Entity ;
-    rdfs:label "3 三元组"@zh ;
-    kg:is_a kg:E_R_S,
-        kg:图谱,
-        kg:方式,
-        kg:知识图谱,
-        kg:通用 .
-
-kg:45 a kg:Entity ;
-    rdfs:label "45"@zh .
-
-kg:56 a kg:Entity ;
-    rdfs:label "56"@zh ;
-    kg:is_a kg:万维网,
-        kg:关联,
-        kg:数据,
-        kg:方法,
-        kg:语义 .
-
-kg:70 a kg:Entity ;
-    rdfs:label "70"@zh .
-
-kg:704 a kg:Entity ;
-    rdfs:label "704"@zh .
-
-kg:709计算机 a kg:Entity ;
-    rdfs:label "709计算机"@zh .
-
-kg:72008年 a kg:Entity ;
-    rdfs:label "72008年"@zh .
-
-kg:82010年 a kg:Entity ;
-    rdfs:label "82010年"@zh ;
-    kg:based_on kg:命名,
-        kg:命名实体,
-        kg:日志,
-        kg:特征,
-        kg:语义 ;
-    kg:is_a kg:命名,
-        kg:命名实体,
-        kg:日志,
-        kg:特征,
-        kg:语义 .
-
-kg:Alfred_Kempe a kg:Entity ;
-    rdfs:label "Alfred Kempe"@zh .
-
-kg:Alfred_Kempe等在内的许多人都曾给出过错误的证明 a kg:Entity ;
-    rdfs:label "Alfred Kempe）等在内的许多人都曾给出过错误的证明"@zh .
-
-kg:Alfréd_Rényi关于随机图连通的渐进概率的研究使得图论产生了新的分支随机图论 a kg:Entity ;
-    rdfs:label "Alfréd Rényi）关于随机图连通的渐进概率的研究使得图论产生了新的分支随机图论"@zh .
-
-kg:Amnon_H a kg:Entity ;
-    rdfs:label "Amnon H"@zh .
-
-kg:Annual_Meeting_of_the_Association_for_Computational_Linguistics a kg:Entity ;
-    rdfs:label "Annual Meeting of the Association for Computational Linguistics"@zh .
-
-kg:CSTA a kg:Entity ;
-    rdfs:label "CSTA"@zh .
-
-kg:CinC a kg:Entity ;
-    rdfs:label "CinC"@zh ;
-    kg:affects kg:影响,
-        kg:政府,
-        kg:政策,
-        kg:联邦 ;
-    kg:supports kg:教师 .
-
-kg:Computer_science a kg:Entity ;
-    rdfs:label "Computer science"@zh ;
-    kg:implements kg:学科,
-        kg:实用技术,
-        kg:技术 ;
-    kg:is_a kg:信息,
-        kg:基础,
-        kg:理论,
-        kg:研究,
-        kg:系统,
-        kg:系统性,
-        kg:计算机系统 .
-
-kg:Computer_science_is_no_more_about_computers_than_astronomy_is_about_telescopes a kg:Entity ;
-    rdfs:label "\"Computer science is no more about computers than astronomy is about telescopes.\""@zh,
-        "Computer science is no more about computers than astronomy is about telescopes."@zh .
-
-kg:Computing a kg:Entity ;
-    rdfs:label "Computing"@zh ;
-    kg:affects kg:影响,
-        kg:政府,
-        kg:政策,
-        kg:联邦 ;
-    kg:composed_of kg:for_Computing_Machinery ;
-    kg:supports kg:教师 .
-
-kg:Computing_Sciences_Accreditation_Board a kg:Entity ;
-    rdfs:label "Computing Sciences Accreditation Board"@zh ;
-    kg:composed_of kg:for_Computing_Machinery .
-
-kg:Computing_in_the_CoreCinC被建立 a kg:Entity ;
-    rdfs:label "Computing in the Core（CinC）被建立"@zh ;
-    kg:affects kg:影响,
-        kg:政府,
-        kg:政策,
-        kg:联邦 ;
-    kg:supports kg:教师 .
-
-kg:Conference_on_Empirical_Methods_in_Natural_Language_Processing a kg:Entity ;
-    rdfs:label "Conference on Empirical Methods in Natural Language Processing"@zh .
-
-kg:Conversational a kg:Entity ;
-    rdfs:label "Conversational"@zh ;
-    kg:contains kg:关键词,
-        kg:阿密特 .
-
-kg:Conversational_search技术包含阿密特推出的一种热关键词的搜索技术 a kg:Entity ;
-    rdfs:label "Conversational search）技术包含阿密特推出的一种热关键词的搜索技术"@zh .
-
-kg:Data_Microsoft a kg:Entity ;
-    rdfs:label "Data Microsoft"@zh ;
-    kg:extends kg:信息,
-        kg:扩展性,
-        kg:问题 .
-
-kg:Data_The_World_Book_Encyclopedia_Y a kg:Entity ;
-    rdfs:label "Data The World Book Encyclopedia Y"@zh ;
-    kg:extends kg:信息,
-        kg:扩展性,
-        kg:问题 .
-
-kg:Denning a kg:Entity ;
-    rdfs:label "Denning"@zh ;
-    kg:is_a kg:自动 .
-
-kg:EMNLPConference a kg:Entity ;
-    rdfs:label "EMNLP(Conference"@zh .
-
-kg:Eden a kg:Entity ;
-    rdfs:label "Eden"@zh ;
-    kg:applied_to kg:31_作为一个学科,
-        kg:学科,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 ;
-    kg:implements kg:系统 ;
-    kg:used_for kg:31_作为一个学科,
-        kg:学科,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 .
-
-kg:Ephi a kg:Entity ;
-    rdfs:label "E,phi"@zh .
-
-kg:Esubsete a kg:Entity ;
-    rdfs:label "Esubsete"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 .
-
-kg:Eto_leftleftx a kg:Entity ;
-    rdfs:label "Eto leftleftx"@zh .
-
-kg:Eto_leftleftxyright a kg:Entity ;
-    rdfs:label "Eto leftleftx,yright"@zh .
-
-kg:GoogleBing a kg:Entity ;
-    rdfs:label "GoogleBing"@zh .
-
-kg:Google_Knowledge_Graph a kg:Entity ;
-    rdfs:label "Google Knowledge Graph"@zh ;
-    kg:is_a kg:检索,
-        kg:知识库,
-        kg:语义 ;
-    kg:uses kg:信息,
-        kg:来源,
-        kg:检索,
-        kg:语义 .
+kg:CC a kg:Entity ;
+    rdfs:label "CC"@zh .
+
+kg:CCF_DL_Focus kg:covers kg:constructing_managing_learning_reasoning_and_application_trends ;
+    kg:emphasizes kg:the_importance_of_knowledge_graphs_technical_methods_to_cognitive_intelligence ;
+    kg:focuses_on kg:Knowledge_Graph .
+
+kg:GitHub仓库 a kg:Entity ;
+    rdfs:label "GitHub仓库"@zh ;
+    kg:contains kg:关于知识图谱构建表示学习和应用的文献工具和资源 ;
+    kg:includes kg:知识图谱相关主题的学习材料 .
 
 kg:Graph a kg:Entity ;
     rdfs:label "Graph"@zh ;
-    kg:is_a kg:分支,
-        kg:拓扑学,
-        kg:数学,
-        kg:矩阵,
-        kg:群论 .
-
-kg:Graph_theory a kg:Entity ;
-    rdfs:label "Graph theory）"@zh ;
-    kg:is_a kg:分支,
-        kg:拓扑学,
-        kg:数学,
-        kg:矩阵,
-        kg:群论 .
-
-kg:Hadwige a kg:Entity ;
-    rdfs:label "Hadwige"@zh .
-
-kg:Heinrich_Heesch a kg:Entity ;
-    rdfs:label "Heinrich Heesch"@zh .
-
-kg:Heinrich_Heesch发表了一个用计算机解决此问题的方法 a kg:Entity ;
-    rdfs:label "Heinrich Heesch）发表了一个用计算机解决此问题的方法"@zh .
-
-kg:Hugo_Hadwiger a kg:Entity ;
-    rdfs:label "Hugo Hadwiger"@zh .
-
-kg:IBM a kg:Entity ;
-    rdfs:label "IBM"@zh ;
-    kg:is_a kg:之一,
-        kg:事情,
-        kg:参与者,
-        kg:时期,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:革命 .
-
-kg:IEEECS a kg:Entity ;
-    rdfs:label "IEEECS"@zh .
-
-kg:IEEE_Computer_SocietyIEEECS的代表组成34 a kg:Entity ;
-    rdfs:label "IEEE Computer Society）（IEEECS）的代表组成34"@zh .
-
-kg:IEEE计算机协会 a kg:Entity ;
-    rdfs:label "IEEE计算机协会"@zh .
-
-kg:IO大会 a kg:Entity ;
-    rdfs:label "IO大会"@zh .
-
-kg:International_Business_Machines的缩写 a kg:Entity ;
-    rdfs:label "International Business Machines的缩写"@zh .
-
-kg:International_Joint_Conference_on_Artificial_Intelligence a kg:Entity ;
-    rdfs:label "International Joint Conference on Artificial Intelligence"@zh .
-
-kg:Knowledge_Discovery_and_Data_Mining a kg:Entity ;
-    rdfs:label "Knowledge Discovery and Data Mining"@zh .
-
-kg:Knowledge_Graph a kg:Entity ;
-    rdfs:label "Knowledge Graph"@zh,
-        "Knowledge Graph）"@zh ;
-    kg:is_a kg:侧重于,
-        kg:可视化,
-        kg:图书,
-        kg:形式,
-        kg:情报学,
-        kg:方式,
+    kg:is_a kg:世界,
         kg:概念,
         kg:物理,
         kg:知识库,
         kg:符号,
-        kg:结构,
         kg:结构化,
-        kg:语义,
-        kg:领域 ;
-    kg:used_for kg:世界,
-        kg:关系,
-        kg:形式,
-        kg:概念,
-        kg:物理,
-        kg:符号 .
+        kg:语义 .
 
-kg:Knowledge_base a kg:Entity ;
-    rdfs:label "Knowledge base"@zh ;
-    kg:is_a kg:数据库,
-        kg:有关,
-        kg:管理 ;
-    kg:used_for kg:数据库,
-        kg:有关,
-        kg:管理,
-        kg:领域 .
+kg:IBM a kg:Entity ;
+    rdfs:label "IBM"@zh ;
+    kg:provides kg:组成原理及应用探讨 .
 
-kg:LIS a kg:Entity ;
-    rdfs:label "LIS"@zh ;
-    kg:composed_of kg:信息,
-        kg:信息学,
-        kg:图书馆,
-        kg:图书馆学,
-        kg:领域 .
-
-kg:Mapping_Knowledge_Domains a kg:Entity ;
-    rdfs:label "Mapping Knowledge Domains"@zh ;
-    kg:is_a kg:主体,
-        kg:分析,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:绘制 ;
-    kg:used_for kg:主体,
-        kg:分析,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:绘制 .
-
-kg:Missing a kg:Entity ;
-    rdfs:label "Missing"@zh .
-
-kg:NER a kg:Entity ;
-    rdfs:label "NER"@zh ;
-    kg:affects kg:影响 ;
-    kg:is_a kg:信息,
-        kg:关键,
-        kg:基础,
-        kg:部分 .
-
-kg:NLP a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "NLP"@zh .
-
-kg:Nicolaas_Govert_de_Bruijn做了一些推广 a kg:Entity ;
-    rdfs:label "Nicolaas Govert de Bruijn）做了一些推广"@zh .
-
-kg:Peter a kg:Entity ;
-    rdfs:label "Peter"@zh .
-
-kg:Peter_Guthrie_Tait a kg:Entity ;
-    rdfs:label "Peter Guthrie Tait"@zh .
-
-kg:Peter_Guthrie_TaitPeter_Guthrie_Tait希伍德拉姆齐和Hadwige英语Hugo_HadwigerHugo_Hadwiger对此问题的研究与推广引发了对嵌入具有不同亏格的曲面的图的着色问题的研究 a kg:Entity ;
-    rdfs:label "Peter Guthrie Tait）（Peter Guthrie Tait）希伍德拉姆齐和Hadwige（英语：Hugo Hadwiger）（Hugo Hadwiger）对此问题的研究与推广引发了对嵌入具有不同亏格的曲面的图的着色问题的研究"@zh .
-
-kg:Peter_J a kg:Entity ;
-    rdfs:label "Peter J"@zh .
-
-kg:Petri网 a kg:Entity ;
-    rdfs:label "Petri网"@zh ;
-    kg:used_for kg:通用 .
-
-kg:RDF a kg:Entity ;
-    rdfs:label "RDF"@zh .
-
-kg:Reconstruction_conjecture a kg:Entity ;
-    rdfs:label "Reconstruction conjecture"@zh .
-
-kg:Rózs a kg:Entity ;
-    rdfs:label "Rózs"@zh .
-
-kg:Rózsa_Péter a kg:Entity ;
-    rdfs:label "Rózsa Péter）"@zh .
-
-kg:Semantic_Link_Network a kg:Entity ;
-    rdfs:label "Semantic Link Network"@zh ;
-    kg:is_a kg:方法 ;
-    kg:supports kg:专著,
-        kg:智能,
-        kg:理论 .
-
-kg:Society a kg:Entity ;
-    rdfs:label "Society"@zh .
-
-kg:Special_Interest a kg:Entity ;
-    rdfs:label "Special Interest"@zh .
-
-kg:Special_Interest_Group_on_Information_Retrieval a kg:Entity ;
-    rdfs:label "Special Interest Group on Information Retrieval"@zh .
-
-kg:Stepped_reckoner的建造工作并于1694年竣工 a kg:Entity ;
-    rdfs:label "Stepped reckoner）的建造工作并于1694年竣工"@zh ;
-    kg:is_a kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:The_Failure_to_Teach_K12_Computer_Science_in_the_Digital_Age的报告 a kg:Entity ;
-    rdfs:label "The Failure to Teach K12 Computer Science in the Digital Age的报告"@zh .
-
-kg:The_North_American_Chapter_of_the_Association_for_Computational_Linguistics a kg:Entity ;
-    rdfs:label "The North American Chapter of the Association for Computational Linguistics"@zh .
-
-kg:UN a kg:Entity ;
-    rdfs:label "UN"@zh ;
-    kg:used_for kg:算法 .
-
-kg:URI a kg:Entity ;
-    rdfs:label "URI"@zh .
-
-kg:Unicode字符串数据类型通常是UTF16 a kg:Entity ;
-    rdfs:label "Unicode字符串数据类型（通常是UTF16"@zh .
-
-kg:VE a kg:Entity ;
-    rdfs:label "V,E"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:E____x,
-        kg:_x,
-        kg:x__y .
-
-kg:VEphi a kg:Entity ;
-    rdfs:label "V,E,phi"@zh .
-
-kg:Web_ontology_language a kg:Entity ;
-    rdfs:label "Web ontology language"@zh .
+kg:NLP对话系统和推荐系统等领域 kg:related_to kg:知识图谱构建 .
 
 kg:affects a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:applied_epistemologist a kg:Entity ;
-    rdfs:label "applied epistemologist"@zh .
-
-kg:applied_metamathematician a kg:Entity ;
-    rdfs:label "applied metamathematician"@zh .
-
 kg:applied_to a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
-
-kg:attributevalue a kg:Entity ;
-    rdfs:label "(attributevalue"@zh .
-
-kg:attributevalue_pair_AVP a kg:Entity ;
-    rdfs:label "attributevalue pair, AVP"@zh .
-
-kg:automatic a kg:Entity ;
-    rdfs:label "automatic"@zh .
 
 kg:based_on a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:cf_字母序 a kg:Entity ;
-    rdfs:label "cf. 字母序"@zh .
-
-kg:code a kg:Entity ;
-    rdfs:label "code"@zh ;
-    kg:used_for kg:密码学,
-        kg:数据,
-        kg:网络 .
+kg:combines a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
 kg:composed_of a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:computation a kg:Entity ;
-    rdfs:label "computation"@zh .
-
-kg:computer_science a kg:Entity ;
-    rdfs:label "computer science"@zh ;
-    kg:contains kg:实际,
-        kg:数量 .
-
-kg:computing_science a kg:Entity ;
-    rdfs:label "computing science"@zh .
-
-kg:concatenation是Σ上的重要二元运算 a kg:Entity ;
-    rdfs:label "concatenation）是Σ上的重要二元运算"@zh .
-
-kg:concurrency a kg:Entity ;
-    rdfs:label "concurrency"@zh ;
-    kg:is_a kg:性质,
-        kg:系统 .
-
 kg:contains a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
+
+kg:covers a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
@@ -832,40 +65,25 @@ kg:defined_as a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:depends_on a owl:ObjectProperty ;
+kg:describes a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:entity_linking a kg:Entity ;
-    rdfs:label "entity linking"@zh .
-
-kg:epistemologist a kg:Entity ;
-    rdfs:label "epistemologist"@zh .
-
-kg:extends a owl:ObjectProperty ;
+kg:designed_as a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:flowchartsman a kg:Entity ;
-    rdfs:label "flowchartsman"@zh .
+kg:emphasizes a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
-kg:for_Computational a kg:Entity ;
-    rdfs:label "for Computational"@zh .
+kg:focuses_on a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
-kg:icosian_game a kg:Entity ;
-    rdfs:label "icosian game"@zh ;
-    kg:is_a kg:图论,
-        kg:路径,
-        kg:问题 .
-
-kg:icosian_gameicosian_game a kg:Entity ;
-    rdfs:label "icosian game）（icosian game）"@zh ;
-    kg:is_a kg:图论,
-        kg:路径,
-        kg:问题 .
-
-kg:immutable a kg:Entity ;
-    rdfs:label "immutable"@zh .
+kg:has_features a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
 kg:implements a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
@@ -875,6233 +93,1021 @@ kg:includes a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:information a kg:Entity ;
-    rdfs:label "information"@zh .
-
-kg:information_extraction a kg:Entity ;
-    rdfs:label "information extraction"@zh ;
-    kg:is_a kg:图谱,
-        kg:异构,
-        kg:数据,
-        kg:数据源,
-        kg:知识图谱,
-        kg:第一 .
+kg:involves a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
 kg:is_a a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:leads_to a owl:ObjectProperty ;
+kg:provides a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:library_and_information_science a kg:Entity ;
-    rdfs:label "library and information science"@zh ;
-    kg:composed_of kg:信息,
-        kg:信息学,
-        kg:图书馆,
-        kg:图书馆学,
-        kg:领域 .
-
-kg:linked a kg:Entity ;
-    rdfs:label "linked"@zh .
-
-kg:linked_data a kg:Entity ;
-    rdfs:label "linked data"@zh .
-
-kg:literal a kg:Entity ;
-    rdfs:label "literal"@zh .
-
-kg:literal或字串常值英語string_literal a kg:Entity ;
-    rdfs:label "literal）或字串常值（英語：string literal）"@zh .
-
-kg:mutable a kg:Entity ;
-    rdfs:label "mutable"@zh .
-
-kg:named a kg:Entity ;
-    rdfs:label "named"@zh ;
-    kg:affects kg:影响 ;
-    kg:is_a kg:信息,
-        kg:关键,
-        kg:基础,
-        kg:部分 .
-
-kg:named_entity_recognitionNER a kg:Entity ;
-    rdfs:label "named entity recognition，NER"@zh ;
-    kg:affects kg:影响 ;
-    kg:is_a kg:信息,
-        kg:关键,
-        kg:基础,
-        kg:部分 .
-
-kg:nlneq a kg:Entity ;
-    rdfs:label "nlneq"@zh .
-
-kg:ontology a kg:Entity ;
-    rdfs:label "ontology"@zh .
-
-kg:produces a owl:ObjectProperty ;
+kg:provides_support_for a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:resource_description_framework a kg:Entity ;
-    rdfs:label "resource description framework"@zh .
+kg:related_to a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
+
+kg:report kg:involves kg:various_aspects_of_knowledge_graph_lifecycle ;
+    kg:provides_support_for kg:applications_in_finance_education_and_healthcare_fields .
 
 kg:supports a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:the_Association_for_the_Advance_of_Artificial_Intelligence a kg:Entity ;
-    rdfs:label "the Association for the Advance of Artificial Intelligence"@zh .
-
-kg:turingineer a kg:Entity ;
-    rdfs:label "turingineer"@zh .
-
-kg:uniform_resource_identifier a kg:Entity ;
-    rdfs:label "uniform resource identifier"@zh .
+kg:unigraph框架 kg:composed_of kg:D3js ;
+    kg:designed_as kg:交互场景与效果呈现的未来发展方向 .
 
 kg:used_for a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:uses a owl:ObjectProperty ;
+kg:主题 a kg:Entity ;
+    rdfs:label "主题"@zh ;
+    kg:implements kg:全面,
+        kg:深度,
+        kg:语义,
+        kg:语义搜索 .
+
+kg:举例 a kg:Entity ;
+    rdfs:label "举例"@zh .
+
+kg:介绍知识图谱理论 kg:includes kg:社交网络关系分析,
+        kg:银行金融中的欺诈检测 .
+
+kg:仓库 a kg:Entity ;
+    rdfs:label "仓库"@zh .
+
+kg:代表 a kg:Entity ;
+    rdfs:label "代表"@zh ;
+    kg:implements kg:行业,
+        kg:语义搜索 ;
+    kg:is_a kg:行业,
+        kg:语义,
+        kg:语义搜索,
+        kg:语义网,
+        kg:语义网络 .
+
+kg:关键技术 a kg:Entity ;
+    rdfs:label "关键技术"@zh .
+
+kg:初学 a kg:Entity ;
+    rdfs:label "初学"@zh .
+
+kg:初学篇 a kg:Entity ;
+    rdfs:label "初学篇"@zh .
+
+kg:利用 a kg:Entity ;
+    rdfs:label "利用"@zh .
+
+kg:功能 a kg:Entity ;
+    rdfs:label "功能"@zh ;
+    kg:supports kg:业务 .
+
+kg:动态 a kg:Entity ;
+    rdfs:label "动态"@zh ;
+    kg:applied_to kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 ;
+    kg:used_for kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 .
+
+kg:包括 a owl:ObjectProperty ;
     rdfs:domain kg:Entity ;
     rdfs:range kg:Entity .
 
-kg:x a kg:Entity ;
-    rdfs:label "(x"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 .
+kg:华为 a kg:Entity ;
+    rdfs:label "华为"@zh ;
+    kg:includes kg:信息,
+        kg:增量,
+        kg:本体,
+        kg:融合,
+        kg:设计 ;
+    kg:supports kg:数据 .
 
-kg:xy a kg:Entity ;
-    rdfs:label "x,y"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:端點,
-        kg:頂點 .
+kg:华为云 a kg:Entity ;
+    rdfs:label "华为云"@zh ;
+    kg:includes kg:信息,
+        kg:增量,
+        kg:本体,
+        kg:融合,
+        kg:设计 ;
+    kg:provides kg:知识图谱服务 ;
+    kg:supports kg:数据 .
 
-kg:ε_1_00_11_001_010_100_111_0000_0011_0101_0110_1001_1010_1100_1111 a kg:Entity ;
-    rdfs:label "ε, 1, 00, 11, 001, 010, 100, 111, 0000, 0011, 0101, 0110, 1001, 1010, 1100, 1111,"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
+kg:博客 a kg:Entity ;
+    rdfs:label "博客"@zh .
 
-kg:一个n阶图是否能够由其所有n1阶导出子图唯一确定 a kg:Entity ;
-    rdfs:label "一个n阶图是否能够由其所有n1阶导出子图唯一确定"@zh .
+kg:原理 a kg:Entity ;
+    rdfs:label "原理"@zh .
 
-kg:一个多世纪 a kg:Entity ;
-    rdfs:label "一个多世纪"@zh .
+kg:发展 a kg:Entity ;
+    rdfs:label "发展"@zh ;
+    kg:applied_to kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 ;
+    kg:used_for kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 .
 
-kg:一段距离 a kg:Entity ;
-    rdfs:label "一段距离"@zh .
+kg:可视化 a kg:Entity ;
+    rdfs:label "可视化"@zh ;
+    kg:includes kg:场景,
+        kg:效果,
+        kg:框架,
+        kg:设计 .
 
-kg:一百多年后 a kg:Entity ;
-    rdfs:label "一百多年后"@zh .
-
-kg:七桥 a kg:Entity ;
-    rdfs:label "七桥"@zh ;
-    kg:is_a kg:图论,
-        kg:文章,
-        kg:第一,
-        kg:领域 .
-
-kg:三级 a kg:Entity ;
-    rdfs:label "三级"@zh .
-
-kg:上位 a kg:Entity ;
-    rdfs:label "上位"@zh .
-
-kg:上面的字符串的长度为5个字符 a kg:Entity ;
-    rdfs:label "上面的字符串的长度为5个字符"@zh .
-
-kg:不确定性 a kg:Entity ;
-    rdfs:label "不确定性"@zh .
-
-kg:专人 a kg:Entity ;
-    rdfs:label "专人"@zh .
-
-kg:专家 a kg:Entity ;
-    rdfs:label "专家"@zh .
-
-kg:专长 a kg:Entity ;
-    rdfs:label "专长"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:世纪 a kg:Entity ;
-    rdfs:label "世纪"@zh ;
-    kg:composed_of kg:信息,
-        kg:信息学,
-        kg:图书馆,
-        kg:图书馆学,
-        kg:领域 ;
-    kg:is_a kg:事情,
-        kg:祖先 ;
-    kg:used_for kg:指代,
-        kg:祖先 .
-
-kg:业务 a kg:Entity ;
-    rdfs:label "业务"@zh ;
-    kg:includes kg:哲学,
-        kg:理论,
-        kg:管理 ;
-    kg:is_a kg:热点 .
-
-kg:业务流程 a kg:Entity ;
-    rdfs:label "业务流程"@zh ;
-    kg:includes kg:哲学,
-        kg:理论,
-        kg:管理 ;
-    kg:is_a kg:热点 .
-
-kg:中同 a kg:Entity ;
-    rdfs:label "中同"@zh .
-
-kg:中国 a kg:Entity ;
-    rdfs:label "中国"@zh ;
-    kg:is_a kg:一级门类,
-        kg:专业,
-        kg:侧重于,
-        kg:可视化,
-        kg:图书,
-        kg:工科,
-        kg:情报学,
-        kg:方式,
+kg:图谱 a kg:Entity ;
+    rdfs:label "图谱"@zh ;
+    kg:applied_to kg:分析,
+        kg:医疗,
+        kg:娱乐,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:金融,
+        kg:零售,
+        kg:领域,
+        kg:风险 ;
+    kg:composed_of kg:2012年,
+        kg:图形,
+        kg:数据库,
+        kg:谷歌,
+        kg:驱动 ;
+    kg:implements kg:行业,
+        kg:语义搜索 ;
+    kg:includes kg:信息,
+        kg:关系,
+        kg:分析,
+        kg:场景,
+        kg:增量,
+        kg:效果,
+        kg:本体,
+        kg:框架,
+        kg:欺诈,
+        kg:社交,
+        kg:网络,
+        kg:融合,
+        kg:设计,
+        kg:银行 ;
+    kg:is_a kg:世界,
         kg:概念,
-        kg:门类,
-        kg:领域 .
-
-kg:中国大陆 a kg:Entity ;
-    rdfs:label "中国大陆"@zh ;
-    kg:is_a kg:侧重于,
-        kg:可视化,
-        kg:图书,
-        kg:情报学,
-        kg:方式,
-        kg:概念,
-        kg:领域 .
-
-kg:中学 a kg:Entity ;
-    rdfs:label "中学"@zh .
-
-kg:中汇集属性信息 a kg:Entity ;
-    rdfs:label "中汇集属性信息"@zh .
-
-kg:丹麦 a kg:Entity ;
-    rdfs:label "丹麦"@zh ;
-    kg:is_a kg:数据,
-        kg:数据处理,
-        kg:计算机 ;
-    kg:uses kg:datalogy,
-        kg:事实,
-        kg:术语 .
-
-kg:乾隆 a kg:Entity ;
-    rdfs:label "乾隆"@zh .
-
-kg:乾隆_父亲_雍正 a kg:Entity ;
-    rdfs:label "乾隆, 父亲, 雍正"@zh .
-
-kg:乾隆_祖父_康熙 a kg:Entity ;
-    rdfs:label "乾隆, 祖父, 康熙"@zh .
-
-kg:事务 a kg:Entity ;
-    rdfs:label "事务"@zh .
-
-kg:二进制 a kg:Entity ;
-    rdfs:label "二进制"@zh ;
-    kg:is_a kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:亏格 a kg:Entity ;
-    rdfs:label "亏格"@zh .
-
-kg:交叉 a kg:Entity ;
-    rdfs:label "交叉"@zh .
-
-kg:交流 a kg:Entity ;
-    rdfs:label "交流"@zh .
-
-kg:产品 a kg:Entity ;
-    rdfs:label "产品"@zh ;
-    kg:includes kg:关系,
-        kg:关系数据,
-        kg:关系数据库,
-        kg:数据库 .
-
-kg:人工 a kg:Entity ;
-    rdfs:label "人工"@zh ;
-    kg:is_a kg:方式 ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:人物 a kg:Entity ;
-    rdfs:label "人物"@zh .
-
-kg:人类 a kg:Entity ;
-    rdfs:label "人类"@zh .
-
-kg:人造 a kg:Entity ;
-    rdfs:label "人造"@zh .
-
-kg:人類 a kg:Entity ;
-    rdfs:label "人類"@zh .
-
-kg:代数 a kg:Entity ;
-    rdfs:label "代数"@zh ;
-    kg:uses kg:道路 .
-
-kg:以前被叫做Computing_Sciences_Accreditation_Board a kg:Entity ;
-    rdfs:label "以前被叫做Computing Sciences Accreditation Board"@zh ;
-    kg:composed_of kg:for_Computing_Machinery .
-
-kg:价格 a kg:Entity ;
-    rdfs:label "价格"@zh .
-
-kg:任务 a kg:Entity ;
-    rdfs:label "任务"@zh ;
-    kg:is_a kg:仪器,
-        kg:古老,
-        kg:子集 ;
-    kg:used_for kg:仪器,
-        kg:古老,
-        kg:算法 .
-
-kg:优先 a kg:Entity ;
-    rdfs:label "优先"@zh .
-
-kg:传输 a kg:Entity ;
-    rdfs:label "传输"@zh ;
-    kg:is_a kg:问题 .
-
-kg:但有限 a kg:Entity ;
-    rdfs:label "但有限"@zh .
-
-kg:佐邱奇 a kg:Entity ;
-    rdfs:label "佐邱奇"@zh .
-
-kg:作业系统 a kg:Entity ;
-    rdfs:label "作业系统"@zh ;
-    kg:uses kg:介面,
-        kg:使用者,
-        kg:电脑,
-        kg:电脑设备 .
-
-kg:例子 a kg:Entity ;
-    rdfs:label "例子"@zh ;
-    kg:used_for kg:算法 .
-
-kg:供需 a kg:Entity ;
-    rdfs:label "供需"@zh .
-
-kg:俄罗斯语 a kg:Entity ;
-    rdfs:label "俄罗斯语"@zh .
-
-kg:保持对ASCII码的单字节表示 a kg:Entity ;
-    rdfs:label "保持对ASCII码的单字节表示"@zh ;
-    kg:uses kg:字形 .
-
-kg:信息系统 a kg:Entity ;
-    rdfs:label "信息系统"@zh .
-
-kg:信息论 a kg:Entity ;
-    rdfs:label "信息论"@zh ;
-    kg:composed_of kg:信号处理,
-        kg:克劳德香农,
-        kg:香农 ;
-    kg:used_for kg:信号处理,
-        kg:数据 .
-
-kg:修正 a kg:Entity ;
-    rdfs:label "修正"@zh .
-
-kg:偏序 a kg:Entity ;
-    rdfs:label "偏序"@zh ;
-    kg:is_a kg:空串 .
-
-kg:偶数 a kg:Entity ;
-    rdfs:label "偶数"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
-
-kg:儲存 a kg:Entity ;
-    rdfs:label "儲存"@zh .
-
-kg:充其量 a kg:Entity ;
-    rdfs:label "充其量"@zh ;
-    kg:is_a kg:子集 .
-
-kg:先驱 a kg:Entity ;
-    rdfs:label "先驱"@zh .
-
-kg:先验 a kg:Entity ;
-    rdfs:label "先验"@zh .
-
-kg:全局 a kg:Entity ;
-    rdfs:label "全局"@zh .
-
-kg:全序 a kg:Entity ;
-    rdfs:label "全序"@zh .
-
-kg:全网 a kg:Entity ;
-    rdfs:label "全网"@zh .
-
-kg:公众 a kg:Entity ;
-    rdfs:label "公众"@zh ;
-    kg:is_a kg:事业,
-        kg:信息,
-        kg:信息技术,
-        kg:技术,
-        kg:比如信息技术,
-        kg:问题 ;
-    kg:uses kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验 .
-
-kg:公元前80005000年 a kg:Entity ;
-    rdfs:label "公元前80005000年"@zh .
-
-kg:公司 a kg:Entity ;
-    rdfs:label "公司"@zh ;
-    kg:is_a kg:之一,
-        kg:参与者,
-        kg:时期,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:革命 .
-
-kg:公式 a kg:Entity ;
-    rdfs:label "公式"@zh .
-
-kg:六十年代 a kg:Entity ;
-    rdfs:label "六十年代"@zh .
-
-kg:关系抽取 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "关系抽取"@zh ;
-    kg:is_a kg:命名,
-        kg:命名实体 .
-
-kg:典型 a kg:Entity ;
-    rdfs:label "典型"@zh .
-
-kg:内涵 a kg:Entity ;
-    rdfs:label "内涵"@zh ;
-    kg:is_a kg:侧重于,
-        kg:可视化,
-        kg:图书,
-        kg:情报学,
-        kg:方式,
-        kg:概念,
-        kg:领域 .
-
-kg:准召率 a kg:Entity ;
-    rdfs:label "准召率"@zh ;
-    kg:based_on kg:数据,
-        kg:论文 ;
-    kg:extends kg:信息,
-        kg:扩展性,
-        kg:问题 .
-
-kg:准确率 a kg:Entity ;
-    rdfs:label "准确率"@zh ;
-    kg:affects kg:影响 .
-
-kg:凯莱 a kg:Entity ;
-    rdfs:label "凯莱"@zh ;
-    kg:is_a kg:化学,
-        kg:数学 .
-
-kg:出版学 a kg:Entity ;
-    rdfs:label "出版学"@zh .
-
-kg:出版物 a kg:Entity ;
-    rdfs:label "出版物"@zh .
-
-kg:函数 a kg:Entity ;
-    rdfs:label "函数"@zh .
-
-kg:分会 a kg:Entity ;
-    rdfs:label "分会"@zh .
-
-kg:分子 a kg:Entity ;
-    rdfs:label "分子"@zh ;
-    kg:is_a kg:性质,
-        kg:计数,
-        kg:计数问题,
-        kg:问题 .
-
-kg:分布式计算 a kg:Entity ;
-    rdfs:label "分布式计算"@zh .
-
-kg:分配 a kg:Entity ;
-    rdfs:label "分配"@zh .
-
-kg:利用计算机 a kg:Entity ;
-    rdfs:label "利用计算机"@zh .
-
-kg:刻画 a kg:Entity ;
-    rdfs:label "刻画"@zh .
-
-kg:动物 a kg:Entity ;
-    rdfs:label "动物"@zh .
-
-kg:化合物 a kg:Entity ;
-    rdfs:label "化合物"@zh ;
-    kg:is_a kg:化学,
-        kg:数学 .
-
-kg:北美 a kg:Entity ;
-    rdfs:label "北美"@zh .
-
-kg:区别 a kg:Entity ;
-    rdfs:label "区别"@zh .
-
-kg:区域 a kg:Entity ;
-    rdfs:label "区域"@zh .
-
-kg:千禧年 a kg:Entity ;
-    rdfs:label "千禧年"@zh ;
-    kg:is_a kg:理论,
-        kg:计算理论 .
-
-kg:协会 a kg:Entity ;
-    rdfs:label "协会"@zh .
-
-kg:单元 a kg:Entity ;
-    rdfs:label "单元"@zh ;
-    kg:is_a kg:形式,
-        kg:数据,
-        kg:结构,
+        kg:物理,
+        kg:知识库,
+        kg:符号,
         kg:结构化,
-        kg:计算机领域 .
-
-kg:单字节 a kg:Entity ;
-    rdfs:label "单字节"@zh ;
-    kg:uses kg:字形 .
-
-kg:博物馆学 a kg:Entity ;
-    rdfs:label "博物馆学"@zh .
-
-kg:历史 a kg:Entity ;
-    rdfs:label "历史"@zh ;
-    kg:is_a kg:信息,
-        kg:信息时代,
-        kg:奠基,
-        kg:时代,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 .
-
-kg:参数 a kg:Entity ;
-    rdfs:label "参数"@zh .
-
-kg:古希腊 a kg:Entity ;
-    rdfs:label "古希腊"@zh ;
-    kg:is_a kg:仪器,
-        kg:古老 ;
-    kg:used_for kg:仪器,
-        kg:古老,
-        kg:算法 .
-
-kg:句子 a kg:Entity ;
-    rdfs:label "句子"@zh ;
-    kg:used_for kg:信息,
+        kg:行业,
+        kg:语义,
+        kg:语义搜索,
+        kg:语义网,
+        kg:语义网络 ;
+    kg:supports kg:数据,
+        kg:领域 ;
+    kg:used_for kg:NLP,
+        kg:分析,
+        kg:医疗,
+        kg:娱乐,
+        kg:对话,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
         kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:可数 a kg:Entity ;
-    rdfs:label "可数"@zh .
-
-kg:可用性 a kg:Entity ;
-    rdfs:label "可用性"@zh .
-
-kg:可维护性 a kg:Entity ;
-    rdfs:label "可维护性"@zh .
-
-kg:可能为空 a kg:Entity ;
-    rdfs:label "可能为空"@zh .
-
-kg:台湾 a kg:Entity ;
-    rdfs:label "台湾"@zh .
-
-kg:合理 a kg:Entity ;
-    rdfs:label "合理"@zh .
-
-kg:合称为CJK a kg:Entity ;
-    rdfs:label "合称为CJK"@zh .
-
-kg:同属 a kg:Entity ;
-    rdfs:label "同属"@zh .
-
-kg:同态 a kg:Entity ;
-    rdfs:label "同态"@zh .
-
-kg:同構 a kg:Entity ;
-    rdfs:label "同構"@zh .
-
-kg:名字 a kg:Entity ;
-    rdfs:label "名字"@zh ;
-    kg:contains kg:实际,
-        kg:数量 ;
-    kg:depends_on kg:内存,
-        kg:数量 ;
-    kg:is_a kg:长度 .
-
-kg:名词 a kg:Entity ;
-    rdfs:label "名词"@zh .
-
-kg:含义 a kg:Entity ;
-    rdfs:label "含义"@zh .
-
-kg:启动 a kg:Entity ;
-    rdfs:label "启动"@zh .
-
-kg:周游 a kg:Entity ;
-    rdfs:label "周游"@zh ;
-    kg:is_a kg:分析,
-        kg:方法,
-        kg:莱布尼茨 .
-
-kg:和訊 a kg:Entity ;
-    rdfs:label "和訊"@zh ;
-    kg:is_a kg:日文,
-        kg:汉译,
-        kg:英文 .
-
-kg:哈密顿 a kg:Entity ;
-    rdfs:label "哈密顿"@zh ;
-    kg:is_a kg:图论,
-        kg:路径,
-        kg:问题 .
-
-kg:四色问题 a kg:Entity ;
-    rdfs:label "四色问题"@zh ;
-    kg:is_a kg:产生,
-        kg:图论,
-        kg:成果,
-        kg:研究 ;
-    kg:produces kg:产生,
-        kg:平面,
-        kg:成果,
-        kg:是否任何一幅画在平面上的地图都可以用四种颜色染色 .
-
-kg:因子 a kg:Entity ;
-    rdfs:label "因子"@zh .
-
-kg:国籍 a kg:Entity ;
-    rdfs:label "国籍"@zh .
-
-kg:图_G a kg:Entity ;
-    rdfs:label "图 G"@zh .
-
-kg:图书馆信息学 a kg:Entity ;
-    rdfs:label "图书馆信息学"@zh .
-
-kg:图同构 a kg:Entity ;
-    rdfs:label "图同构"@zh .
-
-kg:图形 a kg:Entity ;
-    rdfs:label "图形"@zh .
-
-kg:图形学 a kg:Entity ;
-    rdfs:label "图形学"@zh ;
-    kg:implements kg:方法,
-        kg:理論,
-        kg:研究,
-        kg:程式,
-        kg:語言 ;
-    kg:is_a kg:内容,
-        kg:图像,
-        kg:复杂性,
-        kg:性质,
-        kg:数字,
-        kg:数据,
-        kg:理论,
-        kg:研究,
-        kg:视觉,
-        kg:问题 .
-
-kg:圖人 a kg:Entity ;
-    rdfs:label "圖人"@zh .
-
-kg:圖是有序三元組_G___V a kg:Entity ;
-    rdfs:label "圖是有序三元組 G  ( V"@zh .
-
-kg:圖書 a kg:Entity ;
-    rdfs:label "圖書"@zh ;
-    kg:composed_of kg:信息,
-        kg:信息学,
-        kg:图书馆,
-        kg:图书馆学,
-        kg:领域 .
-
-kg:圖的階是其頂點個數__V__displaystyle_V a kg:Entity ;
-    rdfs:label "圖的階是其頂點個數  V  displaystyle V"@zh .
-
-kg:圖論 a kg:Entity ;
-    rdfs:label "圖論"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:V__E,
-        kg:displaystyle,
-        kg:displaystyle_G,
-        kg:個數,
-        kg:基本,
-        kg:有序,
-        kg:與之相關,
-        kg:頂點 .
-
-kg:圖譜 a kg:Entity ;
-    rdfs:label "圖譜"@zh .
-
-kg:圖靈 a kg:Entity ;
-    rdfs:label "圖靈"@zh .
-
-kg:圖靈工程師turingineer a kg:Entity ;
-    rdfs:label "圖靈工程師（turingineer）"@zh .
-
-kg:在Pascal语言中使用这种方法 a kg:Entity ;
-    rdfs:label "在Pascal语言中使用这种方法"@zh .
-
-kg:在串中查找某个子串求取一个子串在串的某个位置上插入一个子串以及删除一个子串等 a kg:Entity ;
-    rdfs:label "在串中查找某个子串求取一个子串在串的某个位置上插入一个子串以及删除一个子串等"@zh .
-
-kg:地区 a kg:Entity ;
-    rdfs:label "地区"@zh ;
-    kg:is_a kg:侧重于,
-        kg:可视化,
-        kg:图书,
-        kg:情报学,
-        kg:方式,
-        kg:概念,
-        kg:领域 .
-
-kg:地名 a kg:Entity ;
-    rdfs:label "地名"@zh .
-
-kg:地址 a kg:Entity ;
-    rdfs:label "地址"@zh .
-
-kg:地理 a kg:Entity ;
-    rdfs:label "地理"@zh .
-
-kg:埃达 a kg:Entity ;
-    rdfs:label "埃达"@zh .
-
-kg:埃达洛夫莱斯 a kg:Entity ;
-    rdfs:label "埃达洛夫莱斯"@zh .
-
-kg:基和 a kg:Entity ;
-    rdfs:label "基和"@zh ;
-    kg:uses kg:道路 .
-
-kg:处理程序 a kg:Entity ;
-    rdfs:label "处理程序"@zh .
-
-kg:外延 a kg:Entity ;
-    rdfs:label "外延"@zh .
-
-kg:多媒体技术 a kg:Entity ;
-    rdfs:label "多媒体技术"@zh ;
-    kg:is_a kg:动画,
-        kg:图像,
-        kg:图形图像,
-        kg:声音,
-        kg:数据,
-        kg:文字,
-        kg:计算机 ;
-    kg:uses kg:感官,
-        kg:用户 .
-
-kg:大会 a kg:Entity ;
-    rdfs:label "大会"@zh .
-
-kg:大奖 a kg:Entity ;
-    rdfs:label "大奖"@zh ;
-    kg:is_a kg:理论,
-        kg:计算理论 .
-
-kg:大陆 a kg:Entity ;
-    rdfs:label "大陆"@zh ;
-    kg:is_a kg:侧重于,
-        kg:可视化,
-        kg:图书,
-        kg:情报学,
-        kg:方式,
-        kg:概念,
-        kg:领域 .
-
-kg:如ABC计算机电子数值积分计算机 a kg:Entity ;
-    rdfs:label "如ABC计算机电子数值积分计算机"@zh ;
-    kg:is_a kg:祖先 ;
-    kg:used_for kg:指代,
-        kg:祖先 .
-
-kg:如RDF a kg:Entity ;
-    rdfs:label "如RDF"@zh .
-
-kg:如在ASCII代码中 a kg:Entity ;
-    rdfs:label "如在ASCII代码中"@zh .
-
-kg:如在unicode中 a kg:Entity ;
-    rdfs:label "如在unicode中"@zh .
-
-kg:如插入和删除 a kg:Entity ;
-    rdfs:label "如插入和删除"@zh .
-
-kg:媒体 a kg:Entity ;
-    rdfs:label "媒体"@zh ;
-    kg:is_a kg:动画,
-        kg:图像,
-        kg:图形图像,
-        kg:声音,
-        kg:数据,
-        kg:文字,
-        kg:计算机 ;
-    kg:uses kg:感官,
-        kg:用户 .
-
-kg:子图 a kg:Entity ;
-    rdfs:label "子图"@zh ;
-    kg:is_a kg:类似地 .
-
-kg:字串 a kg:Entity ;
-    rdfs:label "字串"@zh .
-
-kg:字典 a kg:Entity ;
-    rdfs:label "字典"@zh ;
-    kg:based_on kg:数据,
-        kg:论文 .
-
-kg:字母 a kg:Entity ;
-    rdfs:label "字母"@zh .
-
-kg:字母表 a kg:Entity ;
-    rdfs:label "字母表"@zh .
-
-kg:字符集 a kg:Entity ;
-    rdfs:label "字符集"@zh .
-
-kg:孙子 a kg:Entity ;
-    rdfs:label "孙子"@zh .
-
-kg:学位点 a kg:Entity ;
-    rdfs:label "学位点"@zh ;
-    kg:composed_of kg:19,
-        kg:1962年,
-        kg:大学,
-        kg:普渡大学 .
-
-kg:学问 a kg:Entity ;
-    rdfs:label "学问"@zh .
-
-kg:学院 a kg:Entity ;
-    rdfs:label "学院"@zh ;
-    kg:is_a kg:教授 .
-
-kg:定位 a kg:Entity ;
-    rdfs:label "定位"@zh .
-
-kg:定律 a kg:Entity ;
-    rdfs:label "定律"@zh .
-
-kg:定理 a kg:Entity ;
-    rdfs:label "定理"@zh .
-
-kg:定義 a kg:Entity ;
-    rdfs:label "定義"@zh ;
-    kg:is_a kg:V__E,
-        kg:V__E__ϕ,
-        kg:displaystyle,
-        kg:個數,
-        kg:基本,
-        kg:有序,
-        kg:端點,
-        kg:與之相關,
-        kg:頂點 .
-
-kg:定长字符串 a kg:Entity ;
-    rdfs:label "定长字符串"@zh ;
-    kg:depends_on kg:实际 ;
-    kg:is_a kg:内存,
-        kg:数量,
-        kg:极大值 ;
-    kg:uses kg:内存,
-        kg:数量 .
-
-kg:实体识别 a kg:Entity,
+        kg:金融,
+        kg:零售,
+        kg:领域,
+        kg:风险 .
+
+kg:图谱可视化 a kg:Entity,
         kg:KGTerm ;
-    rdfs:label "实体识别"@zh ;
-    kg:affects kg:影响 ;
-    kg:is_a kg:信息,
-        kg:关键,
-        kg:基础,
-        kg:部分 .
+    rdfs:label "图谱可视化"@zh ;
+    kg:includes kg:场景,
+        kg:效果,
+        kg:框架,
+        kg:设计 .
 
-kg:实例 a kg:Entity ;
-    rdfs:label "实例"@zh .
+kg:图谱构建 a kg:Entity,
+        kg:KGTerm ;
+    rdfs:label "图谱构建"@zh ;
+    kg:supports kg:领域 ;
+    kg:used_for kg:NLP,
+        kg:对话,
+        kg:系统,
+        kg:领域 .
 
-kg:实用程序 a kg:Entity ;
-    rdfs:label "实用程序"@zh ;
-    kg:used_for kg:算法 .
+kg:学习材料 a kg:Entity ;
+    rdfs:label "学习材料"@zh .
 
-kg:客观 a kg:Entity ;
-    rdfs:label "客观"@zh .
+kg:学科 a kg:Entity ;
+    rdfs:label "学科"@zh ;
+    kg:applied_to kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 ;
+    kg:used_for kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 .
 
-kg:宣传 a kg:Entity ;
-    rdfs:label "宣传"@zh ;
-    kg:affects kg:影响,
-        kg:政府,
-        kg:政策,
-        kg:联邦 ;
-    kg:supports kg:教师 .
+kg:定义 a kg:Entity ;
+    rdfs:label "定义"@zh .
 
-kg:實體 a kg:Entity ;
-    rdfs:label "實體"@zh .
+kg:实时性 a kg:Entity ;
+    rdfs:label "实时性"@zh ;
+    kg:supports kg:领域 .
 
-kg:对话 a kg:Entity ;
-    rdfs:label "对话"@zh ;
-    kg:contains kg:关键词,
-        kg:阿密特 .
+kg:寄语 a kg:Entity ;
+    rdfs:label "寄语"@zh .
 
-kg:射到 a kg:Entity ;
-    rdfs:label "射到"@zh .
-
-kg:将图 a kg:Entity ;
-    rdfs:label "将图"@zh .
-
-kg:就是Σ的任何子集 a kg:Entity ;
-    rdfs:label "就是Σ的任何子集"@zh .
-
-kg:局限 a kg:Entity ;
-    rdfs:label "局限"@zh ;
-    kg:is_a kg:子集 .
-
-kg:层次性 a kg:Entity ;
-    rdfs:label "层次性"@zh .
-
-kg:工作 a kg:Entity ;
-    rdfs:label "工作"@zh ;
-    kg:is_a kg:事情,
-        kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
+kg:对象 a kg:Entity ;
+    rdfs:label "对象"@zh ;
+    kg:applied_to kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 ;
+    kg:used_for kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 .
 
 kg:工具 a kg:Entity ;
-    rdfs:label "工具"@zh .
-
-kg:差分 a kg:Entity ;
-    rdfs:label "差分"@zh .
-
-kg:巴贝奇 a kg:Entity ;
-    rdfs:label "巴贝奇"@zh .
-
-kg:布莱兹 a kg:Entity ;
-    rdfs:label "布莱兹"@zh .
-
-kg:希伍德 a kg:Entity ;
-    rdfs:label "希伍德"@zh .
-
-kg:帕斯卡 a kg:Entity ;
-    rdfs:label "帕斯卡"@zh .
-
-kg:常值 a kg:Entity ;
-    rdfs:label "常值"@zh .
-
-kg:常规 a kg:Entity ;
-    rdfs:label "常规"@zh ;
-    kg:uses kg:字形 .
-
-kg:平面图 a kg:Entity ;
-    rdfs:label "平面图"@zh ;
-    kg:is_a kg:关系,
-        kg:库拉托夫斯基,
-        kg:托夫斯,
-        kg:此问题与子图的关系参见库拉托夫斯基定理 .
-
-kg:平面图判定判定给定的图是否是平面图此问题与子图的关系 a kg:Entity ;
-    rdfs:label "平面图判定：判定给定的图是否是平面图（此问题与子图的关系"@zh .
-
-kg:并发性 a kg:Entity ;
-    rdfs:label "并发性"@zh ;
-    kg:composed_of kg:网络,
-        kg:网络连接,
-        kg:计算机 ;
-    kg:extends kg:网络,
-        kg:网络连接,
-        kg:计算机 ;
-    kg:is_a kg:性质,
-        kg:系统 .
-
-kg:广义 a kg:Entity ;
-    rdfs:label "广义"@zh ;
-    kg:includes kg:專注于,
-        kg:数学,
-        kg:经典,
-        kg:计算理论,
-        kg:逻辑 .
-
-kg:康熙 a kg:Entity ;
-    rdfs:label "康熙)"@zh .
-
-kg:康熙_孙子_乾隆 a kg:Entity ;
-    rdfs:label "康熙, 孙子, 乾隆"@zh .
-
-kg:建议 a kg:Entity ;
-    rdfs:label "建议"@zh ;
-    kg:is_a kg:数据,
-        kg:数据处理,
-        kg:计算机 ;
-    kg:uses kg:datalogy,
-        kg:事实,
-        kg:术语 .
-
-kg:当然 a kg:Entity ;
-    rdfs:label "当然"@zh .
-
-kg:形容 a kg:Entity ;
-    rdfs:label "形容"@zh ;
-    kg:is_a kg:基础,
-        kg:理论,
-        kg:种类,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:很多UNIX实用程序进行简单的字符串处理 a kg:Entity ;
-    rdfs:label "很多UNIX实用程序进行简单的字符串处理"@zh ;
-    kg:used_for kg:算法 .
-
-kg:德拉姆齐 a kg:Entity ;
-    rdfs:label "德拉姆齐"@zh .
-
-kg:德蒙 a kg:Entity ;
-    rdfs:label "德蒙"@zh ;
-    kg:is_a kg:分析,
-        kg:方法,
-        kg:莱布尼茨 .
-
-kg:德语 a kg:Entity ;
-    rdfs:label "德语"@zh .
-
-kg:怀特 a kg:Entity ;
-    rdfs:label "怀特"@zh ;
-    kg:is_a kg:列表,
-        kg:地方,
-        kg:有关 ;
-    kg:produces kg:产生,
-        kg:圣克鲁斯,
-        kg:地方,
-        kg:知识图谱知道,
-        kg:结果 ;
-    kg:uses kg:产生,
-        kg:图谱,
-        kg:圣克鲁斯,
-        kg:数据,
-        kg:知识图谱,
-        kg:知识图谱知道,
-        kg:结果 .
-
-kg:思想 a kg:Entity ;
-    rdfs:label "思想"@zh ;
-    kg:composed_of kg:网络,
-        kg:网络连接,
-        kg:计算机 ;
-    kg:extends kg:网络,
-        kg:网络连接,
-        kg:计算机 .
-
-kg:思维 a kg:Entity ;
-    rdfs:label "思维"@zh ;
-    kg:is_a kg:加工 .
-
-kg:性能 a kg:Entity ;
-    rdfs:label "性能"@zh .
-
-kg:性質 a kg:Entity ;
-    rdfs:label "性質"@zh .
-
-kg:情况 a kg:Entity ;
-    rdfs:label "情况"@zh ;
-    kg:uses kg:代表,
-        kg:作者,
-        kg:关键词,
-        kg:学术,
-        kg:文献,
-        kg:机构,
-        kg:节点 .
-
-kg:情报 a kg:Entity ;
-    rdfs:label "情报"@zh ;
-    kg:includes kg:情报检索 ;
-    kg:is_a kg:上訊息,
-        kg:日文,
-        kg:概念,
-        kg:汉译,
-        kg:热点,
-        kg:英文 .
-
-kg:惠特尼 a kg:Entity ;
-    rdfs:label "惠特尼"@zh ;
-    kg:uses kg:道路 .
-
-kg:意义 a kg:Entity ;
-    rdfs:label "意义"@zh ;
-    kg:is_a kg:性质,
-        kg:计数,
-        kg:计数问题,
-        kg:问题 .
-
-kg:意大利语 a kg:Entity ;
-    rdfs:label "意大利语"@zh .
-
-kg:意音 a kg:Entity ;
-    rdfs:label "意音"@zh .
-
-kg:成本 a kg:Entity ;
-    rdfs:label "成本"@zh ;
-    kg:used_for kg:security,
-        kg:保安,
-        kg:可靠性,
+    rdfs:label "工具"@zh ;
+    kg:used_for kg:NLP,
+        kg:对话,
         kg:系统,
-        kg:高可靠性 .
-
-kg:或字 a kg:Entity ;
-    rdfs:label "或字"@zh ;
-    kg:is_a kg:序列 .
-
-kg:或者计算科学 a kg:Entity ;
-    rdfs:label "或者计算科学"@zh ;
-    kg:is_a kg:分析,
-        kg:技术,
-        kg:数学,
-        kg:数学模型,
-        kg:模型,
-        kg:研究,
         kg:领域 .
 
-kg:戴克 a kg:Entity ;
-    rdfs:label "戴克"@zh ;
-    kg:is_a kg:天文学,
-        kg:望远镜 .
+kg:布局 a kg:Entity ;
+    rdfs:label "布局"@zh ;
+    kg:supports kg:业务 .
 
-kg:打孔机 a kg:Entity ;
-    rdfs:label "打孔机"@zh .
+kg:平台 a kg:Entity ;
+    rdfs:label "平台"@zh ;
+    kg:includes kg:信息,
+        kg:增量,
+        kg:本体,
+        kg:融合,
+        kg:设计 ;
+    kg:supports kg:数据 .
 
-kg:技术性 a kg:Entity ;
-    rdfs:label "技术性"@zh .
+kg:应用于 a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
-kg:技术标准 a kg:Entity ;
-    rdfs:label "技术标准"@zh .
+kg:建模 a kg:Entity ;
+    rdfs:label "建模"@zh .
 
-kg:技能 a kg:Entity ;
-    rdfs:label "技能"@zh .
+kg:感兴趣 a kg:Entity ;
+    rdfs:label "感兴趣"@zh .
+
+kg:技术 a kg:Entity ;
+    rdfs:label "技术"@zh .
 
 kg:报告 a kg:Entity ;
     rdfs:label "报告"@zh .
 
-kg:拉姆齐 a kg:Entity ;
-    rdfs:label "拉姆齐"@zh .
+kg:推理 a kg:Entity,
+        kg:KGTerm ;
+    rdfs:label "推理"@zh .
 
-kg:指令 a kg:Entity ;
-    rdfs:label "指令"@zh .
-
-kg:指将 a kg:Entity ;
-    rdfs:label "指将"@zh .
-
-kg:指标 a kg:Entity ;
-    rdfs:label "指标"@zh ;
-    kg:is_a kg:加工 .
-
-kg:挑战 a kg:Entity ;
-    rdfs:label "挑战"@zh .
-
-kg:援助 a kg:Entity ;
-    rdfs:label "援助"@zh .
-
-kg:搜索引擎的三个主要功能将需要改进 a kg:Entity ;
-    rdfs:label "搜索引擎的三个主要功能将需要改进"@zh .
-
-kg:摩根 a kg:Entity ;
-    rdfs:label "摩根"@zh .
-
-kg:效果 a kg:Entity ;
-    rdfs:label "效果"@zh .
-
-kg:效率 a kg:Entity ;
-    rdfs:label "效率"@zh ;
-    kg:affects kg:影响 .
-
-kg:数值 a kg:Entity ;
-    rdfs:label "数值"@zh ;
-    kg:is_a kg:仪器,
-        kg:古老,
-        kg:祖先 ;
-    kg:used_for kg:仪器,
-        kg:古老,
-        kg:指代,
-        kg:祖先,
-        kg:算法 ;
-    kg:uses kg:方法 .
-
-kg:数值积分 a kg:Entity ;
-    rdfs:label "数值积分"@zh ;
-    kg:is_a kg:祖先 ;
-    kg:used_for kg:指代,
-        kg:祖先 .
-
-kg:数学家 a kg:Entity ;
-    rdfs:label "数学家"@zh .
-
-kg:数据化 a kg:Entity ;
-    rdfs:label "数据化"@zh ;
-    kg:includes kg:关系,
-        kg:关系数据,
-        kg:关系数据库,
-        kg:数据库 .
-
-kg:数据层 a kg:Entity ;
-    rdfs:label "数据层"@zh ;
-    kg:is_a kg:fact,
+kg:搜索引擎 a kg:Entity ;
+    rdfs:label "搜索引擎"@zh ;
+    kg:composed_of kg:三元组,
         kg:事实,
-        kg:单位,
-        kg:图数据库,
-        kg:数据库 .
+        kg:数据,
+        kg:数据层,
+        kg:模式,
+        kg:表示法 ;
+    kg:used_for kg:事实,
+        kg:数据,
+        kg:数据层,
+        kg:模式 .
 
-kg:数据层和模式层 a kg:Entity ;
-    rdfs:label "数据层和模式层"@zh .
+kg:教育 a kg:Entity ;
+    rdfs:label "教育"@zh .
 
-kg:数据库系统 a kg:Entity ;
-    rdfs:label "数据库系统"@zh .
+kg:数图 a kg:Entity ;
+    rdfs:label "数图"@zh .
 
-kg:数棱数 a kg:Entity ;
-    rdfs:label "数棱数"@zh .
-
-kg:数理逻辑 a kg:Entity ;
-    rdfs:label "数理逻辑"@zh .
-
-kg:整体 a kg:Entity ;
-    rdfs:label "整体"@zh .
-
-kg:數學家 a kg:Entity ;
-    rdfs:label "數學家"@zh .
-
-kg:文件 a kg:Entity ;
-    rdfs:label "文件"@zh .
-
-kg:文本 a kg:Entity ;
-    rdfs:label "文本"@zh .
+kg:数据类型 a kg:Entity ;
+    rdfs:label "数据类型"@zh .
 
 kg:文档 a kg:Entity ;
-    rdfs:label "文档"@zh .
-
-kg:文献分类 a kg:Entity ;
-    rdfs:label "文献分类"@zh .
-
-kg:斯拉夫 a kg:Entity ;
-    rdfs:label "斯拉夫"@zh .
-
-kg:斯拉夫语族 a kg:Entity ;
-    rdfs:label "斯拉夫语族"@zh .
-
-kg:斯蒂 a kg:Entity ;
-    rdfs:label "斯蒂"@zh ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:新石器 a kg:Entity ;
-    rdfs:label "新石器"@zh .
-
-kg:新石器革命 a kg:Entity ;
-    rdfs:label "新石器革命（"@zh .
-
-kg:方可 a kg:Entity ;
-    rdfs:label "方可"@zh ;
-    kg:is_a kg:上訊息,
-        kg:概念 .
-
-kg:方面 a kg:Entity ;
-    rdfs:label "方面"@zh ;
-    kg:is_a kg:健壮性,
+    rdfs:label "文档"@zh ;
+    kg:includes kg:关系,
         kg:分析,
-        kg:可靠性,
-        kg:数学 ;
-    kg:uses kg:分析,
-        kg:动机,
-        kg:学科,
-        kg:工程,
-        kg:工程学,
-        kg:数学 .
+        kg:欺诈,
+        kg:社交,
+        kg:网络,
+        kg:银行 .
 
-kg:於是邊連接了頂點對 a kg:Entity ;
-    rdfs:label "於是邊連接了頂點對"@zh .
+kg:文献 a kg:Entity ;
+    rdfs:label "文献"@zh ;
+    kg:used_for kg:NLP,
+        kg:对话,
+        kg:系统,
+        kg:领域 .
 
-kg:无党派 a kg:Entity ;
-    rdfs:label "无党派"@zh ;
-    kg:affects kg:影响,
-        kg:政府,
-        kg:政策,
-        kg:联邦 ;
-    kg:supports kg:教师 .
+kg:文章 a kg:Entity ;
+    rdfs:label "文章"@zh ;
+    kg:implements kg:行业,
+        kg:语义搜索 ;
+    kg:includes kg:场景,
+        kg:效果,
+        kg:框架,
+        kg:设计 ;
+    kg:is_a kg:行业,
+        kg:语义,
+        kg:语义搜索,
+        kg:语义网,
+        kg:语义网络 .
 
-kg:日益 a kg:Entity ;
-    rdfs:label "日益"@zh ;
-    kg:is_a kg:12,
-        kg:教育,
-        kg:课程 .
+kg:方向 a kg:Entity ;
+    rdfs:label "方向"@zh .
 
-kg:日语 a kg:Entity ;
-    rdfs:label "日语"@zh .
+kg:方法 a kg:Entity ;
+    rdfs:label "方法"@zh ;
+    kg:applied_to kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 ;
+    kg:used_for kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 .
 
-kg:时候 a kg:Entity ;
-    rdfs:label "时候"@zh .
+kg:是一种 a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
-kg:时间 a kg:Entity ;
-    rdfs:label "时间"@zh .
-
-kg:昵称 a kg:Entity ;
-    rdfs:label "昵称"@zh .
-
-kg:普及 a kg:Entity ;
-    rdfs:label "普及"@zh .
-
-kg:智力 a kg:Entity ;
-    rdfs:label "智力"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:智慧 a kg:Entity ;
-    rdfs:label "智慧"@zh .
-
-kg:曲面 a kg:Entity ;
-    rdfs:label "曲面"@zh .
-
-kg:有效性 a kg:Entity ;
-    rdfs:label "有效性"@zh .
-
-kg:有益 a kg:Entity ;
-    rdfs:label "有益"@zh .
-
-kg:朝鲜 a kg:Entity ;
-    rdfs:label "朝鲜"@zh .
-
-kg:朝鲜语 a kg:Entity ;
-    rdfs:label "朝鲜语"@zh .
+kg:智能 a kg:Entity ;
+    rdfs:label "智能"@zh .
 
 kg:机器 a kg:Entity ;
     rdfs:label "机器"@zh ;
-    kg:is_a kg:仪器,
-        kg:古老,
-        kg:子集,
-        kg:祖先 ;
-    kg:used_for kg:仪器,
-        kg:古老,
-        kg:指代,
-        kg:祖先,
-        kg:算法 .
+    kg:applied_to kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 ;
+    kg:used_for kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 .
 
-kg:机械 a kg:Entity ;
-    rdfs:label "机械"@zh .
-
-kg:条件 a kg:Entity ;
-    rdfs:label "条件"@zh ;
-    kg:extends kg:信息,
-        kg:扩展性,
-        kg:问题 ;
-    kg:is_a kg:类似地 .
-
-kg:条目 a kg:Entity ;
-    rdfs:label "条目"@zh .
+kg:机器学习 a kg:Entity,
+        kg:KGTerm ;
+    rdfs:label "机器学习"@zh ;
+    kg:applied_to kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 ;
+    kg:used_for kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 .
 
 kg:架构 a kg:Entity ;
     rdfs:label "架构"@zh .
 
-kg:染色 a kg:Entity ;
-    rdfs:label "染色"@zh .
+kg:核心 a kg:Entity ;
+    rdfs:label "核心"@zh ;
+    kg:applied_to kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 ;
+    kg:used_for kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 .
 
-kg:查尔斯 a kg:Entity ;
-    rdfs:label "查尔斯"@zh .
+kg:案例 a kg:Entity ;
+    rdfs:label "案例"@zh .
 
-kg:柯尼斯堡 a kg:Entity ;
-    rdfs:label "柯尼斯堡"@zh ;
-    kg:is_a kg:图论,
-        kg:文章,
-        kg:第一,
-        kg:领域 .
+kg:检测 a kg:Entity ;
+    rdfs:label "检测"@zh .
 
-kg:柯尼斯堡七桥 a kg:Entity ;
-    rdfs:label "柯尼斯堡七桥"@zh ;
-    kg:is_a kg:图论,
-        kg:文章,
-        kg:第一,
-        kg:领域 .
+kg:检索 a kg:Entity ;
+    rdfs:label "检索"@zh ;
+    kg:implements kg:全面,
+        kg:深度,
+        kg:语义,
+        kg:语义搜索 .
 
-kg:柯西 a kg:Entity ;
-    rdfs:label "柯西"@zh .
+kg:涉及 a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
-kg:标准 a kg:Entity ;
-    rdfs:label "标准"@zh ;
-    kg:is_a kg:加工 .
+kg:焦点 a kg:Entity ;
+    rdfs:label "焦点"@zh .
 
-kg:标记 a kg:Entity ;
-    rdfs:label "标记"@zh ;
-    kg:is_a kg:问题 .
+kg:特征 a kg:Entity ;
+    rdfs:label "特征"@zh ;
+    kg:supports kg:领域 .
 
-kg:标识 a kg:Entity ;
-    rdfs:label "标识"@zh .
+kg:理论 a kg:Entity ;
+    rdfs:label "理论"@zh .
 
-kg:树状 a kg:Entity ;
-    rdfs:label "树状"@zh ;
-    kg:is_a kg:性质,
-        kg:计数,
-        kg:计数问题,
-        kg:问题 .
+kg:生命周期 a kg:Entity ;
+    rdfs:label "生命周期"@zh .
 
-kg:根本性 a kg:Entity ;
-    rdfs:label "根本性"@zh ;
-    kg:is_a kg:信息,
-        kg:信息时代,
-        kg:奠基,
-        kg:时代,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 .
+kg:用于 a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
-kg:格罗宁根 a kg:Entity ;
-    rdfs:label "格罗宁根"@zh .
+kg:用户 a kg:Entity ;
+    rdfs:label "用户"@zh ;
+    kg:implements kg:全面,
+        kg:深度,
+        kg:语义,
+        kg:语义搜索 .
 
-kg:格罗宁根大学 a kg:Entity ;
-    rdfs:label "格罗宁根大学"@zh .
+kg:由...提出 a owl:ObjectProperty ;
+    rdfs:domain kg:Entity ;
+    rdfs:range kg:Entity .
 
-kg:框架 a kg:Entity ;
-    rdfs:label "框架"@zh .
-
-kg:档案学 a kg:Entity ;
-    rdfs:label "档案学"@zh .
-
-kg:梦想 a kg:Entity ;
-    rdfs:label "梦想"@zh .
-
-kg:检验 a kg:Entity ;
-    rdfs:label "检验"@zh .
-
-kg:概念的外延 a kg:Entity ;
-    rdfs:label "概念的外延"@zh .
-
-kg:概率 a kg:Entity ;
-    rdfs:label "概率"@zh ;
-    kg:is_a kg:Alfréd_Rényi,
-        kg:什和,
-        kg:埃尔德,
-        kg:埃尔德什,
-        kg:英语,
-        kg:英语Alfréd_Rényi ;
-    kg:produces kg:产生,
-        kg:分支 .
-
-kg:模式 a kg:Entity ;
-    rdfs:label "模式"@zh ;
-    kg:is_a kg:关系,
-        kg:实体,
-        kg:本体,
-        kg:规范 ;
-    kg:used_for kg:体系,
-        kg:概念 .
-
-kg:次序 a kg:Entity ;
-    rdfs:label "次序"@zh ;
-    kg:is_a kg:00,
-        kg:11 .
-
-kg:次數 a kg:Entity ;
-    rdfs:label "次數"@zh .
-
-kg:欧拉 a kg:Entity ;
-    rdfs:label "欧拉"@zh ;
-    kg:is_a kg:创始人,
-        kg:图论,
-        kg:文章,
-        kg:第一,
-        kg:领域 .
-
-kg:欧拉于 a kg:Entity ;
-    rdfs:label "欧拉于"@zh ;
-    kg:is_a kg:图论,
-        kg:文章,
-        kg:第一,
-        kg:领域 .
-
-kg:欧拉路 a kg:Entity ;
-    rdfs:label "欧拉路"@zh .
-
-kg:欧洲 a kg:Entity ;
-    rdfs:label "欧洲"@zh .
-
-kg:欧洲大陆 a kg:Entity ;
-    rdfs:label "欧洲大陆"@zh .
-
-kg:正误 a kg:Entity ;
-    rdfs:label "正误"@zh .
-
-kg:此時_E_displaystyle_E_不再如前面限定是該集合的子集 a kg:Entity ;
-    rdfs:label "此時 E displaystyle E 不再如前面限定是該集合的子集"@zh .
-
-kg:歧义 a kg:Entity ;
-    rdfs:label "歧义"@zh .
-
-kg:每字符一个字节编码的极限 a kg:Entity ;
-    rdfs:label "每字符一个字节编码的极限"@zh .
-
-kg:毕业 a kg:Entity ;
-    rdfs:label "毕业"@zh .
-
-kg:汇总 a kg:Entity ;
-    rdfs:label "汇总"@zh .
-
-kg:汉语 a kg:Entity ;
-    rdfs:label "汉语"@zh .
-
-kg:法语 a kg:Entity ;
-    rdfs:label "法语"@zh .
-
-kg:波利亚 a kg:Entity ;
-    rdfs:label "波利亚"@zh .
-
-kg:泰特 a kg:Entity ;
-    rdfs:label "泰特"@zh .
-
-kg:流派 a kg:Entity ;
-    rdfs:label "流派"@zh .
-
-kg:流程 a kg:Entity ;
-    rdfs:label "流程"@zh .
-
-kg:海量 a kg:Entity ;
-    rdfs:label "海量"@zh .
-
-kg:消息 a kg:Entity ;
-    rdfs:label "消息"@zh .
-
-kg:消歧 a kg:Entity ;
-    rdfs:label "消歧"@zh .
-
-kg:消歧義 a kg:Entity ;
-    rdfs:label "消歧義"@zh .
-
-kg:消耗 a kg:Entity ;
-    rdfs:label "消耗"@zh .
-
-kg:深度 a kg:Entity ;
-    rdfs:label "深度"@zh .
-
-kg:父亲 a kg:Entity ;
-    rdfs:label "父亲"@zh .
-
-kg:物理学家 a kg:Entity ;
-    rdfs:label "物理学家"@zh .
-
-kg:物理学家基尔霍夫 a kg:Entity ;
-    rdfs:label "物理学家基尔霍夫"@zh .
-
-kg:特文特 a kg:Entity ;
-    rdfs:label "特文特"@zh .
-
-kg:特文特大学 a kg:Entity ;
-    rdfs:label "特文特大学"@zh .
-
-kg:特点 a kg:Entity ;
-    rdfs:label "特点"@zh .
-
-kg:猫科 a kg:Entity ;
-    rdfs:label "猫科"@zh .
-
-kg:猫科_目_食肉目 a kg:Entity ;
-    rdfs:label "猫科, 目, 食肉目"@zh .
-
-kg:现存 a kg:Entity ;
-    rdfs:label "现存"@zh ;
-    kg:depends_on kg:编码,
-        kg:设计 ;
-    kg:is_a kg:设计,
-        kg:问题 ;
-    kg:leads_to kg:字符,
-        kg:字符串,
-        kg:程度,
-        kg:问题 .
-
-kg:理想 a kg:Entity ;
-    rdfs:label "理想"@zh ;
-    kg:based_on kg:数据,
-        kg:论文 .
-
-kg:生理学 a kg:Entity ;
-    rdfs:label "生理学"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:电子 a kg:Entity ;
-    rdfs:label "电子"@zh ;
-    kg:is_a kg:信息,
-        kg:信息时代,
-        kg:奠基,
-        kg:时代,
-        kg:祖先,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 ;
-    kg:used_for kg:指代,
-        kg:祖先 .
-
-kg:电子学 a kg:Entity ;
-    rdfs:label "电子学"@zh ;
-    kg:is_a kg:信息,
-        kg:信息时代,
-        kg:奠基,
-        kg:时代,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 .
-
-kg:电子游戏 a kg:Entity ;
-    rdfs:label "电子游戏"@zh .
-
-kg:电子计算机 a kg:Entity ;
-    rdfs:label "电子计算机"@zh .
-
-kg:电机 a kg:Entity ;
-    rdfs:label "电机"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:电机工程学 a kg:Entity ;
-    rdfs:label "电机工程学"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:电路 a kg:Entity ;
-    rdfs:label "电路"@zh .
-
-kg:界面 a kg:Entity ;
-    rdfs:label "界面"@zh .
+kg:百度 a kg:Entity ;
+    rdfs:label "百度"@zh .
 
 kg:百科 a kg:Entity ;
     rdfs:label "百科"@zh .
 
-kg:百科类 a kg:Entity ;
-    rdfs:label "百科类"@zh .
-
-kg:监督 a kg:Entity ;
-    rdfs:label "监督"@zh ;
-    kg:based_on kg:命名,
-        kg:命名实体,
-        kg:日志,
-        kg:特征,
-        kg:语义 ;
-    kg:is_a kg:命名,
-        kg:命名实体,
-        kg:日志,
-        kg:特征,
-        kg:语义 .
-
-kg:目標 a kg:Entity ;
-    rdfs:label "目標"@zh .
-
-kg:着色 a kg:Entity ;
-    rdfs:label "着色"@zh .
-
-kg:知识图谱可以指 a kg:Entity ;
-    rdfs:label "知识图谱可以指"@zh .
-
-kg:知识抽取 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "知识抽取"@zh ;
-    kg:is_a kg:图谱,
-        kg:异构,
-        kg:数据,
-        kg:数据源,
-        kg:知识图谱,
-        kg:第一 .
-
-kg:知识结构 a kg:Entity ;
-    rdfs:label "知识结构"@zh .
-
-kg:知识获取 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "知识获取"@zh ;
-    kg:affects kg:影响 .
-
-kg:知识融合 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "知识融合"@zh .
-
-kg:知识表示 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "知识表示"@zh ;
-    kg:is_a kg:数据,
-        kg:数据模型,
-        kg:數據,
-        kg:模型,
-        kg:知识库,
-        kg:结构 .
-
-kg:知识计算 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "知识计算"@zh .
-
-kg:祖父 a kg:Entity ;
-    rdfs:label "祖父"@zh .
-
-kg:神经 a kg:Entity ;
-    rdfs:label "神经"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:科学知识 a kg:Entity ;
-    rdfs:label "科学知识"@zh ;
-    kg:is_a kg:主体,
-        kg:侧重于,
-        kg:分析,
-        kg:可视化,
-        kg:图书,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:情报学,
-        kg:方式,
-        kg:概念,
-        kg:绘制,
-        kg:领域 ;
-    kg:used_for kg:主体,
-        kg:分析,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:绘制 ;
-    kg:uses kg:代表,
-        kg:作者,
-        kg:关键词,
-        kg:学术,
-        kg:文献,
-        kg:机构,
-        kg:节点 .
-
-kg:科学计算 a kg:Entity ;
-    rdfs:label "科学计算"@zh ;
-    kg:is_a kg:分析,
-        kg:技术,
-        kg:数学,
-        kg:数学模型,
-        kg:模型,
-        kg:研究,
-        kg:领域 .
-
-kg:程序员 a kg:Entity ;
-    rdfs:label "程序员"@zh .
-
-kg:程序设计 a kg:Entity ;
-    rdfs:label "程序设计"@zh ;
-    kg:is_a kg:媒介,
-        kg:研究,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 ;
-    kg:supports kg:媒介,
-        kg:研究,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 .
-
-kg:空间 a kg:Entity ;
-    rdfs:label "空间"@zh .
-
-kg:笔画 a kg:Entity ;
-    rdfs:label "笔画"@zh .
-
-kg:符号学 a kg:Entity ;
-    rdfs:label "符号学"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:符号计算 a kg:Entity ;
-    rdfs:label "符号计算"@zh .
-
-kg:第三 a kg:Entity ;
-    rdfs:label "第三"@zh .
-
-kg:第三方 a kg:Entity ;
-    rdfs:label "第三方"@zh ;
-    kg:includes kg:关系,
-        kg:关系数据,
-        kg:关系数据库,
-        kg:数据库 .
-
-kg:第二年 a kg:Entity ;
-    rdfs:label "第二年"@zh .
-
-kg:答案 a kg:Entity ;
-    rdfs:label "答案"@zh .
-
-kg:篇文章 a kg:Entity ;
-    rdfs:label "篇文章"@zh ;
-    kg:affects kg:影响,
-        kg:政府,
-        kg:政策,
-        kg:联邦 ;
-    kg:supports kg:教师 .
-
-kg:类别 a kg:Entity ;
-    rdfs:label "类别"@zh .
-
-kg:精神 a kg:Entity ;
-    rdfs:label "精神"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:系統 a kg:Entity ;
-    rdfs:label "系統"@zh .
-
-kg:系统资源 a kg:Entity ;
-    rdfs:label "系统资源"@zh .
-
-kg:约翰娜怀特 a kg:Entity ;
-    rdfs:label "约翰娜怀特"@zh ;
-    kg:is_a kg:列表,
-        kg:地方,
-        kg:有关 ;
-    kg:produces kg:产生,
-        kg:圣克鲁斯,
-        kg:地方,
-        kg:知识图谱知道,
-        kg:结果 ;
-    kg:uses kg:产生,
-        kg:图谱,
-        kg:圣克鲁斯,
-        kg:数据,
-        kg:知识图谱,
-        kg:知识图谱知道,
-        kg:结果 .
-
-kg:组件 a kg:Entity ;
-    rdfs:label "组件"@zh .
-
-kg:细分 a kg:Entity ;
-    rdfs:label "细分"@zh .
-
-kg:终极 a kg:Entity ;
-    rdfs:label "终极"@zh .
-
-kg:经常出现 a kg:Entity ;
-    rdfs:label "经常出现"@zh .
-
-kg:经济 a kg:Entity ;
-    rdfs:label "经济"@zh ;
-    kg:is_a kg:12,
-        kg:教育,
-        kg:课程 .
-
-kg:经济学 a kg:Entity ;
-    rdfs:label "经济学"@zh .
-
-kg:给定两个图_G_displaystyle_G_和_H_displaystyle_H a kg:Entity ;
-    rdfs:label "给定两个图 G displaystyle G 和 H displaystyle H"@zh .
-
-kg:维多利亚 a kg:Entity ;
-    rdfs:label "维多利亚"@zh .
-
-kg:维多利亚时代 a kg:Entity ;
-    rdfs:label "维多利亚时代"@zh .
-
-kg:综合 a kg:Entity ;
-    rdfs:label "综合"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 ;
-    kg:uses kg:感官,
-        kg:用户 .
-
-kg:编程 a kg:Entity ;
-    rdfs:label "编程"@zh ;
-    kg:implements kg:个体,
-        kg:分析,
-        kg:分类,
-        kg:特性 ;
-    kg:is_a kg:分支,
-        kg:理论,
-        kg:科学,
-        kg:算法,
-        kg:计算机,
-        kg:计算机科学,
-        kg:计算理论,
-        kg:设计 .
-
-kg:编辑 a kg:Entity ;
-    rdfs:label "编辑"@zh ;
-    kg:is_a kg:热点 .
-
-kg:网状 a kg:Entity ;
-    rdfs:label "网状"@zh .
-
-kg:网站 a kg:Entity ;
-    rdfs:label "网站"@zh .
-
-kg:网络化 a kg:Entity ;
-    rdfs:label "网络化"@zh .
-
-kg:网路 a kg:Entity ;
-    rdfs:label "网路"@zh .
-
-kg:美国 a kg:Entity ;
-    rdfs:label "美国"@zh ;
-    kg:is_a kg:12,
-        kg:教育,
-        kg:课程 .
-
-kg:老虎 a kg:Entity ;
-    rdfs:label "老虎"@zh .
-
-kg:老虎_目_食肉目 a kg:Entity ;
-    rdfs:label "老虎, 目, 食肉目"@zh .
-
-kg:老虎_科_猫科 a kg:Entity ;
-    rdfs:label "老虎, 科, 猫科"@zh .
-
-kg:职业培训 a kg:Entity ;
-    rdfs:label "职业培训"@zh .
-
-kg:联系 a kg:Entity ;
-    rdfs:label "联系"@zh ;
-    kg:is_a kg:化学,
-        kg:形式,
-        kg:数学,
-        kg:数据,
-        kg:结构,
-        kg:结构化,
-        kg:计算机领域 ;
-    kg:used_for kg:关系,
-        kg:发展,
-        kg:结构,
-        kg:进程 .
-
-kg:联网 a kg:Entity ;
-    rdfs:label "联网"@zh .
-
-kg:聚类 a kg:Entity ;
-    rdfs:label "聚类"@zh ;
-    kg:is_a kg:加工 .
-
-kg:背景 a kg:Entity ;
-    rdfs:label "背景"@zh .
-
-kg:自动识别 a kg:Entity ;
-    rdfs:label "自动识别"@zh ;
-    kg:affects kg:影响 ;
-    kg:is_a kg:信息,
-        kg:关键,
-        kg:基础,
-        kg:部分 .
-
-kg:自然界 a kg:Entity ;
-    rdfs:label "自然界"@zh .
-
-kg:自環 a kg:Entity ;
-    rdfs:label "自環"@zh ;
-    kg:is_a kg:端點 .
-
-kg:自環會被算兩次 a kg:Entity ;
-    rdfs:label "自環會被算兩次"@zh .
-
-kg:艾兹 a kg:Entity ;
-    rdfs:label "艾兹"@zh ;
-    kg:is_a kg:天文学,
-        kg:望远镜 .
-
-kg:英語Computer_science有时缩写为CS a kg:Entity ;
-    rdfs:label "英語：Computer science，有时缩写为CS"@zh ;
-    kg:implements kg:学科,
-        kg:实用技术,
-        kg:技术 ;
-    kg:is_a kg:信息,
-        kg:基础,
-        kg:理论,
-        kg:研究,
-        kg:系统,
-        kg:系统性,
-        kg:计算机系统 .
-
-kg:英語Conversational_search a kg:Entity ;
-    rdfs:label "英語：Conversational search"@zh ;
-    kg:contains kg:关键词,
-        kg:阿密特 .
-
-kg:英語Google_Knowledge_Graph也称Google知识图 a kg:Entity ;
-    rdfs:label "英語：Google Knowledge Graph，也称Google知识图"@zh ;
-    kg:is_a kg:检索,
-        kg:知识库,
-        kg:语义 ;
-    kg:uses kg:信息,
-        kg:来源,
-        kg:检索,
-        kg:语义 .
-
-kg:英語Graph_theory a kg:Entity ;
-    rdfs:label "英語：Graph theory"@zh ;
-    kg:is_a kg:分支,
-        kg:拓扑学,
-        kg:数学,
-        kg:矩阵,
-        kg:群论 .
-
-kg:英語Knowledge_Graph a kg:Entity ;
-    rdfs:label "英語：Knowledge Graph"@zh ;
-    kg:is_a kg:形式,
-        kg:物理,
-        kg:知识库,
-        kg:符号,
-        kg:结构,
-        kg:结构化,
-        kg:语义 ;
-    kg:used_for kg:世界,
-        kg:关系,
-        kg:形式,
-        kg:概念,
-        kg:物理,
-        kg:符号 .
-
-kg:英語concatenation a kg:Entity ;
-    rdfs:label "英語：concatenation"@zh ;
-    kg:is_a kg:二元,
-        kg:运算 .
-
-kg:英語factor a kg:Entity ;
-    rdfs:label "英語：factor"@zh .
-
-kg:英語library_and_information_science_LIS a kg:Entity ;
-    rdfs:label "英語：library and information science, LIS"@zh ;
-    kg:composed_of kg:信息,
-        kg:信息学,
-        kg:图书馆,
-        kg:图书馆学,
-        kg:领域 .
-
-kg:英語literal a kg:Entity ;
-    rdfs:label "英語：literal"@zh .
-
-kg:英語string a kg:Entity ;
-    rdfs:label "英語：string"@zh ;
-    kg:composed_of kg:个字符,
-        kg:序列 ;
-    kg:is_a kg:个字符,
-        kg:序列 .
-
-kg:英語string_literal a kg:Entity ;
-    rdfs:label "英語：string literal"@zh .
-
-kg:英语Alfred_Kempe a kg:Entity ;
-    rdfs:label "英语：Alfred Kempe"@zh .
-
-kg:英语Heinrich_Heesch a kg:Entity ;
-    rdfs:label "英语：Heinrich Heesch"@zh .
-
-kg:英语Hugo_Hadwiger a kg:Entity ;
-    rdfs:label "英语：Hugo Hadwiger"@zh .
-
-kg:英语IEEE_Computer_Society a kg:Entity ;
-    rdfs:label "英语：IEEE Computer Society"@zh .
-
-kg:英语Nicolaas_Govert_de_Bruijn a kg:Entity ;
-    rdfs:label "英语：Nicolaas Govert de Bruijn"@zh .
-
-kg:英语Peter_Guthrie_Tait a kg:Entity ;
-    rdfs:label "英语：Peter Guthrie Tait"@zh .
-
-kg:英语Stepped_reckoner a kg:Entity ;
-    rdfs:label "英语：Stepped reckoner"@zh ;
-    kg:is_a kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:英语icosian_game a kg:Entity ;
-    rdfs:label "英语：icosian game"@zh ;
-    kg:is_a kg:图论,
-        kg:路径,
-        kg:问题 .
-
-kg:范围 a kg:Entity ;
-    rdfs:label "范围"@zh .
-
-kg:范式 a kg:Entity ;
-    rdfs:label "范式"@zh ;
-    kg:applied_to kg:31_作为一个学科,
-        kg:学科,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 ;
-    kg:implements kg:系统 ;
-    kg:used_for kg:31_作为一个学科,
-        kg:学科,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 .
-
-kg:范畴 a kg:Entity ;
-    rdfs:label "范畴"@zh .
-
-kg:莱布尼兹 a kg:Entity ;
-    rdfs:label "莱布尼兹"@zh ;
-    kg:is_a kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:葡萄牙语 a kg:Entity ;
-    rdfs:label "葡萄牙语"@zh .
-
-kg:處理 a kg:Entity ;
-    rdfs:label "處理"@zh .
-
-kg:融合 a kg:Entity ;
-    rdfs:label "融合"@zh .
-
-kg:表示法 a kg:Entity ;
-    rdfs:label "表示法"@zh ;
-    kg:is_a kg:个字符,
-        kg:人工智能,
-        kg:代码,
-        kg:問題,
-        kg:字符,
-        kg:字节,
-        kg:数组,
-        kg:科學,
-        kg:領域 ;
-    kg:uses kg:个字符,
-        kg:代码,
-        kg:字符,
-        kg:字节,
-        kg:数组 .
-
-kg:装置 a kg:Entity ;
-    rdfs:label "装置"@zh .
-
-kg:西尔维斯特 a kg:Entity ;
-    rdfs:label "西尔维斯特"@zh .
-
-kg:西班牙语 a kg:Entity ;
-    rdfs:label "西班牙语"@zh .
-
-kg:西班牙语法语德语葡萄牙语日语俄罗斯语及意大利语 a kg:Entity ;
-    rdfs:label "西班牙语法语德语葡萄牙语日语俄罗斯语及意大利语"@zh .
-
-kg:观众 a kg:Entity ;
-    rdfs:label "观众"@zh .
-
-kg:观察者 a kg:Entity ;
-    rdfs:label "观察者"@zh .
-
-kg:角度 a kg:Entity ;
-    rdfs:label "角度"@zh .
-
-kg:訊息 a kg:Entity ;
-    rdfs:label "訊息"@zh ;
-    kg:implements kg:传播,
-        kg:查询 ;
-    kg:is_a kg:上訊息,
-        kg:平台,
-        kg:整理,
-        kg:日文,
-        kg:概念,
-        kg:汉译,
-        kg:研究,
-        kg:英文 .
-
-kg:論者 a kg:Entity ;
-    rdfs:label "論者"@zh .
-
-kg:计划 a kg:Entity ;
-    rdfs:label "计划"@zh ;
-    kg:supports kg:教师 .
-
-kg:计算器 a kg:Entity ;
-    rdfs:label "计算器"@zh ;
-    kg:is_a kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:计算技术 a kg:Entity ;
-    rdfs:label "计算技术"@zh .
-
-kg:计算机本身 a kg:Entity ;
-    rdfs:label "计算机本身"@zh .
-
-kg:计算机相关 a kg:Entity ;
-    rdfs:label "计算机相关"@zh .
-
-kg:计算机硬件 a kg:Entity ;
-    rdfs:label "计算机硬件"@zh ;
-    kg:is_a kg:商业,
-        kg:工程,
-        kg:系统,
-        kg:计算机系统,
-        kg:部分 .
-
-kg:计算机科学并不只是关于计算机 a kg:Entity ;
-    rdfs:label "计算机科学并不只是关于计算机"@zh ;
-    kg:is_a kg:望远镜 .
-
-kg:计算机网络 a kg:Entity ;
-    rdfs:label "计算机网络"@zh ;
-    kg:is_a kg:全球,
-        kg:科学,
-        kg:管理,
-        kg:计算机科学,
-        kg:连接成 .
-
-kg:计算机能够思考吗 a kg:Entity ;
-    rdfs:label "计算机能够思考吗"@zh .
-
-kg:认知科学 a kg:Entity ;
-    rdfs:label "认知科学"@zh .
-
-kg:训练 a kg:Entity ;
-    rdfs:label "训练"@zh ;
-    kg:is_a kg:理论,
-        kg:算法,
-        kg:计算理论 ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:记录 a kg:Entity ;
-    rdfs:label "记录"@zh ;
-    kg:is_a kg:信息,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学 .
-
-kg:记忆体 a kg:Entity ;
-    rdfs:label "记忆体"@zh .
-
-kg:论域 a kg:Entity ;
-    rdfs:label "论域"@zh .
-
-kg:设想 a kg:Entity ;
-    rdfs:label "设想"@zh .
-
-kg:证明 a kg:Entity ;
-    rdfs:label "证明"@zh .
-
-kg:评分 a kg:Entity ;
-    rdfs:label "评分"@zh .
-
-kg:词典 a kg:Entity ;
-    rdfs:label "词典"@zh ;
-    kg:is_a kg:00,
-        kg:11 .
-
-kg:试验 a kg:Entity ;
-    rdfs:label "试验"@zh .
-
-kg:详细比较了与六十年代提出的语义网Semantic_Net的区别 a kg:Entity ;
-    rdfs:label "详细比较了与六十年代提出的语义网Semantic Net的区别"@zh .
-
-kg:语义学 a kg:Entity ;
-    rdfs:label "语义学"@zh .
-
-kg:语义网 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "语义网"@zh ;
-    kg:contains kg:18亿,
-        kg:570亿,
-        kg:对象 .
-
-kg:语义网络 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "语义网络"@zh ;
-    kg:contains kg:18亿,
-        kg:570亿,
-        kg:对象 .
-
-kg:语料 a kg:Entity ;
-    rdfs:label "语料"@zh .
-
-kg:语料库 a kg:Entity ;
-    rdfs:label "语料库"@zh .
-
-kg:语族 a kg:Entity ;
-    rdfs:label "语族"@zh .
-
-kg:语法 a kg:Entity ;
-    rdfs:label "语法"@zh .
-
-kg:谈话 a kg:Entity ;
-    rdfs:label "谈话"@zh .
-
-kg:資料 a kg:Entity ;
-    rdfs:label "資料"@zh .
-
-kg:负责人 a kg:Entity ;
-    rdfs:label "负责人"@zh .
-
-kg:贡献 a kg:Entity ;
-    rdfs:label "贡献"@zh ;
-    kg:includes kg:Peter_Wegner,
-        kg:Peter_Wegner英语Peter_Wegner提出计算机科学可以分成三个领域数学工程学科學,
-        kg:英语,
-        kg:英语Peter_Wegner ;
-    kg:is_a kg:信息,
-        kg:信息时代,
-        kg:奠基,
-        kg:时代,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 .
-
-kg:资讯 a kg:Entity ;
-    rdfs:label "资讯"@zh .
-
-kg:赫尔 a kg:Entity ;
-    rdfs:label "赫尔"@zh ;
-    kg:is_a kg:天文学,
-        kg:望远镜 .
-
-kg:起源 a kg:Entity ;
-    rdfs:label "起源"@zh .
-
-kg:辛格尔 a kg:Entity ;
-    rdfs:label "辛格尔"@zh .
-
-kg:边所 a kg:Entity ;
-    rdfs:label "边所"@zh .
-
-kg:过程 a kg:Entity ;
-    rdfs:label "过程"@zh .
-
-kg:运用 a kg:Entity ;
-    rdfs:label "运用"@zh .
-
-kg:递归论 a kg:Entity ;
-    rdfs:label "递归论"@zh .
-
-kg:通常是UTF16因为它在Unicode补充位面介入之前就被增加了 a kg:Entity ;
-    rdfs:label "通常是UTF16，因为它在Unicode补充位面介入之前就被增加了"@zh .
-
-kg:通讯 a kg:Entity ;
-    rdfs:label "通讯"@zh .
-
-kg:逻辑性 a kg:Entity ;
-    rdfs:label "逻辑性"@zh .
-
-kg:遊戲 a kg:Entity ;
-    rdfs:label "遊戲"@zh ;
-    kg:is_a kg:图论,
-        kg:路径,
-        kg:问题 .
-
-kg:邊數 a kg:Entity ;
-    rdfs:label "邊數"@zh .
-
-kg:邱奇 a kg:Entity ;
-    rdfs:label "邱奇"@zh .
-
-kg:部署 a kg:Entity ;
-    rdfs:label "部署"@zh ;
-    kg:is_a kg:学科,
-        kg:科学,
-        kg:计算机科学,
-        kg:领域 .
-
-kg:重构 a kg:Entity ;
-    rdfs:label "重构"@zh .
-
-kg:重点 a kg:Entity ;
-    rdfs:label "重点"@zh ;
-    kg:is_a kg:性质,
-        kg:研究,
-        kg:软件 .
-
-kg:金融 a kg:Entity ;
-    rdfs:label "金融"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 .
-
-kg:错误 a kg:Entity ;
-    rdfs:label "错误"@zh .
-
-kg:问世 a kg:Entity ;
-    rdfs:label "问世"@zh .
-
-kg:阶图 a kg:Entity ;
-    rdfs:label "阶图"@zh .
-
-kg:阿佩爾 a kg:Entity ;
-    rdfs:label "阿佩爾"@zh .
-
-kg:阿米特辛格尔 a kg:Entity ;
-    rdfs:label "阿米特辛格尔"@zh .
-
-kg:阿隆佐 a kg:Entity ;
-    rdfs:label "阿隆佐"@zh .
-
-kg:院系 a kg:Entity ;
-    rdfs:label "院系"@zh .
-
-kg:階是 a kg:Entity ;
-    rdfs:label "階是"@zh .
-
-kg:階段 a kg:Entity ;
-    rdfs:label "階段"@zh ;
-    kg:is_a kg:事情 .
-
-kg:难题 a kg:Entity ;
-    rdfs:label "难题"@zh ;
-    kg:is_a kg:理论,
-        kg:计算理论 .
-
-kg:雍正 a kg:Entity ;
-    rdfs:label "雍正"@zh .
-
-kg:雍正_父亲_康熙 a kg:Entity ;
-    rdfs:label "雍正, 父亲, 康熙"@zh .
-
-kg:面向 a kg:Entity ;
-    rdfs:label "面向"@zh ;
-    kg:based_on kg:命名,
-        kg:命名实体,
-        kg:日志,
-        kg:特征,
-        kg:语义 ;
-    kg:is_a kg:命名,
-        kg:命名实体,
-        kg:日志,
-        kg:特征,
-        kg:语义 .
-
-kg:面向对象 a kg:Entity ;
-    rdfs:label "面向对象"@zh .
-
-kg:面数 a kg:Entity ;
-    rdfs:label "面数"@zh .
-
-kg:顶点 a kg:Entity ;
-    rdfs:label "顶点"@zh ;
-    kg:used_for kg:事物,
-        kg:代表,
-        kg:边则 .
-
-kg:项目 a kg:Entity ;
-    rdfs:label "项目"@zh .
-
-kg:预期 a kg:Entity ;
-    rdfs:label "预期"@zh .
-
-kg:预测 a kg:Entity ;
-    rdfs:label "预测"@zh .
-
-kg:领域专家 a kg:Entity ;
-    rdfs:label "领域专家"@zh ;
-    kg:includes kg:事实,
-        kg:信息,
-        kg:基本,
-        kg:有关,
-        kg:规则 ;
-    kg:is_a kg:事实,
-        kg:基本,
-        kg:规则,
-        kg:问题 .
-
-kg:频率 a kg:Entity ;
-    rdfs:label "频率"@zh .
-
-kg:食肉 a kg:Entity ;
-    rdfs:label "食肉"@zh .
-
-kg:骑士 a kg:Entity ;
-    rdfs:label "骑士"@zh ;
-    kg:is_a kg:分析,
-        kg:方法,
-        kg:莱布尼茨 .
-
-kg:1852年 a kg:Entity ;
-    rdfs:label "1852年"@zh .
-
-kg:Peter_Wegner a kg:Entity ;
-    rdfs:label "Peter Wegner"@zh .
-
-kg:Peter_Wegner英语Peter_Wegner提出计算机科学可以分成三个领域数学工程学科學 a kg:Entity ;
-    rdfs:label "Peter Wegner（英语：Peter Wegner）提出计算机科学可以分成三个领域：数学工程学科學"@zh .
-
-kg:V__E__ϕ a kg:Entity ;
-    rdfs:label "V , E , ϕ"@zh .
-
-kg:displaystyle_G a kg:Entity ;
-    rdfs:label "displaystyle G"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:E____x,
-        kg:_x,
-        kg:x__y .
-
-kg:一般是NULASCII代码是0在C编程语言中使用这种方法 a kg:Entity ;
-    rdfs:label "一般是NUL，ASCII代码是0，在C编程语言中使用这种方法"@zh .
-
-kg:事物 a kg:Entity ;
-    rdfs:label "事物"@zh ;
-    kg:used_for kg:关系 .
-
-kg:人工智能 a kg:Entity ;
-    rdfs:label "人工智能"@zh .
-
-kg:信息源 a kg:Entity ;
-    rdfs:label "信息源"@zh .
-
-kg:元素 a kg:Entity ;
-    rdfs:label "元素"@zh .
-
-kg:加密 a kg:Entity ;
-    rdfs:label "加密"@zh ;
-    kg:based_on kg:复杂性 ;
-    kg:is_a kg:复杂性 .
-
-kg:北欧 a kg:Entity ;
-    rdfs:label "北欧"@zh .
-
-kg:北欧国家 a kg:Entity ;
-    rdfs:label "北欧国家"@zh .
-
-kg:古德里 a kg:Entity ;
-    rdfs:label "古德里"@zh .
-
-kg:問題 a kg:Entity ;
-    rdfs:label "問題"@zh ;
-    kg:is_a kg:事情 .
-
-kg:数据结构 a kg:Entity ;
-    rdfs:label "数据结构"@zh .
-
-kg:数论 a kg:Entity ;
-    rdfs:label "数论"@zh .
-
-kg:杂项 a kg:Entity ;
-    rdfs:label "杂项"@zh .
-
-kg:模式匹配 a kg:Entity ;
-    rdfs:label "模式匹配"@zh .
-
-kg:法兰西斯 a kg:Entity ;
-    rdfs:label "法兰西斯"@zh .
-
-kg:法兰西斯古德里 a kg:Entity ;
-    rdfs:label "法兰西斯古德里"@zh .
-
-kg:电脑程式 a kg:Entity ;
-    rdfs:label "电脑程式"@zh ;
-    kg:is_a kg:基石,
-        kg:核心 .
-
-kg:目标 a kg:Entity ;
-    rdfs:label "目标"@zh ;
-    kg:includes kg:中断,
-        kg:信息 ;
-    kg:is_a kg:信息,
-        kg:功能,
-        kg:方法,
-        kg:用户 ;
-    kg:supports kg:专著,
-        kg:智能,
-        kg:理论 ;
-    kg:uses kg:信息,
-        kg:功能,
-        kg:查询,
-        kg:问题 .
-
-kg:研究者 a kg:Entity ;
-    rdfs:label "研究者"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:科學 a kg:Entity ;
-    rdfs:label "科學"@zh .
-
-kg:空集合 a kg:Entity ;
-    rdfs:label "空集合"@zh .
-
-kg:结束符 a kg:Entity ;
-    rdfs:label "结束符"@zh ;
-    kg:is_a kg:代码,
-        kg:编程语言,
-        kg:语言 ;
-    kg:uses kg:方法 .
-
-kg:英语Peter_Wegner a kg:Entity ;
-    rdfs:label "英语：Peter Wegner"@zh .
-
-kg:解密 a kg:Entity ;
-    rdfs:label "解密"@zh ;
-    kg:based_on kg:复杂性 ;
-    kg:is_a kg:复杂性 .
-
-kg:计算机技术 a kg:Entity ;
-    rdfs:label "计算机技术"@zh ;
-    kg:includes kg:中断,
-        kg:信息 .
-
-kg:资源 a kg:Entity ;
-    rdfs:label "资源"@zh ;
-    kg:is_a kg:基石,
-        kg:方式,
-        kg:核心 .
-
-kg:边则 a kg:Entity ;
-    rdfs:label "边则"@zh ;
-    kg:used_for kg:关系 .
-
-kg:領域 a kg:Entity ;
-    rdfs:label "領域"@zh .
-
-kg:00 a kg:Entity ;
-    rdfs:label "00"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 .
-
-kg:11 a kg:Entity ;
-    rdfs:label "11"@zh ;
-    kg:is_a kg:形式,
-        kg:语言 ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:ACM a kg:Entity ;
-    rdfs:label "ACM"@zh .
-
-kg:E_R_S a kg:Entity ;
-    rdfs:label "E, R, S"@zh ;
-    kg:is_a kg:关系,
-        kg:实体,
-        kg:知识库 .
-
-kg:V__E a kg:Entity ;
-    rdfs:label "V , E"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:E____x,
-        kg:_x,
-        kg:x__y .
-
-kg:displaystyle a kg:Entity ;
-    rdfs:label "displaystyle"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:E____x,
-        kg:_x,
-        kg:x__y,
-        kg:空集合,
-        kg:端點 .
-
-kg:fact a kg:Entity ;
-    rdfs:label "fact"@zh ;
-    kg:is_a kg:关系,
-        kg:实体,
-        kg:属性 .
-
-kg:string a kg:Entity ;
-    rdfs:label "string"@zh,
-        "string）"@zh ;
-    kg:composed_of kg:个字符,
-        kg:序列 ;
-    kg:is_a kg:个字符,
-        kg:序列 .
-
-kg:substring或因子英語factor a kg:Entity ;
-    rdfs:label "substring）或因子（英語：factor）"@zh .
-
-kg:三元组 a kg:Entity ;
-    rdfs:label "三元组"@zh ;
-    kg:includes kg:关系,
-        kg:实体,
-        kg:属性,
-        kg:概念 ;
-    kg:is_a kg:E_R_S,
-        kg:图谱,
-        kg:方式,
-        kg:知识图谱,
-        kg:通用 ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:专业人士 a kg:Entity ;
-    rdfs:label "专业人士"@zh ;
-    kg:uses kg:用户 .
-
-kg:二元 a kg:Entity ;
-    rdfs:label "二元"@zh .
-
-kg:互联网 a kg:Entity ;
-    rdfs:label "互联网"@zh ;
-    kg:supports kg:教师 .
-
-kg:介面 a kg:Entity ;
-    rdfs:label "介面"@zh .
-
-kg:使用者 a kg:Entity ;
-    rdfs:label "使用者"@zh .
-
-kg:個數 a kg:Entity ;
-    rdfs:label "個數"@zh .
-
-kg:克劳德香农 a kg:Entity ;
-    rdfs:label "克劳德香农"@zh ;
-    kg:used_for kg:信号处理,
-        kg:数据 .
-
-kg:内容 a kg:Entity ;
-    rdfs:label "内容"@zh ;
-    kg:uses kg:道路 .
-
-kg:单位 a kg:Entity ;
-    rdfs:label "单位"@zh ;
-    kg:is_a kg:三元组,
-        kg:关系,
-        kg:实体,
-        kg:属性 .
-
-kg:图数据库 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "图数据库"@zh ;
-    kg:is_a kg:关系,
-        kg:实体,
-        kg:属性 .
-
-kg:地图 a kg:Entity ;
-    rdfs:label "地图"@zh .
-
-kg:备份 a kg:Entity ;
-    rdfs:label "备份"@zh ;
-    kg:supports kg:教师 .
-
-kg:大量 a kg:Entity ;
-    rdfs:label "大量"@zh ;
-    kg:uses kg:道路 .
-
-kg:子串 a kg:Entity ;
-    rdfs:label "子串"@zh ;
-    kg:is_a kg:空串 .
-
-kg:字节 a kg:Entity ;
-    rdfs:label "字节"@zh ;
-    kg:uses kg:字形 .
-
-kg:密码学 a kg:Entity ;
-    rdfs:label "密码学"@zh ;
-    kg:based_on kg:复杂性 ;
-    kg:is_a kg:信息,
-        kg:加密,
-        kg:复杂性,
-        kg:解密 ;
-    kg:used_for kg:网络 .
-
-kg:平台 a kg:Entity ;
-    rdfs:label "平台"@zh ;
-    kg:implements kg:传播,
-        kg:查询 .
-
-kg:异构 a kg:Entity ;
-    rdfs:label "异构"@zh .
-
-kg:推理 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "推理"@zh ;
-    kg:includes kg:属性,
-        kg:本体,
-        kg:概念 ;
-    kg:is_a kg:加工 .
-
-kg:操作员 a kg:Entity ;
-    rdfs:label "操作员"@zh .
-
-kg:数字 a kg:Entity ;
-    rdfs:label "数字"@zh ;
-    kg:is_a kg:概念,
-        kg:概念设计,
-        kg:设计,
-        kg:运作 .
-
-kg:数据源 a kg:Entity ;
-    rdfs:label "数据源"@zh .
-
-kg:数组 a kg:Entity ;
-    rdfs:label "数组"@zh .
-
-kg:整理 a kg:Entity ;
-    rdfs:label "整理"@zh ;
-    kg:implements kg:传播,
-        kg:查询 ;
-    kg:is_a kg:上訊息,
-        kg:概念 .
-
-kg:文献学 a kg:Entity ;
-    rdfs:label "文献学"@zh ;
-    kg:produces kg:产生,
-        kg:利用,
-        kg:流传,
-        kg:问题 .
-
-kg:有序 a kg:Entity ;
-    rdfs:label "有序"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:E____x,
-        kg:_x,
-        kg:x__y .
-
-kg:查询语言 a kg:Entity ;
-    rdfs:label "查询语言"@zh .
-
-kg:档案 a kg:Entity ;
-    rdfs:label "档案"@zh ;
-    kg:is_a kg:专业,
-        kg:文献,
-        kg:文献学 ;
-    kg:supports kg:教师 .
-
-kg:档案馆 a kg:Entity ;
-    rdfs:label "档案馆"@zh ;
-    kg:supports kg:教师 .
-
-kg:电脑设备 a kg:Entity ;
-    rdfs:label "电脑设备"@zh .
-
-kg:知识推理 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "知识推理"@zh ;
-    kg:includes kg:属性,
-        kg:本体,
-        kg:概念 ;
-    kg:is_a kg:加工 .
-
-kg:科学研究 a kg:Entity ;
-    rdfs:label "科学研究"@zh ;
-    kg:is_a kg:50年,
-        kg:基础,
-        kg:学术,
-        kg:学术界,
-        kg:技术,
-        kg:科学技术 .
-
-kg:程度 a kg:Entity ;
-    rdfs:label "程度"@zh ;
-    kg:depends_on kg:编码,
-        kg:设计 ;
-    kg:is_a kg:设计 .
-
-kg:第二 a kg:Entity ;
-    rdfs:label "第二"@zh .
-
-kg:管理系统 a kg:Entity ;
-    rdfs:label "管理系统"@zh .
-
-kg:网页 a kg:Entity ;
-    rdfs:label "网页"@zh ;
-    kg:implements kg:语义 ;
-    kg:is_a kg:字符串,
-        kg:检索,
-        kg:语义 ;
-    kg:supports kg:主题,
-        kg:字符串,
-        kg:检索,
-        kg:用户,
-        kg:语义 .
-
-kg:與之相關 a kg:Entity ;
-    rdfs:label "與之相關"@zh .
-
-kg:英語 a kg:Entity ;
-    rdfs:label "英語"@zh ;
-    kg:composed_of kg:个字符,
-        kg:信息,
-        kg:信息学,
-        kg:图书馆,
-        kg:图书馆学,
-        kg:序列,
-        kg:领域 ;
-    kg:contains kg:关键词,
-        kg:阿密特 ;
-    kg:implements kg:学科,
-        kg:实用技术,
-        kg:技术 ;
-    kg:is_a kg:个字符,
-        kg:二元,
-        kg:信息,
-        kg:分支,
-        kg:基础,
-        kg:序列,
-        kg:形式,
-        kg:拓扑学,
-        kg:数学,
-        kg:检索,
-        kg:物理,
-        kg:理论,
-        kg:知识库,
-        kg:矩阵,
-        kg:研究,
-        kg:符号,
-        kg:系统,
-        kg:系统性,
-        kg:结构,
-        kg:结构化,
-        kg:群论,
-        kg:计算机系统,
-        kg:语义,
-        kg:运算 ;
-    kg:used_for kg:世界,
-        kg:关系,
-        kg:形式,
-        kg:概念,
-        kg:物理,
-        kg:符号 ;
-    kg:uses kg:信息,
-        kg:来源,
-        kg:检索,
-        kg:语义 .
-
-kg:英語substring a kg:Entity ;
-    rdfs:label "英語：substring"@zh .
-
-kg:评估 a kg:Entity ;
-    rdfs:label "评估"@zh ;
-    kg:is_a kg:加工 .
-
-kg:质量 a kg:Entity ;
-    rdfs:label "质量"@zh ;
-    kg:affects kg:影响 ;
-    kg:is_a kg:加工 .
-
-kg:页面 a kg:Entity ;
-    rdfs:label "页面"@zh ;
-    kg:supports kg:教师 .
-
-kg:页面存档备份存于互联网档案馆 a kg:Entity ;
-    rdfs:label "页面存档备份，存于互联网档案馆"@zh ;
-    kg:supports kg:教师 .
-
-kg:顺序存储 a kg:Entity ;
-    rdfs:label "顺序存储"@zh .
-
-kg:颜色 a kg:Entity ;
-    rdfs:label "颜色"@zh .
-
-kg:香农 a kg:Entity ;
-    rdfs:label "香农"@zh ;
-    kg:used_for kg:信号处理,
-        kg:数据 .
-
-kg:2012年5月17日 a kg:Entity ;
-    rdfs:label "2012年5月17日"@zh ;
-    kg:defined_as kg:功能,
-        kg:定义,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 ;
-    kg:used_for kg:功能,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 .
-
-kg:Alfréd_Rényi a kg:Entity ;
-    rdfs:label "Alfréd Rényi"@zh ;
-    kg:produces kg:产生,
-        kg:分支 .
-
-kg:security a kg:Entity ;
-    rdfs:label "security"@zh .
-
-kg:之一 a kg:Entity ;
-    rdfs:label "之一"@zh ;
-    kg:is_a kg:理论,
-        kg:计算理论 .
-
-kg:什和 a kg:Entity ;
-    rdfs:label "什和"@zh ;
-    kg:produces kg:产生,
-        kg:分支 .
-
-kg:保安 a kg:Entity ;
-    rdfs:label "保安"@zh .
-
-kg:全球 a kg:Entity ;
-    rdfs:label "全球"@zh .
-
-kg:创始人 a kg:Entity ;
-    rdfs:label "创始人"@zh .
-
-kg:动画 a kg:Entity ;
-    rdfs:label "动画"@zh ;
-    kg:uses kg:感官,
-        kg:用户 .
-
-kg:参与者 a kg:Entity ;
-    rdfs:label "参与者"@zh .
-
-kg:图形图像 a kg:Entity ;
-    rdfs:label "图形图像"@zh ;
-    kg:uses kg:感官,
-        kg:用户 .
-
-kg:埃尔德 a kg:Entity ;
-    rdfs:label "埃尔德"@zh ;
-    kg:produces kg:产生,
-        kg:分支 .
-
-kg:埃尔德什 a kg:Entity ;
-    rdfs:label "埃尔德什"@zh ;
-    kg:produces kg:产生,
-        kg:分支 .
-
-kg:声音 a kg:Entity ;
-    rdfs:label "声音"@zh ;
-    kg:uses kg:感官,
-        kg:用户 .
-
-kg:对应 a kg:Entity ;
-    rdfs:label "对应"@zh .
-
-kg:序列的长度 a kg:Entity ;
-    rdfs:label "序列的长度"@zh ;
-    kg:is_a kg:整数 .
-
-kg:库拉托夫斯基 a kg:Entity ;
-    rdfs:label "库拉托夫斯基"@zh ;
-    kg:uses kg:道路 .
-
-kg:托夫斯 a kg:Entity ;
-    rdfs:label "托夫斯"@zh ;
-    kg:uses kg:道路 .
-
-kg:数学模型 a kg:Entity ;
-    rdfs:label "数学模型"@zh ;
-    kg:used_for kg:通用 .
-
-kg:数目 a kg:Entity ;
-    rdfs:label "数目"@zh ;
-    kg:is_a kg:整数 .
-
-kg:整数 a kg:Entity ;
-    rdfs:label "整数"@zh ;
-    kg:uses kg:方法 .
-
-kg:數據 a kg:Entity ;
-    rdfs:label "數據"@zh .
-
-kg:日文 a kg:Entity ;
-    rdfs:label "日文"@zh .
-
-kg:时期 a kg:Entity ;
-    rdfs:label "时期"@zh ;
-    kg:is_a kg:仪器,
-        kg:古老 ;
-    kg:used_for kg:仪器,
-        kg:古老,
-        kg:算法 .
-
-kg:此问题与子图的关系参见库拉托夫斯基定理 a kg:Entity ;
-    rdfs:label "此问题与子图的关系，参见库拉托夫斯基定理"@zh .
-
-kg:汉译 a kg:Entity ;
-    rdfs:label "汉译"@zh .
-
-kg:电脑 a kg:Entity ;
-    rdfs:label "电脑"@zh ;
-    kg:is_a kg:事情,
-        kg:基石,
-        kg:核心 .
-
-kg:种类 a kg:Entity ;
-    rdfs:label "种类"@zh ;
-    kg:is_a kg:动机,
-        kg:自动,
-        kg:自动机,
-        kg:逻辑 .
-
-kg:类似地 a kg:Entity ;
-    rdfs:label "类似地"@zh ;
-    kg:is_a kg:关系,
-        kg:库拉托夫斯基,
-        kg:托夫斯,
-        kg:此问题与子图的关系参见库拉托夫斯基定理 .
-
-kg:英文 a kg:Entity ;
-    rdfs:label "英文"@zh .
-
-kg:英语Alfréd_Rényi a kg:Entity ;
-    rdfs:label "英语：Alfréd Rényi"@zh ;
-    kg:produces kg:产生,
-        kg:分支 .
-
-kg:谷歌 a kg:Entity ;
-    rdfs:label "谷歌"@zh ;
-    kg:defined_as kg:功能,
-        kg:定义,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 ;
-    kg:is_a kg:万维网,
-        kg:关联,
-        kg:数据,
-        kg:方法,
-        kg:语义 ;
-    kg:used_for kg:功能,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 .
-
-kg:连接成 a kg:Entity ;
-    rdfs:label "连接成"@zh .
-
-kg:长度相等 a kg:Entity ;
-    rdfs:label "长度相等"@zh .
-
-kg:高可靠性 a kg:Entity ;
-    rdfs:label "高可靠性"@zh .
-
-kg:15 a kg:Entity ;
-    rdfs:label "15"@zh .
-
-kg:18亿 a kg:Entity ;
-    rdfs:label "18亿"@zh .
-
-kg:31_作为一个学科 a kg:Entity ;
-    rdfs:label "31 作为一个学科"@zh ;
-    kg:implements kg:系统 .
-
-kg:570亿 a kg:Entity ;
-    rdfs:label "570亿"@zh .
-
-kg:Data_type a kg:Entity ;
-    rdfs:label "Data type"@zh .
-
-kg:Freebase a kg:Entity ;
-    rdfs:label "Freebase"@zh .
-
-kg:UCPH_Department_of_Computer_Science a kg:Entity ;
-    rdfs:label "UCPH Department of Computer Science"@zh,
-        "UCPH Department of Computer Science）"@zh ;
-    kg:is_a kg:教授 .
-
-kg:datalogy a kg:Entity ;
-    rdfs:label "datalogy"@zh ;
-    kg:is_a kg:数据,
-        kg:数据处理,
-        kg:计算机 .
-
-kg:for_Computing_Machinery a kg:Entity ;
-    rdfs:label "for Computing Machinery"@zh .
-
-kg:上訊息 a kg:Entity ;
-    rdfs:label "上訊息"@zh .
-
-kg:事业 a kg:Entity ;
-    rdfs:label "事业"@zh ;
-    kg:is_a kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验 ;
-    kg:uses kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验 .
-
-kg:体系 a kg:Entity ;
-    rdfs:label "体系"@zh .
-
-kg:信息技术 a kg:Entity ;
-    rdfs:label "信息技术"@zh ;
-    kg:is_a kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验 ;
-    kg:uses kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验 .
-
-kg:公元17501850年 a kg:Entity ;
-    rdfs:label "公元17501850年"@zh .
-
-kg:利用 a kg:Entity ;
-    rdfs:label "利用"@zh ;
-    kg:composed_of kg:专业,
-        kg:操作员 ;
-    kg:includes kg:情报检索 ;
-    kg:is_a kg:热点 .
-
-kg:商业 a kg:Entity ;
-    rdfs:label "商业"@zh .
-
-kg:图像处理 a kg:Entity ;
-    rdfs:label "图像处理"@zh .
-
-kg:字形 a kg:Entity ;
-    rdfs:label "字形"@zh .
-
-kg:学术期刊 a kg:Entity ;
-    rdfs:label "学术期刊"@zh .
-
-kg:对象 a kg:Entity ;
-    rdfs:label "对象"@zh ;
-    kg:includes kg:属性,
-        kg:本体,
-        kg:概念 .
-
-kg:工业 a kg:Entity ;
-    rdfs:label "工业"@zh .
-
-kg:工业革命 a kg:Entity ;
-    rdfs:label "工业革命"@zh .
-
-kg:建模 a kg:Entity ;
-    rdfs:label "建模"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 .
-
-kg:数据类型 a kg:Entity ;
-    rdfs:label "数据类型"@zh ;
-    kg:depends_on kg:实际 ;
-    kg:is_a kg:Data_type,
-        kg:位面,
-        kg:内存,
-        kg:建模,
-        kg:形式,
-        kg:数量,
-        kg:极大值 ;
-    kg:uses kg:内存,
-        kg:数量 .
-
-kg:期刊 a kg:Entity ;
-    rdfs:label "期刊"@zh .
-
-kg:概况 a kg:Entity ;
-    rdfs:label "概况"@zh .
-
-kg:比如信息技术 a kg:Entity ;
-    rdfs:label "比如信息技术"@zh ;
-    kg:is_a kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验 ;
-    kg:uses kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验 .
-
-kg:活跃 a kg:Entity ;
-    rdfs:label "活跃"@zh .
-
-kg:流传 a kg:Entity ;
-    rdfs:label "流传"@zh .
-
-kg:百科1 a kg:Entity ;
-    rdfs:label "百科1"@zh .
-
-kg:研究成果 a kg:Entity ;
-    rdfs:label "研究成果"@zh ;
-    kg:affects kg:哥德尔,
-        kg:图灵,
-        kg:影响,
-        kg:艾伦,
-        kg:英语,
-        kg:英语Rózsa_Péter ;
-    kg:is_a kg:化学,
-        kg:数学 .
-
-kg:社会 a kg:Entity ;
-    rdfs:label "社会"@zh ;
-    kg:composed_of kg:专业,
-        kg:专业人士,
-        kg:用户 ;
-    kg:is_a kg:信息,
-        kg:信息时代,
-        kg:奠基,
-        kg:时代,
-        kg:物理,
-        kg:科学,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 ;
-    kg:used_for kg:智能 ;
-    kg:uses kg:用户 .
-
-kg:空串 a kg:Entity ;
-    rdfs:label "空串"@zh ;
-    kg:is_a kg:字符,
-        kg:字符串,
-        kg:长度 .
-
-kg:维基百科 a kg:Entity ;
-    rdfs:label "维基百科"@zh .
-
-kg:英语UCPH_Department_of_Computer_Science a kg:Entity ;
-    rdfs:label "英语：UCPH Department of Computer Science"@zh ;
-    kg:is_a kg:教授 .
-
-kg:链接 a kg:Entity ;
-    rdfs:label "链接"@zh ;
-    kg:implements kg:语义 ;
-    kg:is_a kg:字符串,
-        kg:检索,
-        kg:语义 ;
-    kg:supports kg:主题,
-        kg:字符串,
-        kg:检索,
-        kg:用户,
-        kg:语义 .
-
-kg:高质量 a kg:Entity ;
-    rdfs:label "高质量"@zh .
-
-kg:50年 a kg:Entity ;
-    rdfs:label "50年"@zh ;
-    kg:is_a kg:事情 .
-
-kg:E____x a kg:Entity ;
-    rdfs:label "E    x"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 .
-
-kg:_x a kg:Entity ;
-    rdfs:label "( x"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 .
-
-kg:x__y a kg:Entity ;
-    rdfs:label "x , y"@zh ;
-    kg:composed_of kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:頂點 ;
-    kg:is_a kg:換句話說邊連接了頂點對,
-        kg:無序,
-        kg:端點,
-        kg:頂點 .
-
-kg:一级门类 a kg:Entity ;
-    rdfs:label "一级门类"@zh .
-
-kg:中断 a kg:Entity ;
-    rdfs:label "中断"@zh .
-
-kg:主题 a kg:Entity ;
-    rdfs:label "主题"@zh ;
-    kg:implements kg:语义 ;
-    kg:is_a kg:字符串,
-        kg:检索,
-        kg:语义 .
-
-kg:代码 a kg:Entity ;
-    rdfs:label "代码"@zh ;
-    kg:depends_on kg:编码,
-        kg:设计 ;
-    kg:is_a kg:方法,
-        kg:编程语言,
-        kg:设计,
-        kg:语言 ;
-    kg:leads_to kg:字符,
-        kg:字符串,
-        kg:程度,
-        kg:问题 ;
-    kg:uses kg:方法 .
-
-kg:传播 a kg:Entity ;
-    rdfs:label "传播"@zh .
-
-kg:位面 a kg:Entity ;
-    rdfs:label "位面"@zh .
-
-kg:哥本哈根大学 a kg:Entity ;
-    rdfs:label "哥本哈根大学"@zh ;
-    kg:is_a kg:教授 .
-
-kg:学术界 a kg:Entity ;
-    rdfs:label "学术界"@zh .
-
-kg:工科 a kg:Entity ;
-    rdfs:label "工科"@zh .
-
-kg:拓扑学 a kg:Entity ;
-    rdfs:label "拓扑学"@zh ;
-    kg:uses kg:道路 .
-
-kg:数据模型 a kg:Entity ;
-    rdfs:label "数据模型"@zh .
-
-kg:术语 a kg:Entity ;
-    rdfs:label "术语"@zh ;
-    kg:is_a kg:UCPH_Department_of_Computer_Science,
-        kg:化学,
-        kg:哥本哈根大学,
-        kg:大学,
-        kg:数学,
-        kg:数据,
-        kg:数据处理,
-        kg:祖先,
-        kg:科学系,
-        kg:英语,
-        kg:英语UCPH_Department_of_Computer_Science,
-        kg:计算机 ;
-    kg:used_for kg:北欧,
-        kg:北欧国家,
-        kg:指代,
-        kg:祖先 .
-
-kg:概念设计 a kg:Entity ;
-    rdfs:label "概念设计"@zh .
-
 kg:目的 a kg:Entity ;
     rdfs:label "目的"@zh .
-
-kg:矩阵 a kg:Entity ;
-    rdfs:label "矩阵"@zh .
-
-kg:科学系 a kg:Entity ;
-    rdfs:label "科学系"@zh ;
-    kg:is_a kg:教授 .
-
-kg:经典 a kg:Entity ;
-    rdfs:label "经典"@zh .
-
-kg:编程语言 a kg:Entity ;
-    rdfs:label "编程语言"@zh ;
-    kg:implements kg:个体,
-        kg:分析,
-        kg:分类,
-        kg:数据类型,
-        kg:特性,
-        kg:类型 ;
-    kg:is_a kg:分支,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:设计 ;
-    kg:uses kg:方法 .
-
-kg:群论 a kg:Entity ;
-    rdfs:label "群论"@zh .
-
-kg:语言学 a kg:Entity ;
-    rdfs:label "语言学"@zh .
-
-kg:运作 a kg:Entity ;
-    rdfs:label "运作"@zh .
-
-kg:长度 a kg:Entity ;
-    rdfs:label "长度"@zh ;
-    kg:depends_on kg:内存,
-        kg:实际,
-        kg:数量 ;
-    kg:is_a kg:代码,
-        kg:内存,
-        kg:序列,
-        kg:序列的长度,
-        kg:数目,
-        kg:数量,
-        kg:极大值,
-        kg:编程语言,
-        kg:语言 ;
-    kg:uses kg:一般是NULASCII代码是0在C编程语言中使用这种方法,
-        kg:代码,
-        kg:内存,
-        kg:数量,
-        kg:方法,
-        kg:结束符 .
-
-kg:门类 a kg:Entity ;
-    rdfs:label "门类"@zh .
-
-kg:阿密特 a kg:Entity ;
-    rdfs:label "阿密特"@zh .
-
-kg:万维网 a kg:Entity ;
-    rdfs:label "万维网"@zh .
-
-kg:争议 a kg:Entity ;
-    rdfs:label "争议"@zh ;
-    kg:is_a kg:定义 .
-
-kg:信号处理 a kg:Entity ;
-    rdfs:label "信号处理"@zh .
-
-kg:关系数据 a kg:Entity ;
-    rdfs:label "关系数据"@zh .
-
-kg:关系数据库 a kg:Entity ;
-    rdfs:label "关系数据库"@zh .
-
-kg:关联 a kg:Entity ;
-    rdfs:label "关联"@zh .
-
-kg:工程学 a kg:Entity ;
-    rdfs:label "工程学"@zh ;
-    kg:is_a kg:健壮性,
-        kg:分析,
-        kg:可靠性,
-        kg:数学,
-        kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:扩展性 a kg:Entity ;
-    rdfs:label "扩展性"@zh .
-
-kg:政府 a kg:Entity ;
-    rdfs:label "政府"@zh ;
-    kg:supports kg:教师 .
-
-kg:政策 a kg:Entity ;
-    rdfs:label "政策"@zh ;
-    kg:supports kg:教师 .
-
-kg:来源 a kg:Entity ;
-    rdfs:label "来源"@zh ;
-    kg:includes kg:Freebase,
-        kg:世界,
-        kg:概况,
-        kg:百科1,
-        kg:维基百科 .
-
-kg:极大值 a kg:Entity ;
-    rdfs:label "极大值"@zh ;
-    kg:depends_on kg:实际 ;
-    kg:is_a kg:实际 ;
-    kg:uses kg:内存,
-        kg:数量 .
-
-kg:浏览器 a kg:Entity ;
-    rdfs:label "浏览器"@zh .
-
-kg:科学技术 a kg:Entity ;
-    rdfs:label "科学技术"@zh .
-
-kg:程序 a kg:Entity ;
-    rdfs:label "程序"@zh ;
-    kg:is_a kg:媒介,
-        kg:研究,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 ;
-    kg:supports kg:媒介,
-        kg:研究,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 .
-
-kg:端點 a kg:Entity ;
-    rdfs:label "端點"@zh .
-
-kg:系统性 a kg:Entity ;
-    rdfs:label "系统性"@zh ;
-    kg:implements kg:学科,
-        kg:实用技术,
-        kg:技术 ;
-    kg:is_a kg:方法 ;
-    kg:supports kg:专著,
-        kg:智能,
-        kg:理论 .
-
-kg:编码 a kg:Entity ;
-    rdfs:label "编码"@zh ;
-    kg:is_a kg:性质,
-        kg:研究,
-        kg:设计,
-        kg:问题 ;
-    kg:used_for kg:密码学,
-        kg:数据,
-        kg:网络 .
-
-kg:网络连接 a kg:Entity ;
-    rdfs:label "网络连接"@zh .
-
-kg:联邦 a kg:Entity ;
-    rdfs:label "联邦"@zh ;
-    kg:supports kg:教师 .
-
-kg:自动机 a kg:Entity ;
-    rdfs:label "自动机"@zh .
-
-kg:莱布尼茨 a kg:Entity ;
-    rdfs:label "莱布尼茨"@zh .
-
-kg:视觉 a kg:Entity ;
-    rdfs:label "视觉"@zh .
-
-kg:话题 a kg:Entity ;
-    rdfs:label "话题"@zh ;
-    kg:is_a kg:定义 .
-
-kg:19 a kg:Entity ;
-    rdfs:label "19"@zh ;
-    kg:is_a kg:教授 .
-
-kg:1962年 a kg:Entity ;
-    rdfs:label "1962年"@zh .
-
-kg:专著 a kg:Entity ;
-    rdfs:label "专著"@zh .
-
-kg:作者 a kg:Entity ;
-    rdfs:label "作者"@zh ;
-    kg:uses kg:关系,
-        kg:合作,
-        kg:连线 .
-
-kg:发展 a kg:Entity ;
-    rdfs:label "发展"@zh ;
-    kg:is_a kg:事情 ;
-    kg:supports kg:15,
-        kg:信息,
-        kg:智能,
-        kg:物理,
-        kg:社会 ;
-    kg:uses kg:道路 .
-
-kg:合作 a kg:Entity ;
-    rdfs:label "合作"@zh .
-
-kg:哲学 a kg:Entity ;
-    rdfs:label "哲学"@zh ;
-    kg:includes kg:情报检索 ;
-    kg:is_a kg:热点,
-        kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能 .
-
-kg:基石 a kg:Entity ;
-    rdfs:label "基石"@zh .
-
-kg:天文学 a kg:Entity ;
-    rdfs:label "天文学"@zh ;
-    kg:is_a kg:望远镜 .
-
-kg:子集 a kg:Entity ;
-    rdfs:label "子集"@zh .
-
-kg:教育 a kg:Entity ;
-    rdfs:label "教育"@zh ;
-    kg:supports kg:教师 .
-
-kg:普渡大学 a kg:Entity ;
-    rdfs:label "普渡大学"@zh .
-
-kg:核心 a kg:Entity ;
-    rdfs:label "核心"@zh .
-
-kg:类型 a kg:Entity ;
-    rdfs:label "类型"@zh ;
-    kg:depends_on kg:实际 ;
-    kg:is_a kg:Data_type,
-        kg:位面,
-        kg:内存,
-        kg:建模,
-        kg:形式,
-        kg:数量,
-        kg:极大值,
-        kg:规则 ;
-    kg:uses kg:内存,
-        kg:数量 .
-
-kg:节点 a kg:Entity ;
-    rdfs:label "节点"@zh ;
-    kg:uses kg:关系,
-        kg:合作,
-        kg:连线 .
-
-kg:规范 a kg:Entity ;
-    rdfs:label "规范"@zh .
-
-kg:计数 a kg:Entity ;
-    rdfs:label "计数"@zh .
-
-kg:计数问题 a kg:Entity ;
-    rdfs:label "计数问题"@zh .
-
-kg:论文 a kg:Entity ;
-    rdfs:label "论文"@zh ;
-    kg:is_a kg:分析,
-        kg:图论,
-        kg:文章,
-        kg:方法,
-        kg:第一,
-        kg:莱布尼茨,
-        kg:领域 .
-
-kg:课程 a kg:Entity ;
-    rdfs:label "课程"@zh ;
-    kg:is_a kg:理论,
-        kg:算法,
-        kg:计算理论 .
-
-kg:运算 a kg:Entity ;
-    rdfs:label "运算"@zh ;
-    kg:extends kg:研究 .
-
-kg:进程 a kg:Entity ;
-    rdfs:label "进程"@zh ;
-    kg:used_for kg:通用 .
-
-kg:连线 a kg:Entity ;
-    rdfs:label "连线"@zh .
-
-kg:通用 a kg:Entity ;
-    rdfs:label "通用"@zh ;
-    kg:is_a kg:关系,
-        kg:实体,
-        kg:知识库 .
-
-kg:个体 a kg:Entity ;
-    rdfs:label "个体"@zh .
-
-kg:信息学 a kg:Entity ;
-    rdfs:label "信息学"@zh .
-
-kg:分类 a kg:Entity ;
-    rdfs:label "分类"@zh ;
-    kg:based_on kg:命名,
-        kg:命名实体,
-        kg:日志,
-        kg:特征,
-        kg:语义 ;
-    kg:is_a kg:命名,
-        kg:命名实体,
-        kg:日志,
-        kg:特征,
-        kg:语义 .
-
-kg:哥德尔 a kg:Entity ;
-    rdfs:label "哥德尔"@zh .
-
-kg:图书馆学 a kg:Entity ;
-    rdfs:label "图书馆学"@zh ;
-    kg:includes kg:哲学,
-        kg:理论,
-        kg:管理 ;
-    kg:is_a kg:热点 .
-
-kg:图灵 a kg:Entity ;
-    rdfs:label "图灵"@zh .
-
-kg:图谱 a kg:Entity ;
-    rdfs:label "图谱"@zh ;
-    kg:composed_of kg:12,
-        kg:2012年5月17日,
-        kg:谷歌 ;
-    kg:defined_as kg:功能,
-        kg:定义,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 ;
-    kg:implements kg:概念,
-        kg:用户,
-        kg:网页,
-        kg:链接 ;
-    kg:includes kg:Freebase,
-        kg:世界,
-        kg:概况,
-        kg:百科1,
-        kg:维基百科 ;
-    kg:is_a kg:万维网,
-        kg:主体,
-        kg:侧重于,
-        kg:关系,
-        kg:关联,
-        kg:分析,
-        kg:列表,
-        kg:可视化,
-        kg:图书,
-        kg:地方,
-        kg:字符串,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:实体,
-        kg:形式,
-        kg:情报学,
-        kg:数据,
-        kg:数据模型,
-        kg:數據,
-        kg:方式,
-        kg:方法,
-        kg:有关,
-        kg:检索,
-        kg:概念,
-        kg:模型,
-        kg:物理,
-        kg:知识库,
-        kg:符号,
-        kg:结构,
-        kg:结构化,
-        kg:绘制,
-        kg:语义,
-        kg:领域 ;
-    kg:produces kg:产生,
-        kg:圣克鲁斯,
-        kg:地方,
-        kg:知识图谱知道,
-        kg:结果 ;
-    kg:supports kg:主题,
-        kg:字符串,
-        kg:检索,
-        kg:用户,
-        kg:语义 ;
-    kg:used_for kg:世界,
-        kg:主体,
-        kg:体系,
-        kg:关系,
-        kg:分析,
-        kg:功能,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:形式,
-        kg:搜索引擎,
-        kg:概念,
-        kg:物理,
-        kg:知识库,
-        kg:符号,
-        kg:绘制,
-        kg:辅助 ;
-    kg:uses kg:代表,
-        kg:作者,
-        kg:信息,
-        kg:关键词,
-        kg:学术,
-        kg:文献,
-        kg:机构,
-        kg:来源,
-        kg:检索,
-        kg:节点,
-        kg:语义 .
-
-kg:媒介 a kg:Entity ;
-    rdfs:label "媒介"@zh ;
-    kg:is_a kg:研究 .
-
-kg:字符 a kg:Entity ;
-    rdfs:label "字符"@zh ;
-    kg:composed_of kg:个字符,
-        kg:序列 ;
-    kg:defined_as kg:定义,
-        kg:序列 ;
-    kg:depends_on kg:内存,
-        kg:实际,
-        kg:数量,
-        kg:编码,
-        kg:设计 ;
-    kg:implements kg:基本,
-        kg:数据类型,
-        kg:类型 ;
-    kg:is_a kg:Data_type,
-        kg:string,
-        kg:substring或因子英語factor,
-        kg:个字符,
-        kg:位面,
-        kg:内存,
-        kg:子串,
-        kg:子集,
-        kg:对应,
-        kg:序列,
-        kg:序列的长度,
-        kg:建模,
-        kg:形式,
-        kg:数目,
-        kg:数量,
-        kg:极大值,
-        kg:编程语言,
-        kg:英語,
-        kg:英語substring,
-        kg:规则,
-        kg:设计,
-        kg:语言,
-        kg:运算,
-        kg:长度,
-        kg:长度相等,
-        kg:问题 ;
-    kg:used_for kg:基本,
-        kg:算法,
-        kg:类型,
-        kg:规则 ;
-    kg:uses kg:内存,
-        kg:数量 .
-
-kg:平面 a kg:Entity ;
-    rdfs:label "平面"@zh ;
-    kg:is_a kg:关系,
-        kg:库拉托夫斯基,
-        kg:托夫斯,
-        kg:此问题与子图的关系参见库拉托夫斯基定理 .
-
-kg:情报检索 a kg:Entity ;
-    rdfs:label "情报检索"@zh ;
-    kg:is_a kg:热点 .
-
-kg:成果 a kg:Entity ;
-    rdfs:label "成果"@zh ;
-    kg:is_a kg:化学,
-        kg:地图,
-        kg:平面,
-        kg:数学,
-        kg:是否任何一幅画在平面上的地图都可以用四种颜色染色,
-        kg:颜色 .
-
-kg:数据处理 a kg:Entity ;
-    rdfs:label "数据处理"@zh .
-
-kg:文献 a kg:Entity ;
-    rdfs:label "文献"@zh ;
-    kg:is_a kg:专业,
-        kg:图书馆,
-        kg:文献学,
-        kg:热点,
-        kg:管理 ;
-    kg:produces kg:产生,
-        kg:利用,
-        kg:流传,
-        kg:问题 ;
-    kg:uses kg:关系,
-        kg:合作,
-        kg:连线 .
-
-kg:文章 a kg:Entity ;
-    rdfs:label "文章"@zh ;
-    kg:is_a kg:分析,
-        kg:方法,
-        kg:莱布尼茨 .
-
-kg:是否任何一幅画在平面上的地图都可以用四种颜色染色 a kg:Entity ;
-    rdfs:label "是否任何一幅画在平面上的地图都可以用四种颜色染色"@zh .
-
-kg:本体 a kg:Entity ;
-    rdfs:label "本体"@zh ;
-    kg:is_a kg:加工 ;
-    kg:used_for kg:体系,
-        kg:概念 .
-
-kg:机构 a kg:Entity ;
-    rdfs:label "机构"@zh ;
-    kg:is_a kg:UCPH_Department_of_Computer_Science,
-        kg:哥本哈根大学,
-        kg:大学,
-        kg:科学系,
-        kg:英语,
-        kg:英语UCPH_Department_of_Computer_Science ;
-    kg:uses kg:关系,
-        kg:合作,
-        kg:连线 .
-
-kg:模型 a kg:Entity ;
-    rdfs:label "模型"@zh ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度,
-        kg:通用 .
-
-kg:特性 a kg:Entity ;
-    rdfs:label "特性"@zh .
 
 kg:知识图谱 a kg:Entity,
         kg:KGTerm ;
     rdfs:label "知识图谱"@zh ;
-    kg:composed_of kg:12,
-        kg:2012年5月17日,
-        kg:谷歌 ;
-    kg:defined_as kg:功能,
-        kg:定义,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 ;
-    kg:implements kg:概念,
-        kg:用户,
-        kg:网页,
-        kg:链接 ;
-    kg:includes kg:Freebase,
-        kg:世界,
-        kg:概况,
-        kg:百科1,
-        kg:维基百科 ;
-    kg:is_a kg:万维网,
-        kg:主体,
-        kg:侧重于,
+    kg:affects kg:知识存储,
+        kg:知识应用,
+        kg:知识建模,
+        kg:知识抽取,
+        kg:知识融合 ;
+    kg:applied_to kg:分析,
+        kg:医疗,
+        kg:娱乐,
+        kg:文本,
+        kg:智能化,
+        kg:智能化文本分析监控和风险控制,
+        kg:监控,
+        kg:金融,
+        kg:零售,
+        kg:零售娱乐金融医疗等领域,
+        kg:领域,
+        kg:风险 ;
+    kg:based_on kg:图形数据库,
+        kg:多学科融合目的的现代理论 ;
+    kg:combines kg:多学科方法 ;
+    kg:composed_of kg:2012年,
+        kg:图形,
+        kg:数据库,
+        kg:行业知识图谱,
+        kg:谷歌,
+        kg:通用知识图谱,
+        kg:驱动 ;
+    kg:describes kg:知识资源及其相互关系 ;
+    kg:implements kg:行业,
+        kg:行业应用,
+        kg:语义搜索 ;
+    kg:includes kg:信息,
         kg:关系,
-        kg:关联,
         kg:分析,
-        kg:列表,
-        kg:可视化,
-        kg:图书,
-        kg:地方,
-        kg:字符串,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
+        kg:场景,
+        kg:增量,
+        kg:多学科理论,
         kg:实体,
-        kg:形式,
-        kg:情报学,
-        kg:数据,
-        kg:数据模型,
-        kg:數據,
-        kg:方式,
-        kg:方法,
-        kg:有关,
-        kg:检索,
+        kg:效果,
+        kg:本体,
+        kg:框架,
+        kg:欺诈,
+        kg:社交,
+        kg:网络,
+        kg:融合,
+        kg:设计,
+        kg:银行 ;
+    kg:is_a kg:世界,
+        kg:关系网络,
         kg:概念,
-        kg:模型,
         kg:物理,
         kg:知识库,
         kg:符号,
-        kg:结构,
         kg:结构化,
-        kg:绘制,
+        kg:网络,
+        kg:行业,
         kg:语义,
+        kg:语义搜索,
+        kg:语义网,
+        kg:语义网络 ;
+    kg:provides kg:研究动态及规律参考,
+        kg:答案 ;
+    kg:supports kg:数据,
         kg:领域 ;
-    kg:produces kg:产生,
-        kg:圣克鲁斯,
-        kg:地方,
-        kg:知识图谱知道,
-        kg:结果 ;
-    kg:supports kg:主题,
-        kg:字符串,
-        kg:检索,
-        kg:用户,
-        kg:语义 ;
-    kg:used_for kg:世界,
-        kg:主体,
-        kg:体系,
-        kg:关系,
+    kg:used_for kg:NLP,
         kg:分析,
-        kg:功能,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:形式,
-        kg:搜索引擎,
-        kg:概念,
-        kg:物理,
-        kg:知识库,
-        kg:符号,
-        kg:绘制,
-        kg:辅助 ;
-    kg:uses kg:代表,
-        kg:作者,
-        kg:信息,
-        kg:关键词,
-        kg:学术,
-        kg:文献,
-        kg:机构,
-        kg:来源,
-        kg:检索,
-        kg:节点,
-        kg:语义 .
+        kg:医疗,
+        kg:可视化技术,
+        kg:娱乐,
+        kg:对话,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:系统,
+        kg:表现实体与关系,
+        kg:金融,
+        kg:零售,
+        kg:领域,
+        kg:风险 ;
+    kg:包括 kg:三元组表示法,
+        kg:数据层,
+        kg:模式层 ;
+    kg:应用于 kg:Google_Wolfram_Alpha等 ;
+    kg:是一种 kg:结构化的语义知识库 ;
+    kg:涉及 kg:知识抽取融合加工等关键技术 ;
+    kg:用于 kg:增强搜索引擎 ;
+    kg:由...提出 kg:谷歌 .
 
-kg:程式设计 a kg:Entity ;
-    rdfs:label "程式设计"@zh .
+kg:知识图谱__CCF_DL_Focus_On_Knowledge_Graph a kg:Entity ;
+    rdfs:label "知识图谱 | CCF DL Focus On Knowledge Graph"@zh .
 
-kg:自动 a kg:Entity ;
-    rdfs:label "自动"@zh ;
-    kg:affects kg:影响 ;
-    kg:is_a kg:信息,
-        kg:关键,
-        kg:基础,
-        kg:方式,
-        kg:部分 .
+kg:知识图谱可视化 kg:defined_as kg:基本概念 .
 
-kg:艾伦 a kg:Entity ;
-    rdfs:label "艾伦"@zh .
+kg:研究 a kg:Entity ;
+    rdfs:label "研究"@zh .
 
-kg:英语Rózsa_Péter a kg:Entity ;
-    rdfs:label "英语：Rózsa Péter"@zh .
+kg:第21 a kg:Entity ;
+    rdfs:label "第21"@zh .
 
-kg:路径 a kg:Entity ;
-    rdfs:label "路径"@zh .
+kg:策略 a kg:Entity ;
+    rdfs:label "策略"@zh ;
+    kg:supports kg:业务 .
 
-kg:化学 a kg:Entity ;
-    rdfs:label "化学"@zh ;
-    kg:is_a kg:性质,
-        kg:计数,
-        kg:计数问题,
-        kg:问题 .
+kg:管理 a kg:Entity ;
+    rdfs:label "管理"@zh .
 
-kg:图书馆 a kg:Entity ;
-    rdfs:label "图书馆"@zh ;
-    kg:implements kg:传播,
-        kg:查询 ;
-    kg:includes kg:哲学,
-        kg:理论,
-        kg:管理 ;
-    kg:is_a kg:平台,
-        kg:整理,
-        kg:热点,
-        kg:研究 .
+kg:纲要 a kg:Entity ;
+    rdfs:label "纲要"@zh .
 
-kg:图像 a kg:Entity ;
-    rdfs:label "图像"@zh ;
-    kg:uses kg:感官,
-        kg:用户 .
+kg:结构 a kg:Entity ;
+    rdfs:label "结构"@zh ;
+    kg:applied_to kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 ;
+    kg:used_for kg:分析,
+        kg:文本,
+        kg:智能化,
+        kg:监控,
+        kg:风险 .
 
-kg:圣克鲁斯 a kg:Entity ;
-    rdfs:label "圣克鲁斯"@zh ;
-    kg:is_a kg:列表,
-        kg:地方,
-        kg:有关 .
+kg:编辑 a kg:Entity ;
+    rdfs:label "编辑"@zh .
 
-kg:專注于 a kg:Entity ;
-    rdfs:label "專注于"@zh ;
-    kg:implements kg:方法,
-        kg:理論,
-        kg:研究,
-        kg:程式,
-        kg:語言 ;
-    kg:is_a kg:方法,
-        kg:研究,
-        kg:程式设计,
+kg:网络连接 a kg:Entity ;
+    rdfs:label "网络连接"@zh ;
+    kg:implements kg:行业,
+        kg:语义搜索 ;
+    kg:is_a kg:行业,
+        kg:语义,
+        kg:语义搜索,
+        kg:语义网,
+        kg:语义网络 .
+
+kg:网页 a kg:Entity ;
+    rdfs:label "网页"@zh ;
+    kg:implements kg:全面,
+        kg:深度,
+        kg:语义,
+        kg:语义搜索 .
+
+kg:美团 a kg:Entity ;
+    rdfs:label "美团"@zh ;
+    kg:includes kg:场景,
+        kg:效果,
+        kg:框架,
         kg:设计 .
 
-kg:教授 a kg:Entity ;
-    rdfs:label "教授"@zh ;
-    kg:is_a kg:媒介,
-        kg:研究,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 ;
-    kg:supports kg:媒介,
-        kg:研究,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 .
-
-kg:望远镜 a kg:Entity ;
-    rdfs:label "望远镜"@zh .
-
-kg:查询 a kg:Entity,
+kg:自然语言处理 a kg:Entity,
         kg:KGTerm ;
-    rdfs:label "查询"@zh .
-
-kg:知识图谱知道 a kg:Entity ;
-    rdfs:label "知识图谱知道"@zh ;
-    kg:is_a kg:列表,
-        kg:地方,
-        kg:有关 .
-
-kg:硬件 a kg:Entity ;
-    rdfs:label "硬件"@zh ;
-    kg:implements kg:系统 ;
-    kg:is_a kg:健壮性,
-        kg:分析,
-        kg:可靠性,
-        kg:商业,
-        kg:基石,
-        kg:工程,
-        kg:数学,
-        kg:核心,
-        kg:系统,
-        kg:计算机系统,
-        kg:部分 ;
-    kg:uses kg:分析,
-        kg:动机,
-        kg:学科,
-        kg:工程,
-        kg:工程学,
-        kg:数学 .
-
-kg:计算机系统 a kg:Entity ;
-    rdfs:label "计算机系统"@zh ;
-    kg:implements kg:学科,
-        kg:实用技术,
-        kg:技术 ;
-    kg:is_a kg:学科,
-        kg:概念,
-        kg:概念设计,
-        kg:科学,
-        kg:计算机科学,
-        kg:设计,
-        kg:运作,
+    rdfs:label "自然语言处理"@zh ;
+    kg:applied_to kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 ;
+    kg:used_for kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
         kg:领域 .
 
-kg:计算机领域 a kg:Entity ;
-    rdfs:label "计算机领域"@zh .
+kg:规律 a kg:Entity ;
+    rdfs:label "规律"@zh .
 
-kg:12 a kg:Entity ;
-    rdfs:label "12"@zh ;
-    kg:affects kg:哥德尔,
-        kg:图灵,
-        kg:影响,
-        kg:艾伦,
-        kg:英语,
-        kg:英语Rózsa_Péter ;
-    kg:defined_as kg:功能,
-        kg:定义,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 ;
-    kg:is_a kg:專注于,
-        kg:问题 ;
-    kg:used_for kg:功能,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 .
+kg:视觉 a kg:Entity ;
+    rdfs:label "视觉"@zh ;
+    kg:supports kg:业务 .
 
-kg:专业 a kg:Entity ;
-    rdfs:label "专业"@zh ;
-    kg:is_a kg:12,
-        kg:教育,
-        kg:课程 ;
-    kg:uses kg:用户 .
+kg:详细描述 a kg:Entity ;
+    rdfs:label "详细描述"@zh .
 
-kg:代表 a kg:Entity ;
-    rdfs:label "代表"@zh ;
-    kg:used_for kg:关系 ;
-    kg:uses kg:关系,
-        kg:合作,
-        kg:连线 .
+kg:质量 a kg:Entity ;
+    rdfs:label "质量"@zh .
 
-kg:侧重于 a kg:Entity ;
-    rdfs:label "侧重于"@zh ;
-    kg:includes kg:哲学,
-        kg:理论,
-        kg:管理 ;
-    kg:is_a kg:形式,
-        kg:数据,
-        kg:热点,
-        kg:理论,
-        kg:算法,
-        kg:结构,
-        kg:结构化,
-        kg:计算机领域,
-        kg:计算理论 ;
-    kg:produces kg:产生,
-        kg:利用,
-        kg:流传,
-        kg:问题 .
+kg:资源 a kg:Entity ;
+    rdfs:label "资源"@zh ;
+    kg:used_for kg:NLP,
+        kg:对话,
+        kg:系统,
+        kg:领域 .
 
-kg:健壮性 a kg:Entity ;
-    rdfs:label "健壮性"@zh .
+kg:趋势 a kg:Entity ;
+    rdfs:label "趋势"@zh .
 
-kg:关键 a kg:Entity ;
-    rdfs:label "关键"@zh ;
-    kg:affects kg:影响 .
+kg:转型 a kg:Entity ;
+    rdfs:label "转型"@zh .
 
-kg:列表 a kg:Entity ;
-    rdfs:label "列表"@zh .
-
-kg:图书 a kg:Entity ;
-    rdfs:label "图书"@zh ;
-    kg:is_a kg:形式,
-        kg:数据,
-        kg:结构,
-        kg:结构化,
-        kg:计算机领域 .
-
-kg:情报学 a kg:Entity ;
-    rdfs:label "情报学"@zh ;
-    kg:includes kg:情报检索 ;
-    kg:is_a kg:形式,
-        kg:数据,
-        kg:热点,
-        kg:结构,
-        kg:结构化,
-        kg:计算机领域 .
-
-kg:指代 a kg:Entity ;
-    rdfs:label "指代"@zh ;
-    kg:is_a kg:祖先 .
-
-kg:网络 a kg:Entity ;
-    rdfs:label "网络"@zh ;
-    kg:contains kg:18亿,
-        kg:570亿,
-        kg:对象 ;
-    kg:is_a kg:全球,
-        kg:方法,
-        kg:科学,
-        kg:管理,
-        kg:计算机科学,
-        kg:连接成 ;
-    kg:supports kg:15,
-        kg:专著,
-        kg:信息,
-        kg:智能,
-        kg:物理,
-        kg:理论,
-        kg:社会 .
-
-kg:仪器 a kg:Entity ;
-    rdfs:label "仪器"@zh .
-
-kg:信息时代 a kg:Entity ;
-    rdfs:label "信息时代"@zh ;
-    kg:is_a kg:公元17501850年,
-        kg:工业,
-        kg:工业革命,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 .
-
-kg:加工 a kg:Entity ;
-    rdfs:label "加工"@zh ;
-    kg:includes kg:推理,
-        kg:本体,
-        kg:知识推理,
-        kg:评估,
-        kg:质量 .
-
-kg:古老 a kg:Entity ;
-    rdfs:label "古老"@zh .
-
-kg:奠基 a kg:Entity ;
-    rdfs:label "奠基"@zh ;
-    kg:is_a kg:公元17501850年,
-        kg:工业,
-        kg:工业革命,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 .
-
-kg:定义 a kg:Entity ;
-    rdfs:label "定义"@zh ;
-    kg:is_a kg:空串 ;
-    kg:used_for kg:功能,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 .
-
-kg:时代 a kg:Entity ;
-    rdfs:label "时代"@zh ;
-    kg:is_a kg:公元17501850年,
-        kg:工业,
-        kg:工业革命,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 .
+kg:通用 a kg:Entity ;
+    rdfs:label "通用"@zh .
 
 kg:逻辑 a kg:Entity ;
-    rdfs:label "逻辑"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:信息,
-        kg:智能,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
+    rdfs:label "逻辑"@zh .
 
-kg:个字符 a kg:Entity ;
-    rdfs:label "个字符"@zh ;
-    kg:defined_as kg:定义,
-        kg:序列 ;
-    kg:is_a kg:子集,
-        kg:对应,
-        kg:形式,
-        kg:语言,
-        kg:长度,
-        kg:长度相等 .
+kg:重要性 a kg:Entity ;
+    rdfs:label "重要性"@zh .
 
-kg:主体 a kg:Entity ;
-    rdfs:label "主体"@zh ;
-    kg:used_for kg:关系,
-        kg:发展,
-        kg:结构,
-        kg:进程 .
+kg:链接 a kg:Entity ;
+    rdfs:label "链接"@zh ;
+    kg:implements kg:全面,
+        kg:深度,
+        kg:语义,
+        kg:语义搜索 .
 
-kg:关键词 a kg:Entity ;
-    rdfs:label "关键词"@zh ;
-    kg:uses kg:关系,
-        kg:合作,
-        kg:连线 .
+kg:问题 a kg:Entity ;
+    rdfs:label "问题"@zh ;
+    kg:includes kg:加工,
+        kg:挑战,
+        kg:知识抽取,
+        kg:精确性,
+        kg:融合 .
 
-kg:动机 a kg:Entity ;
-    rdfs:label "动机"@zh ;
-    kg:is_a kg:健壮性,
+kg:阿里云文 a kg:Entity ;
+    rdfs:label "阿里云文"@zh ;
+    kg:includes kg:关系,
         kg:分析,
-        kg:可靠性,
-        kg:数学 .
+        kg:欺诈,
+        kg:社交,
+        kg:网络,
+        kg:银行 ;
+    kg:provides kg:知识图谱概念及应用场景 .
 
-kg:大学 a kg:Entity ;
-    rdfs:label "大学"@zh ;
-    kg:is_a kg:教授 .
+kg:高可靠性 a kg:Entity ;
+    rdfs:label "高可靠性"@zh ;
+    kg:supports kg:领域 .
 
-kg:学术研究 a kg:Entity ;
-    rdfs:label "学术研究"@zh ;
-    kg:used_for kg:关系,
-        kg:发展,
-        kg:结构,
-        kg:进程 .
+kg:D3js kg:used_for kg:创建unigraph框架 .
 
-kg:数据库 a kg:Entity ;
-    rdfs:label "数据库"@zh ;
-    kg:composed_of kg:数据模型,
-        kg:查询,
-        kg:查询语言,
-        kg:模型,
-        kg:管理,
-        kg:管理系统,
-        kg:系统 ;
-    kg:is_a kg:关系,
-        kg:大量,
-        kg:实体,
-        kg:属性,
-        kg:检索 .
+kg:Knowledge_Graph a kg:Entity ;
+    rdfs:label "Knowledge Graph"@zh ;
+    kg:defined_as kg:结构数据类型架构及行业应用 ;
+    kg:is_a kg:世界,
+        kg:概念,
+        kg:物理,
+        kg:知识库,
+        kg:符号,
+        kg:结构化,
+        kg:语义 ;
+    kg:related_to kg:初学者,
+        kg:本体构建推理和质量测评,
+        kg:知识图谱构建 .
 
-kg:理論 a kg:Entity ;
-    rdfs:label "理論"@zh ;
-    kg:is_a kg:方法,
-        kg:研究,
-        kg:程式设计,
-        kg:设计 .
-
-kg:理论家 a kg:Entity ;
-    rdfs:label "理论家"@zh .
-
-kg:科学家 a kg:Entity ;
-    rdfs:label "科学家"@zh ;
-    kg:is_a kg:天文学,
+kg:三元组 a kg:Entity ;
+    rdfs:label "三元组"@zh ;
+    kg:used_for kg:事实,
         kg:数据,
-        kg:数据处理,
-        kg:望远镜,
-        kg:计算机 ;
-    kg:uses kg:datalogy,
-        kg:事实,
-        kg:术语 .
+        kg:数据层,
+        kg:模式 .
 
-kg:绘制 a kg:Entity ;
-    rdfs:label "绘制"@zh ;
-    kg:used_for kg:关系,
-        kg:发展,
-        kg:结构,
-        kg:进程 .
+kg:初学者 a kg:Entity ;
+    rdfs:label "初学者"@zh .
 
-kg:語言 a kg:Entity ;
-    rdfs:label "語言"@zh ;
-    kg:is_a kg:方法,
-        kg:研究,
-        kg:程式设计,
-        kg:设计 .
+kg:加工 a kg:Entity ;
+    rdfs:label "加工"@zh .
 
-kg:道路 a kg:Entity ;
-    rdfs:label "道路"@zh .
+kg:多学科融合目的的现代理论 a kg:Entity ;
+    rdfs:label "多学科融合目的的现代理论"@zh .
+
+kg:实体 a kg:Entity ;
+    rdfs:label "实体"@zh ;
+    kg:applied_to kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 ;
+    kg:composed_of kg:图形,
+        kg:数据库,
+        kg:驱动 ;
+    kg:implements kg:行业,
+        kg:语义搜索 ;
+    kg:is_a kg:行业,
+        kg:语义,
+        kg:语义搜索,
+        kg:语义网,
+        kg:语义网络 ;
+    kg:used_for kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 .
+
+kg:挑战 a kg:Entity ;
+    rdfs:label "挑战"@zh ;
+    kg:supports kg:业务 .
+
+kg:服务 a kg:Entity ;
+    rdfs:label "服务"@zh ;
+    kg:includes kg:信息,
+        kg:增量,
+        kg:本体,
+        kg:融合,
+        kg:设计 ;
+    kg:supports kg:数据,
+        kg:领域 .
+
+kg:知识图谱服务 kg:includes kg:本体设计信息抽取映射融合和增量更新 .
+
+kg:知识图谱概念及应用场景 kg:includes kg:社交网络关系分析,
+        kg:银行反欺诈 .
+
+kg:答案 a kg:Entity ;
+    rdfs:label "答案"@zh .
+
+kg:精确性 a kg:Entity ;
+    rdfs:label "精确性"@zh .
+
+kg:行业知识图谱 kg:used_for kg:搜索推荐问答金融社交等场景 .
+
+kg:表示法 a kg:Entity ;
+    rdfs:label "表示法"@zh ;
+    kg:used_for kg:事实,
+        kg:数据,
+        kg:数据层,
+        kg:模式 .
+
+kg:通用知识图谱 kg:used_for kg:搜索推荐问答金融社交等场景 .
+
+kg:2012年 a kg:Entity ;
+    rdfs:label "2012年"@zh .
+
+kg:知识图谱构建 kg:is_a kg:服务 ;
+    kg:supports kg:多领域知识应用 .
+
+kg:知识抽取 a kg:Entity,
+        kg:KGTerm ;
+    rdfs:label "知识抽取"@zh .
+
+kg:谷歌 a kg:Entity ;
+    rdfs:label "谷歌"@zh .
 
 kg:世界 a kg:Entity ;
-    rdfs:label "世界"@zh ;
-    kg:composed_of kg:19,
-        kg:1962年,
-        kg:大学,
-        kg:普渡大学 ;
-    kg:is_a kg:图论,
-        kg:路径,
-        kg:问题 .
+    rdfs:label "世界"@zh .
 
 kg:事实 a kg:Entity ;
-    rdfs:label "事实"@zh ;
-    kg:includes kg:推理,
-        kg:本体,
-        kg:知识推理,
-        kg:评估,
-        kg:质量 ;
-    kg:is_a kg:信息,
-        kg:信息时代,
-        kg:关系,
-        kg:奠基,
-        kg:实体,
-        kg:属性,
-        kg:数据,
-        kg:数据处理,
-        kg:时代,
-        kg:计算机,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 .
+    rdfs:label "事实"@zh .
 
-kg:可靠性 a kg:Entity ;
-    rdfs:label "可靠性"@zh .
-
-kg:实用技术 a kg:Entity ;
-    rdfs:label "实用技术"@zh .
-
-kg:感官 a kg:Entity ;
-    rdfs:label "感官"@zh .
-
-kg:搜索引擎 a kg:Entity ;
-    rdfs:label "搜索引擎"@zh ;
-    kg:is_a kg:列表,
-        kg:地方,
-        kg:有关 ;
-    kg:produces kg:产生,
-        kg:圣克鲁斯,
-        kg:地方,
-        kg:知识图谱知道,
-        kg:结果 ;
-    kg:uses kg:产生,
-        kg:图谱,
-        kg:圣克鲁斯,
-        kg:数据,
-        kg:知识图谱,
-        kg:知识图谱知道,
-        kg:结果 .
-
-kg:程式 a kg:Entity ;
-    rdfs:label "程式"@zh ;
-    kg:is_a kg:基石,
-        kg:方法,
-        kg:核心,
-        kg:研究,
-        kg:程式设计,
-        kg:设计 .
-
-kg:辅助 a kg:Entity ;
-    rdfs:label "辅助"@zh ;
-    kg:based_on kg:数据,
-        kg:论文 .
-
-kg:事情 a kg:Entity ;
-    rdfs:label "事情"@zh .
-
-kg:可视化 a kg:Entity ;
-    rdfs:label "可视化"@zh ;
-    kg:is_a kg:主体,
+kg:概念 a kg:Entity ;
+    rdfs:label "概念"@zh ;
+    kg:implements kg:全面,
+        kg:深度,
+        kg:语义,
+        kg:语义搜索 ;
+    kg:includes kg:关系,
         kg:分析,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:形式,
-        kg:数据,
-        kg:结构,
-        kg:结构化,
-        kg:绘制,
-        kg:计算机领域 ;
-    kg:used_for kg:主体,
-        kg:分析,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:绘制 ;
-    kg:uses kg:代表,
-        kg:作者,
-        kg:关键词,
-        kg:学术,
-        kg:文献,
-        kg:机构,
-        kg:节点 .
+        kg:欺诈,
+        kg:社交,
+        kg:网络,
+        kg:银行 .
 
-kg:日志 a kg:Entity ;
-    rdfs:label "日志"@zh .
+kg:模式 a kg:Entity ;
+    rdfs:label "模式"@zh .
 
-kg:特征 a kg:Entity ;
-    rdfs:label "特征"@zh .
+kg:物理 a kg:Entity ;
+    rdfs:label "物理"@zh .
+
+kg:知识库 a kg:Entity ;
+    rdfs:label "知识库"@zh .
 
 kg:符号 a kg:Entity ;
     rdfs:label "符号"@zh .
 
 kg:结构化 a kg:Entity ;
-    rdfs:label "结构化"@zh ;
-    kg:used_for kg:世界,
-        kg:关系,
-        kg:形式,
-        kg:概念,
-        kg:物理,
-        kg:符号 .
+    rdfs:label "结构化"@zh .
 
-kg:置信度 a kg:Entity ;
-    rdfs:label "置信度"@zh .
+kg:图形 a kg:Entity ;
+    rdfs:label "图形"@zh .
 
-kg:工程 a kg:Entity ;
-    rdfs:label "工程"@zh ;
-    kg:implements kg:研究,
-        kg:高质量 ;
-    kg:is_a kg:争议,
-        kg:健壮性,
-        kg:分析,
-        kg:可靠性,
-        kg:性质,
-        kg:数学,
-        kg:物理,
-        kg:研究,
-        kg:科学,
-        kg:设计,
-        kg:话题,
-        kg:软件 ;
-    kg:used_for kg:智能 .
+kg:数据层 a kg:Entity ;
+    rdfs:label "数据层"@zh .
 
-kg:序列 a kg:Entity ;
-    rdfs:label "序列"@zh ;
-    kg:is_a kg:整数 .
+kg:数据库 a kg:Entity ;
+    rdfs:label "数据库"@zh .
 
-kg:规则 a kg:Entity ;
-    rdfs:label "规则"@zh .
+kg:驱动 a kg:Entity ;
+    rdfs:label "驱动"@zh .
 
-kg:資訊 a kg:Entity ;
-    rdfs:label "資訊"@zh ;
-    kg:composed_of kg:信息,
-        kg:信息学,
-        kg:图书馆,
-        kg:图书馆学,
+kg:NLP a kg:Entity,
+        kg:KGTerm ;
+    rdfs:label "NLP"@zh .
+
+kg:业务 a kg:Entity ;
+    rdfs:label "业务"@zh .
+
+kg:信息 a kg:Entity ;
+    rdfs:label "信息"@zh ;
+    kg:implements kg:行业,
+        kg:语义搜索 ;
+    kg:is_a kg:行业,
+        kg:语义,
+        kg:语义搜索,
+        kg:语义网,
+        kg:语义网络 ;
+    kg:supports kg:数据 .
+
+kg:全面 a kg:Entity ;
+    rdfs:label "全面"@zh ;
+    kg:supports kg:领域 .
+
+kg:关系 a kg:Entity ;
+    rdfs:label "关系"@zh ;
+    kg:applied_to kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
+        kg:领域 ;
+    kg:composed_of kg:图形,
+        kg:数据库,
+        kg:驱动 ;
+    kg:implements kg:行业,
+        kg:语义搜索 ;
+    kg:is_a kg:行业,
+        kg:语义,
+        kg:语义搜索,
+        kg:语义网,
+        kg:语义网络 ;
+    kg:used_for kg:医疗,
+        kg:娱乐,
+        kg:金融,
+        kg:零售,
         kg:领域 .
 
-kg:資訊革命 a kg:Entity ;
-    rdfs:label "資訊革命"@zh .
+kg:场景 a kg:Entity ;
+    rdfs:label "场景"@zh ;
+    kg:includes kg:关系,
+        kg:分析,
+        kg:欺诈,
+        kg:社交,
+        kg:网络,
+        kg:银行 .
 
-kg:部分 a kg:Entity ;
-    rdfs:label "部分"@zh ;
-    kg:affects kg:影响 .
+kg:增量 a kg:Entity ;
+    rdfs:label "增量"@zh ;
+    kg:supports kg:数据 .
 
-kg:驱动力 a kg:Entity ;
-    rdfs:label "驱动力"@zh .
+kg:对话 a kg:Entity ;
+    rdfs:label "对话"@zh .
+
+kg:效果 a kg:Entity ;
+    rdfs:label "效果"@zh .
+
+kg:本体 a kg:Entity ;
+    rdfs:label "本体"@zh ;
+    kg:supports kg:数据 .
+
+kg:框架 a kg:Entity ;
+    rdfs:label "框架"@zh ;
+    kg:supports kg:业务 .
+
+kg:欺诈 a kg:Entity ;
+    rdfs:label "欺诈"@zh .
+
+kg:深度 a kg:Entity ;
+    rdfs:label "深度"@zh .
+
+kg:社交 a kg:Entity ;
+    rdfs:label "社交"@zh .
+
+kg:系统 a kg:Entity ;
+    rdfs:label "系统"@zh ;
+    kg:has_features kg:定制性_高可靠性_实时性 ;
+    kg:supports kg:领域 .
+
+kg:银行 a kg:Entity ;
+    rdfs:label "银行"@zh .
+
+kg:网络 a kg:Entity ;
+    rdfs:label "网络"@zh ;
+    kg:composed_of kg:图形,
+        kg:数据库,
+        kg:驱动 ;
+    kg:implements kg:行业,
+        kg:语义搜索 ;
+    kg:is_a kg:行业,
+        kg:语义,
+        kg:语义搜索,
+        kg:语义网,
+        kg:语义网络 .
+
+kg:融合 a kg:Entity ;
+    rdfs:label "融合"@zh ;
+    kg:supports kg:数据 .
+
+kg:语义网 a kg:Entity,
+        kg:KGTerm ;
+    rdfs:label "语义网"@zh ;
+    kg:implements kg:行业,
+        kg:语义搜索 .
+
+kg:语义网络 a kg:Entity,
+        kg:KGTerm ;
+    rdfs:label "语义网络"@zh ;
+    kg:implements kg:行业,
+        kg:语义搜索 .
+
+kg:设计 a kg:Entity ;
+    rdfs:label "设计"@zh ;
+    kg:supports kg:数据 .
 
 kg:KGTerm a owl:Class ;
     rdfs:subClassOf kg:Entity .
 
-kg:功能 a kg:Entity ;
-    rdfs:label "功能"@zh .
-
-kg:地方 a kg:Entity ;
-    rdfs:label "地方"@zh .
-
-kg:基本 a kg:Entity ;
-    rdfs:label "基本"@zh ;
-    kg:includes kg:关系,
-        kg:实体,
-        kg:属性,
-        kg:概念 ;
-    kg:is_a kg:三元组,
-        kg:关系,
-        kg:实体,
-        kg:属性,
-        kg:规则,
-        kg:链接,
-        kg:顺序存储 .
-
-kg:属性 a kg:Entity ;
-    rdfs:label "属性"@zh ;
-    kg:is_a kg:信息,
-        kg:信息源,
-        kg:实体 .
-
-kg:玩游戏 a kg:Entity ;
-    rdfs:label "玩游戏"@zh .
-
-kg:经验 a kg:Entity ;
-    rdfs:label "经验"@zh .
-
-kg:英语 a kg:Entity ;
-    rdfs:label "英语"@zh ;
-    kg:is_a kg:信息,
-        kg:图论,
-        kg:教授,
-        kg:理论,
-        kg:理论家,
-        kg:科学,
-        kg:科学家,
-        kg:第一,
-        kg:计算机,
-        kg:计算机科学,
-        kg:路径,
-        kg:问题 ;
-    kg:produces kg:产生,
-        kg:分支 .
-
-kg:内存 a kg:Entity ;
-    rdfs:label "内存"@zh ;
-    kg:depends_on kg:实际 ;
-    kg:is_a kg:实际 .
-
-kg:命名 a kg:Entity ;
-    rdfs:label "命名"@zh ;
-    kg:affects kg:影响 ;
-    kg:is_a kg:信息,
-        kg:关键,
-        kg:基础,
-        kg:部分 .
-
-kg:命名实体 a kg:Entity,
-        kg:KGTerm ;
-    rdfs:label "命名实体"@zh ;
-    kg:affects kg:影响 ;
-    kg:is_a kg:信息,
-        kg:关键,
-        kg:基础,
-        kg:部分 .
-
-kg:实体 a kg:Entity ;
-    rdfs:label "实体"@zh ;
-    kg:affects kg:影响 ;
-    kg:based_on kg:命名,
-        kg:命名实体,
-        kg:数据,
-        kg:日志,
-        kg:特征,
-        kg:论文,
-        kg:语义 ;
-    kg:includes kg:属性,
-        kg:本体,
-        kg:概念 ;
-    kg:is_a kg:代表,
-        kg:信息,
-        kg:元素,
-        kg:关系,
-        kg:关键,
-        kg:命名,
-        kg:命名实体,
-        kg:图谱,
-        kg:基本,
-        kg:基础,
-        kg:日志,
-        kg:特征,
-        kg:知识图谱,
-        kg:语义,
-        kg:部分 ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:实际 a kg:Entity ;
-    rdfs:label "实际"@zh ;
-    kg:is_a kg:学科,
-        kg:形式,
-        kg:科学,
-        kg:计算机,
-        kg:问题 ;
-    kg:uses kg:形式,
-        kg:科学,
-        kg:计算机 .
-
-kg:方式 a kg:Entity ;
-    rdfs:label "方式"@zh ;
-    kg:is_a kg:关系,
-        kg:实体,
-        kg:属性,
-        kg:形式,
-        kg:数据,
-        kg:知识库,
-        kg:结构,
-        kg:结构化,
-        kg:计算机领域,
-        kg:链接,
-        kg:顺序存储 ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:图论 a kg:Entity ;
-    rdfs:label "图论"@zh ;
-    kg:is_a kg:Alfréd_Rényi,
-        kg:产生,
-        kg:什和,
-        kg:分支,
-        kg:化学,
-        kg:埃尔德,
-        kg:埃尔德什,
-        kg:平面,
-        kg:成果,
-        kg:拓扑学,
-        kg:数学,
-        kg:是否任何一幅画在平面上的地图都可以用四种颜色染色,
-        kg:矩阵,
-        kg:群论,
-        kg:英语,
-        kg:英语Alfréd_Rényi ;
-    kg:produces kg:产生,
-        kg:分支,
-        kg:平面,
-        kg:成果,
-        kg:是否任何一幅画在平面上的地图都可以用四种颜色染色 ;
-    kg:uses kg:道路 .
-
-kg:复杂性 a kg:Entity ;
-    rdfs:label "复杂性"@zh ;
-    kg:implements kg:方法,
-        kg:理論,
-        kg:研究,
-        kg:程式,
-        kg:語言 ;
-    kg:is_a kg:方法,
-        kg:研究,
-        kg:程式设计,
-        kg:设计 ;
-    kg:used_for kg:目的,
-        kg:研究,
-        kg:第二,
-        kg:问题 .
-
-kg:字符串 a kg:Entity ;
-    rdfs:label "字符串"@zh ;
-    kg:composed_of kg:个字符,
-        kg:序列 ;
-    kg:defined_as kg:定义,
-        kg:序列 ;
-    kg:depends_on kg:内存,
-        kg:实际,
-        kg:数量,
-        kg:编码,
-        kg:设计 ;
-    kg:implements kg:基本,
-        kg:数据类型,
-        kg:类型,
-        kg:语义 ;
-    kg:is_a kg:Data_type,
-        kg:string,
-        kg:substring或因子英語factor,
-        kg:个字符,
-        kg:位面,
-        kg:内存,
-        kg:子串,
-        kg:子集,
-        kg:对应,
-        kg:序列,
-        kg:序列的长度,
-        kg:建模,
-        kg:形式,
-        kg:数目,
-        kg:数量,
-        kg:极大值,
-        kg:编程语言,
-        kg:英語,
-        kg:英語substring,
-        kg:规则,
-        kg:设计,
-        kg:语言,
-        kg:运算,
-        kg:长度,
-        kg:长度相等,
-        kg:问题 ;
-    kg:used_for kg:基本,
-        kg:算法,
-        kg:类型,
-        kg:规则 ;
-    kg:uses kg:内存,
-        kg:数量 .
-
-kg:換句話說邊連接了頂點對 a kg:Entity ;
-    rdfs:label "換句話說，邊連接了頂點對"@zh .
-
-kg:热点 a kg:Entity ;
-    rdfs:label "热点"@zh .
-
-kg:無序 a kg:Entity ;
-    rdfs:label "無序"@zh .
-
-kg:算法 a kg:Entity ;
-    rdfs:label "算法"@zh ;
-    kg:based_on kg:命名,
-        kg:命名实体,
-        kg:复杂性,
-        kg:数据,
-        kg:日志,
-        kg:特征,
-        kg:论文,
-        kg:语义 ;
-    kg:extends kg:信息,
-        kg:扩展性,
-        kg:问题 ;
-    kg:implements kg:系统 ;
-    kg:includes kg:图论,
-        kg:数据,
-        kg:数据结构,
-        kg:数论,
-        kg:杂项,
-        kg:模式匹配,
-        kg:结构,
-        kg:部分 ;
-    kg:is_a kg:仪器,
-        kg:古老,
-        kg:命名,
-        kg:命名实体,
-        kg:复杂性,
-        kg:日志,
-        kg:特征,
-        kg:研究,
-        kg:科学,
-        kg:科学研究,
-        kg:计算机,
-        kg:计算机科学,
-        kg:语义,
-        kg:领域 .
-
-kg:管理 a kg:Entity ;
-    rdfs:label "管理"@zh ;
-    kg:includes kg:情报检索 ;
-    kg:is_a kg:基石,
-        kg:核心,
-        kg:热点 ;
-    kg:uses kg:感官,
-        kg:用户 .
-
-kg:计算理论 a kg:Entity ;
-    rdfs:label "计算理论"@zh ;
-    kg:is_a kg:專注于,
-        kg:问题 .
-
-kg:革命 a kg:Entity ;
-    rdfs:label "革命"@zh .
-
-kg:文字 a kg:Entity ;
-    rdfs:label "文字"@zh ;
-    kg:uses kg:感官,
-        kg:用户 .
-
-kg:语言 a kg:Entity ;
-    rdfs:label "语言"@zh ;
-    kg:implements kg:基本,
-        kg:字符,
-        kg:字符串,
-        kg:数据类型,
-        kg:类型 ;
-    kg:is_a kg:位面,
-        kg:规则 ;
-    kg:used_for kg:基本,
-        kg:类型,
-        kg:规则 ;
-    kg:uses kg:方法 .
-
-kg:頂點 a kg:Entity ;
-    rdfs:label "頂點"@zh ;
-    kg:is_a kg:端點 .
-
-kg:教师 a kg:Entity ;
-    rdfs:label "教师"@zh .
-
-kg:祖先 a kg:Entity ;
-    rdfs:label "祖先"@zh .
-
-kg:分支 a kg:Entity ;
-    rdfs:label "分支"@zh ;
-    kg:implements kg:个体,
-        kg:分析,
-        kg:分类,
-        kg:方法,
-        kg:特性,
-        kg:理論,
-        kg:研究,
-        kg:程式,
-        kg:語言 ;
-    kg:includes kg:中断,
-        kg:信息 ;
-    kg:is_a kg:复杂性,
-        kg:学术,
-        kg:学术期刊,
-        kg:性质,
-        kg:期刊,
-        kg:活跃,
-        kg:理论,
-        kg:研究,
-        kg:研究成果,
-        kg:问题,
-        kg:领域 .
-
-kg:基础 a kg:Entity ;
-    rdfs:label "基础"@zh ;
-    kg:affects kg:影响 ;
-    kg:implements kg:学科,
-        kg:实用技术,
-        kg:技术 ;
-    kg:is_a kg:关系,
-        kg:动机,
-        kg:实体,
-        kg:属性,
-        kg:自动,
-        kg:自动机,
-        kg:逻辑 .
-
-kg:数量 a kg:Entity ;
-    rdfs:label "数量"@zh ;
-    kg:depends_on kg:实际 ;
-    kg:is_a kg:实际 .
-
-kg:游戏 a kg:Entity ;
-    rdfs:label "游戏"@zh .
-
-kg:第一 a kg:Entity ;
-    rdfs:label "第一"@zh ;
-    kg:composed_of kg:19,
-        kg:1962年,
-        kg:大学,
-        kg:普渡大学 ;
-    kg:is_a kg:UCPH_Department_of_Computer_Science,
-        kg:哥本哈根大学,
-        kg:大学,
-        kg:科学系,
-        kg:英语,
-        kg:英语UCPH_Department_of_Computer_Science ;
-    kg:uses kg:哥本哈根大学,
-        kg:大学,
-        kg:术语,
-        kg:机构,
-        kg:科学,
-        kg:科学系 .
-
-kg:检索 a kg:Entity ;
-    rdfs:label "检索"@zh ;
-    kg:implements kg:语义 .
-
-kg:结构 a kg:Entity ;
-    rdfs:label "结构"@zh ;
-    kg:is_a kg:性质,
-        kg:概念,
-        kg:概念设计,
-        kg:计数,
-        kg:计数问题,
-        kg:设计,
-        kg:运作,
-        kg:问题 ;
-    kg:used_for kg:世界,
-        kg:关系,
-        kg:形式,
-        kg:概念,
-        kg:物理,
-        kg:符号 ;
-    kg:uses kg:代表,
-        kg:作者,
-        kg:关键词,
-        kg:学术,
-        kg:文献,
-        kg:机构,
-        kg:节点 .
-
-kg:性质 a kg:Entity ;
-    rdfs:label "性质"@zh ;
-    kg:implements kg:方法,
-        kg:理論,
-        kg:研究,
-        kg:程式,
-        kg:語言 ;
-    kg:is_a kg:方法,
-        kg:目的,
-        kg:研究,
-        kg:程式设计,
-        kg:设计 .
-
-kg:知识库 a kg:Entity ;
-    rdfs:label "知识库"@zh ;
-    kg:includes kg:事实,
-        kg:信息,
-        kg:关系,
-        kg:关系数据,
-        kg:关系数据库,
-        kg:基本,
-        kg:数据库,
-        kg:有关,
-        kg:规则 ;
-    kg:is_a kg:事实,
-        kg:代表,
-        kg:关系,
-        kg:命名,
-        kg:命名实体,
-        kg:基本,
-        kg:数据库,
-        kg:方式,
-        kg:有关,
-        kg:管理,
-        kg:规则,
-        kg:问题 ;
-    kg:used_for kg:世界,
-        kg:关系,
-        kg:形式,
-        kg:数据库,
-        kg:有关,
-        kg:概念,
-        kg:物理,
-        kg:符号,
-        kg:管理,
-        kg:领域 ;
-    kg:uses kg:信息,
-        kg:来源,
-        kg:检索,
-        kg:语义 .
-
-kg:软件 a kg:Entity ;
-    rdfs:label "软件"@zh ;
-    kg:implements kg:研究,
-        kg:系统,
-        kg:高质量 ;
-    kg:is_a kg:争议,
-        kg:健壮性,
-        kg:分析,
-        kg:可靠性,
-        kg:基石,
-        kg:数学,
-        kg:核心,
-        kg:目的,
-        kg:研究,
-        kg:设计,
-        kg:话题 ;
-    kg:uses kg:分析,
-        kg:动机,
-        kg:学科,
-        kg:工程,
-        kg:工程学,
-        kg:数学 .
-
-kg:学术 a kg:Entity ;
-    rdfs:label "学术"@zh ;
-    kg:used_for kg:关系,
-        kg:发展,
-        kg:结构,
-        kg:进程 ;
-    kg:uses kg:关系,
-        kg:合作,
-        kg:连线 .
-
-kg:技术 a kg:Entity ;
-    rdfs:label "技术"@zh ;
-    kg:contains kg:关键词,
-        kg:阿密特 ;
-    kg:includes kg:中断,
-        kg:信息,
-        kg:情报检索 ;
-    kg:is_a kg:一级门类,
-        kg:专业,
-        kg:加工,
-        kg:动画,
-        kg:图像,
-        kg:图形图像,
-        kg:声音,
-        kg:工科,
-        kg:数据,
-        kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:热点,
-        kg:玩游戏,
-        kg:经验,
-        kg:计算机,
-        kg:门类 ;
-    kg:used_for kg:硬件,
-        kg:系统,
-        kg:规范,
-        kg:软件 ;
-    kg:uses kg:感官,
-        kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:用户,
-        kg:经验 .
-
-kg:用户 a kg:Entity ;
-    rdfs:label "用户"@zh ;
-    kg:implements kg:语义 ;
-    kg:is_a kg:字符串,
-        kg:检索,
-        kg:语义 ;
-    kg:uses kg:信息,
-        kg:功能,
-        kg:查询,
-        kg:问题 .
-
-kg:结果 a kg:Entity ;
-    rdfs:label "结果"@zh ;
-    kg:implements kg:方法,
-        kg:理論,
-        kg:研究,
-        kg:程式,
-        kg:語言 ;
-    kg:is_a kg:列表,
-        kg:地方,
-        kg:复杂性,
-        kg:性质,
-        kg:有关,
-        kg:理论,
-        kg:问题 .
-
-kg:产生 a kg:Entity ;
-    rdfs:label "产生"@zh ;
-    kg:is_a kg:列表,
-        kg:地图,
-        kg:地方,
-        kg:平面,
-        kg:是否任何一幅画在平面上的地图都可以用四种颜色染色,
-        kg:有关,
-        kg:颜色 .
-
-kg:智能 a kg:Entity ;
-    rdfs:label "智能"@zh ;
-    kg:is_a kg:物理,
-        kg:科学 .
-
-kg:设计 a kg:Entity ;
-    rdfs:label "设计"@zh ;
-    kg:implements kg:个体,
-        kg:分析,
-        kg:分类,
-        kg:特性,
-        kg:研究,
-        kg:高质量 ;
-    kg:is_a kg:健壮性,
-        kg:分析,
-        kg:可靠性,
-        kg:媒介,
-        kg:学科,
-        kg:数学,
-        kg:研究,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 ;
-    kg:supports kg:媒介,
-        kg:研究,
-        kg:科学,
-        kg:计算机,
-        kg:计算机科学,
-        kg:领域 ;
-    kg:uses kg:分析,
-        kg:动机,
-        kg:学科,
-        kg:工程,
-        kg:工程学,
-        kg:数学 .
-
-kg:影响 a kg:Entity ;
-    rdfs:label "影响"@zh ;
-    kg:affects kg:工程,
-        kg:数学,
-        kg:语言学,
-        kg:软件 ;
-    kg:supports kg:教师 .
-
-kg:有关 a kg:Entity ;
-    rdfs:label "有关"@zh ;
-    kg:is_a kg:化学,
-        kg:数学 .
-
-kg:概念 a kg:Entity ;
-    rdfs:label "概念"@zh ;
-    kg:composed_of kg:12,
-        kg:2012年5月17日,
-        kg:谷歌 ;
-    kg:defined_as kg:功能,
-        kg:定义,
-        kg:搜索引擎,
-        kg:知识库,
-        kg:辅助 ;
-    kg:extends kg:研究 ;
-    kg:implements kg:语义 ;
-    kg:is_a kg:字符串,
-        kg:形式,
-        kg:数据,
-        kg:检索,
-        kg:结构,
-        kg:结构化,
-        kg:计算机领域,
-        kg:语义 ;
-    kg:supports kg:主题,
-        kg:字符串,
-        kg:检索,
-        kg:用户,
-        kg:语义 ;
-    kg:used_for kg:功能,
-        kg:搜索引擎,
-        kg:数学,
-        kg:知识库,
-        kg:科学,
-        kg:计算机科学,
-        kg:辅助,
-        kg:运算,
-        kg:领域 .
-
-kg:物理 a kg:Entity ;
-    rdfs:label "物理"@zh .
-
-kg:学科 a kg:Entity ;
-    rdfs:label "学科"@zh ;
-    kg:affects kg:工程,
-        kg:影响,
-        kg:数学,
-        kg:语言学,
-        kg:软件 ;
-    kg:implements kg:系统 ;
-    kg:includes kg:哲学,
-        kg:理论,
-        kg:管理 ;
-    kg:is_a kg:事情,
-        kg:信息,
-        kg:信息时代,
-        kg:健壮性,
-        kg:分析,
-        kg:可靠性,
-        kg:奠基,
-        kg:性质,
-        kg:数学,
-        kg:数据,
-        kg:数据处理,
-        kg:时代,
-        kg:热点,
-        kg:物理,
-        kg:研究,
-        kg:科学,
-        kg:计算机,
-        kg:資訊,
-        kg:資訊革命,
-        kg:软件,
-        kg:革命,
-        kg:驱动力 ;
-    kg:used_for kg:关系,
-        kg:发展,
-        kg:智能,
-        kg:结构,
-        kg:进程 .
-
-kg:形式 a kg:Entity ;
-    rdfs:label "形式"@zh ;
-    kg:based_on kg:技术,
-        kg:数学,
-        kg:硬件,
-        kg:系统,
-        kg:规范,
-        kg:软件 ;
-    kg:includes kg:关系,
-        kg:实体,
-        kg:属性,
-        kg:概念 ;
-    kg:is_a kg:健壮性,
-        kg:分析,
-        kg:可靠性,
-        kg:基础,
-        kg:技术,
-        kg:数学,
-        kg:理论,
-        kg:硬件,
-        kg:种类,
-        kg:科学,
-        kg:系统,
-        kg:计算机,
-        kg:计算机科学,
-        kg:软件 ;
-    kg:used_for kg:security,
-        kg:保安,
-        kg:可靠性,
-        kg:硬件,
-        kg:系统,
-        kg:规范,
-        kg:软件,
-        kg:高可靠性 ;
-    kg:uses kg:分析,
-        kg:动机,
-        kg:学科,
-        kg:工程,
-        kg:工程学,
-        kg:数学 .
-
-kg:计算机科学 a kg:Entity ;
-    rdfs:label "计算机科学"@zh ;
-    kg:affects kg:哥德尔,
-        kg:图灵,
-        kg:工程,
-        kg:影响,
-        kg:数学,
-        kg:艾伦,
-        kg:英语,
-        kg:英语Rózsa_Péter,
-        kg:语言学,
-        kg:软件 ;
-    kg:based_on kg:复杂性 ;
-    kg:composed_of kg:19,
-        kg:1962年,
-        kg:大学,
-        kg:普渡大学 ;
-    kg:contains kg:分支,
-        kg:实际,
-        kg:数量,
-        kg:结果,
-        kg:领域 ;
-    kg:extends kg:研究 ;
-    kg:implements kg:个体,
-        kg:分析,
-        kg:分类,
-        kg:学科,
-        kg:实用技术,
-        kg:性质,
-        kg:技术,
-        kg:方法,
-        kg:浏览器,
-        kg:游戏,
-        kg:特性,
-        kg:理論,
-        kg:研究,
-        kg:程序,
-        kg:程式,
-        kg:系统,
-        kg:語言,
-        kg:软件 ;
-    kg:includes kg:可视化,
-        kg:图像,
-        kg:图像处理,
-        kg:專注于,
-        kg:数学,
-        kg:经典,
-        kg:视觉,
-        kg:计算理论,
-        kg:逻辑 ;
-    kg:is_a kg:12,
-        kg:一级门类,
-        kg:专业,
-        kg:争议,
-        kg:事业,
-        kg:事情,
-        kg:信息,
-        kg:信息技术,
-        kg:信息时代,
-        kg:动机,
-        kg:基础,
-        kg:复杂性,
-        kg:天文学,
-        kg:奠基,
-        kg:学术,
-        kg:学术期刊,
-        kg:工科,
-        kg:性质,
-        kg:技术,
-        kg:教育,
-        kg:时代,
-        kg:望远镜,
-        kg:期刊,
-        kg:比如信息技术,
-        kg:活跃,
-        kg:浏览器,
-        kg:游戏,
-        kg:理论,
-        kg:研究,
-        kg:研究成果,
-        kg:科学技术,
-        kg:程序,
-        kg:算法,
-        kg:系统,
-        kg:系统性,
-        kg:自动,
-        kg:自动机,
-        kg:计算机系统,
-        kg:计算理论,
-        kg:话题,
-        kg:课程,
-        kg:資訊,
-        kg:資訊革命,
-        kg:软件,
-        kg:逻辑,
-        kg:门类,
-        kg:问题,
-        kg:革命,
-        kg:领域,
-        kg:驱动力 ;
-    kg:supports kg:教师 ;
-    kg:uses kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验 .
-
-kg:分析 a kg:Entity ;
-    rdfs:label "分析"@zh ;
-    kg:includes kg:情报检索 ;
-    kg:is_a kg:热点 ;
-    kg:used_for kg:关系,
-        kg:发展,
-        kg:结构,
-        kg:进程 .
-
-kg:方法 a kg:Entity ;
-    rdfs:label "方法"@zh ;
-    kg:based_on kg:技术,
-        kg:数学,
-        kg:硬件,
-        kg:系统,
-        kg:规范,
-        kg:软件 ;
-    kg:is_a kg:Alfréd_Rényi,
-        kg:什和,
-        kg:健壮性,
-        kg:分析,
-        kg:可靠性,
-        kg:埃尔德,
-        kg:埃尔德什,
-        kg:基础,
-        kg:技术,
-        kg:数学,
-        kg:理论,
-        kg:硬件,
-        kg:种类,
-        kg:科学,
-        kg:系统,
-        kg:英语,
-        kg:英语Alfréd_Rényi,
-        kg:计算机,
-        kg:计算机科学,
-        kg:软件 ;
-    kg:produces kg:产生,
-        kg:分支 ;
-    kg:supports kg:专著,
-        kg:智能,
-        kg:理论 ;
-    kg:used_for kg:security,
-        kg:保安,
-        kg:可靠性,
-        kg:硬件,
-        kg:系统,
-        kg:规范,
-        kg:软件,
-        kg:高可靠性 ;
-    kg:uses kg:分析,
-        kg:动机,
-        kg:学科,
-        kg:工程,
-        kg:工程学,
-        kg:数学,
-        kg:道路 .
-
-kg:数学 a kg:Entity ;
-    rdfs:label "数学"@zh ;
-    kg:affects kg:哥德尔,
-        kg:图灵,
-        kg:影响,
-        kg:艾伦,
-        kg:英语,
-        kg:英语Rózsa_Péter ;
-    kg:extends kg:研究 ;
-    kg:is_a kg:物理,
-        kg:科学 ;
-    kg:used_for kg:智能,
-        kg:硬件,
-        kg:系统,
-        kg:规范,
-        kg:软件,
-        kg:通用 .
-
 kg:数据 a kg:Entity ;
-    rdfs:label "数据"@zh ;
-    kg:affects kg:影响 ;
-    kg:composed_of kg:数据模型,
-        kg:查询,
-        kg:查询语言,
-        kg:模型,
-        kg:管理,
-        kg:管理系统,
-        kg:系统 ;
-    kg:includes kg:关系,
-        kg:关系数据,
-        kg:关系数据库,
-        kg:数据库 ;
-    kg:is_a kg:fact,
-        kg:事实,
-        kg:信息,
-        kg:关键,
-        kg:列表,
-        kg:单位,
-        kg:图数据库,
-        kg:地方,
-        kg:基础,
-        kg:大量,
-        kg:数据库,
-        kg:方式,
-        kg:有关,
-        kg:检索,
-        kg:部分 ;
-    kg:produces kg:产生,
-        kg:圣克鲁斯,
-        kg:地方,
-        kg:知识图谱知道,
-        kg:结果 ;
-    kg:used_for kg:网络 ;
-    kg:uses kg:感官,
-        kg:用户 .
+    rdfs:label "数据"@zh .
+
+kg:医疗 a kg:Entity ;
+    rdfs:label "医疗"@zh .
+
+kg:娱乐 a kg:Entity ;
+    rdfs:label "娱乐"@zh .
+
+kg:文本 a kg:Entity ;
+    rdfs:label "文本"@zh .
+
+kg:智能化 a kg:Entity ;
+    rdfs:label "智能化"@zh .
+
+kg:监控 a kg:Entity ;
+    rdfs:label "监控"@zh .
+
+kg:金融 a kg:Entity ;
+    rdfs:label "金融"@zh .
+
+kg:零售 a kg:Entity ;
+    rdfs:label "零售"@zh .
+
+kg:风险 a kg:Entity ;
+    rdfs:label "风险"@zh .
 
 kg:语义 a kg:Entity ;
     rdfs:label "语义"@zh ;
-    kg:contains kg:18亿,
-        kg:570亿,
-        kg:对象 ;
-    kg:is_a kg:方法 ;
-    kg:supports kg:15,
-        kg:专著,
-        kg:信息,
-        kg:智能,
-        kg:物理,
-        kg:理论,
-        kg:社会 ;
-    kg:used_for kg:世界,
-        kg:关系,
-        kg:形式,
-        kg:概念,
-        kg:物理,
-        kg:符号 .
+    kg:implements kg:行业,
+        kg:语义搜索 .
 
-kg:理论 a kg:Entity ;
-    rdfs:label "理论"@zh ;
-    kg:implements kg:个体,
-        kg:分析,
-        kg:分类,
-        kg:学科,
-        kg:实用技术,
-        kg:技术,
-        kg:方法,
-        kg:特性,
-        kg:理論,
-        kg:研究,
-        kg:程式,
-        kg:系统,
-        kg:語言 ;
-    kg:includes kg:專注于,
-        kg:情报检索,
-        kg:数学,
-        kg:经典,
-        kg:计算理论,
-        kg:逻辑 ;
-    kg:is_a kg:分支,
-        kg:动机,
-        kg:学科,
-        kg:專注于,
-        kg:性质,
-        kg:方法,
-        kg:热点,
-        kg:研究,
-        kg:研究者,
-        kg:科学,
-        kg:程式设计,
-        kg:自动,
-        kg:自动机,
-        kg:计数,
-        kg:计数问题,
-        kg:计算机,
-        kg:计算机科学,
-        kg:设计,
-        kg:逻辑,
-        kg:问题,
-        kg:领域 ;
-    kg:used_for kg:智能,
-        kg:目的,
-        kg:研究,
-        kg:第二,
-        kg:问题 .
+kg:行业 a kg:Entity ;
+    rdfs:label "行业"@zh .
 
-kg:系统 a kg:Entity ;
-    rdfs:label "系统"@zh ;
-    kg:composed_of kg:网络,
-        kg:网络连接,
-        kg:计算机 ;
-    kg:extends kg:网络,
-        kg:网络连接,
-        kg:计算机 ;
-    kg:implements kg:学科,
-        kg:实用技术,
-        kg:技术 ;
-    kg:is_a kg:信息,
-        kg:学科,
-        kg:概念,
-        kg:概念设计,
-        kg:理论,
-        kg:理论家,
-        kg:电脑,
-        kg:电脑程式,
-        kg:硬件,
-        kg:科学,
-        kg:科学家,
-        kg:程式,
-        kg:第一,
-        kg:管理,
-        kg:计算机,
-        kg:计算机科学,
-        kg:设计,
-        kg:资源,
-        kg:软件,
-        kg:运作,
-        kg:问题,
-        kg:领域 ;
-    kg:uses kg:介面,
-        kg:使用者,
-        kg:电脑,
-        kg:电脑设备 .
+kg:分析 a kg:Entity ;
+    rdfs:label "分析"@zh .
 
-kg:问题 a kg:Entity ;
-    rdfs:label "问题"@zh ;
-    kg:composed_of kg:1852年,
-        kg:古德里,
-        kg:文字,
-        kg:法兰西斯,
-        kg:法兰西斯古德里 ;
-    kg:depends_on kg:编码,
-        kg:设计 ;
-    kg:implements kg:方法,
-        kg:理論,
-        kg:研究,
-        kg:程式,
-        kg:語言 ;
-    kg:includes kg:事实,
-        kg:信息,
-        kg:基本,
-        kg:有关,
-        kg:规则 ;
-    kg:is_a kg:产生,
-        kg:分析,
-        kg:创始人,
-        kg:加工,
-        kg:图论,
-        kg:成果,
-        kg:文字,
-        kg:文章,
-        kg:方法,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:理论,
-        kg:研究,
-        kg:程式设计,
-        kg:第一,
-        kg:类似地,
-        kg:经验,
-        kg:自动,
-        kg:莱布尼茨,
-        kg:计算理论,
-        kg:设计,
-        kg:领域 ;
-    kg:produces kg:产生,
-        kg:平面,
-        kg:成果,
-        kg:是否任何一幅画在平面上的地图都可以用四种颜色染色 ;
-    kg:uses kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验 .
-
-kg:关系 a kg:Entity ;
-    rdfs:label "关系"@zh ;
-    kg:includes kg:属性,
-        kg:本体,
-        kg:概念 ;
-    kg:is_a kg:争议,
-        kg:命名,
-        kg:命名实体,
-        kg:性质,
-        kg:研究,
-        kg:空串,
-        kg:话题,
-        kg:软件 ;
-    kg:used_for kg:信息,
-        kg:系统,
-        kg:结果,
-        kg:置信度 .
-
-kg:计算机 a kg:Entity ;
-    rdfs:label "计算机"@zh ;
-    kg:affects kg:哥德尔,
-        kg:图灵,
-        kg:工程,
-        kg:影响,
-        kg:数学,
-        kg:艾伦,
-        kg:英语,
-        kg:英语Rózsa_Péter,
-        kg:语言学,
-        kg:软件 ;
-    kg:based_on kg:复杂性 ;
-    kg:composed_of kg:19,
-        kg:1962年,
-        kg:专业,
-        kg:专业人士,
-        kg:大学,
-        kg:操作员,
-        kg:普渡大学,
-        kg:用户 ;
-    kg:contains kg:分支,
-        kg:实际,
-        kg:数量,
-        kg:结果,
-        kg:领域 ;
-    kg:extends kg:研究 ;
-    kg:implements kg:个体,
-        kg:分析,
-        kg:分类,
-        kg:学科,
-        kg:实用技术,
-        kg:性质,
-        kg:技术,
-        kg:方法,
-        kg:浏览器,
-        kg:游戏,
-        kg:特性,
-        kg:理論,
-        kg:研究,
-        kg:程序,
-        kg:程式,
-        kg:系统,
-        kg:語言,
-        kg:软件 ;
-    kg:includes kg:中断,
-        kg:信息,
-        kg:可视化,
-        kg:图像,
-        kg:图像处理,
-        kg:專注于,
-        kg:数学,
-        kg:经典,
-        kg:视觉,
-        kg:计算理论,
-        kg:逻辑 ;
-    kg:is_a kg:12,
-        kg:50年,
-        kg:一级门类,
-        kg:专业,
-        kg:争议,
-        kg:事业,
-        kg:事情,
-        kg:信息,
-        kg:信息技术,
-        kg:信息时代,
-        kg:全球,
-        kg:内容,
-        kg:分支,
-        kg:动机,
-        kg:商业,
-        kg:图像,
-        kg:基础,
-        kg:复杂性,
-        kg:天文学,
-        kg:奠基,
-        kg:学术,
-        kg:学术期刊,
-        kg:学术界,
-        kg:学科,
-        kg:工科,
-        kg:工程,
-        kg:性质,
-        kg:技术,
-        kg:教育,
-        kg:数字,
-        kg:数据,
-        kg:时代,
-        kg:望远镜,
-        kg:期刊,
-        kg:概念,
-        kg:概念设计,
-        kg:比如信息技术,
-        kg:活跃,
-        kg:浏览器,
-        kg:游戏,
-        kg:理论,
-        kg:目标,
-        kg:研究,
-        kg:研究成果,
-        kg:祖先,
-        kg:科学,
-        kg:科学技术,
-        kg:程序,
-        kg:算法,
-        kg:管理,
-        kg:系统,
-        kg:系统性,
-        kg:自动,
-        kg:自动机,
-        kg:视觉,
-        kg:计算机技术,
-        kg:计算机科学,
-        kg:计算机系统,
-        kg:计算理论,
-        kg:设计,
-        kg:话题,
-        kg:课程,
-        kg:資訊,
-        kg:資訊革命,
-        kg:软件,
-        kg:运作,
-        kg:连接成,
-        kg:逻辑,
-        kg:部分,
-        kg:门类,
-        kg:问题,
-        kg:革命,
-        kg:领域,
-        kg:驱动力 ;
-    kg:supports kg:教师 ;
-    kg:used_for kg:指代,
-        kg:数学,
-        kg:祖先,
-        kg:科学,
-        kg:计算机科学,
-        kg:运算,
-        kg:领域 ;
-    kg:uses kg:感官,
-        kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:用户,
-        kg:经验 .
+kg:语义搜索 a kg:Entity,
+        kg:KGTerm ;
+    rdfs:label "语义搜索"@zh .
 
 kg:领域 a kg:Entity ;
-    rdfs:label "领域"@zh ;
-    kg:extends kg:研究 ;
-    kg:implements kg:方法,
-        kg:理論,
-        kg:研究,
-        kg:程式,
-        kg:系统,
-        kg:語言 ;
-    kg:includes kg:事实,
-        kg:信息,
-        kg:可视化,
-        kg:图像,
-        kg:图像处理,
-        kg:基本,
-        kg:有关,
-        kg:规则,
-        kg:视觉 ;
-    kg:is_a kg:50年,
-        kg:事实,
-        kg:基本,
-        kg:基础,
-        kg:复杂性,
-        kg:学术,
-        kg:学术界,
-        kg:形式,
-        kg:性质,
-        kg:技术,
-        kg:数据,
-        kg:物理,
-        kg:理论,
-        kg:研究,
-        kg:科学,
-        kg:科学技术,
-        kg:结构,
-        kg:结构化,
-        kg:规则,
-        kg:计算机领域,
-        kg:问题 ;
-    kg:used_for kg:智能 .
-
-kg:研究 a kg:Entity ;
-    rdfs:label "研究"@zh ;
-    kg:affects kg:哥德尔,
-        kg:图灵,
-        kg:影响,
-        kg:艾伦,
-        kg:英语,
-        kg:英语Rózsa_Péter ;
-    kg:implements kg:传播,
-        kg:学科,
-        kg:实用技术,
-        kg:技术,
-        kg:查询,
-        kg:系统 ;
-    kg:includes kg:哲学,
-        kg:理论,
-        kg:管理 ;
-    kg:is_a kg:50年,
-        kg:产生,
-        kg:化学,
-        kg:商业,
-        kg:基础,
-        kg:学术,
-        kg:学术界,
-        kg:專注于,
-        kg:工程,
-        kg:平面,
-        kg:性质,
-        kg:成果,
-        kg:技术,
-        kg:数学,
-        kg:方法,
-        kg:是否任何一幅画在平面上的地图都可以用四种颜色染色,
-        kg:热点,
-        kg:物理,
-        kg:目的,
-        kg:科学,
-        kg:科学技术,
-        kg:系统,
-        kg:计数,
-        kg:计数问题,
-        kg:计算机系统,
-        kg:设计,
-        kg:部分,
-        kg:问题 ;
-    kg:produces kg:产生,
-        kg:分支,
-        kg:利用,
-        kg:平面,
-        kg:成果,
-        kg:是否任何一幅画在平面上的地图都可以用四种颜色染色,
-        kg:流传,
-        kg:问题 ;
-    kg:supports kg:专著,
-        kg:智能,
-        kg:理论 ;
-    kg:used_for kg:智能 .
-
-kg:科学 a kg:Entity ;
-    rdfs:label "科学"@zh ;
-    kg:affects kg:哥德尔,
-        kg:图灵,
-        kg:工程,
-        kg:影响,
-        kg:数学,
-        kg:艾伦,
-        kg:英语,
-        kg:英语Rózsa_Péter,
-        kg:语言学,
-        kg:软件 ;
-    kg:based_on kg:复杂性 ;
-    kg:composed_of kg:19,
-        kg:1962年,
-        kg:大学,
-        kg:普渡大学 ;
-    kg:contains kg:分支,
-        kg:实际,
-        kg:数量,
-        kg:结果,
-        kg:领域 ;
-    kg:extends kg:研究 ;
-    kg:implements kg:个体,
-        kg:分析,
-        kg:分类,
-        kg:学科,
-        kg:实用技术,
-        kg:性质,
-        kg:技术,
-        kg:方法,
-        kg:浏览器,
-        kg:游戏,
-        kg:特性,
-        kg:理論,
-        kg:研究,
-        kg:程序,
-        kg:程式,
-        kg:系统,
-        kg:語言,
-        kg:软件 ;
-    kg:includes kg:可视化,
-        kg:图像,
-        kg:图像处理,
-        kg:專注于,
-        kg:数学,
-        kg:经典,
-        kg:视觉,
-        kg:计算理论,
-        kg:逻辑 ;
-    kg:is_a kg:12,
-        kg:50年,
-        kg:UCPH_Department_of_Computer_Science,
-        kg:一级门类,
-        kg:专业,
-        kg:主体,
-        kg:争议,
-        kg:事业,
-        kg:事情,
-        kg:侧重于,
-        kg:信息,
-        kg:信息技术,
-        kg:信息时代,
-        kg:分析,
-        kg:动机,
-        kg:可视化,
-        kg:哥本哈根大学,
-        kg:图书,
-        kg:基础,
-        kg:复杂性,
-        kg:大学,
-        kg:天文学,
-        kg:奠基,
-        kg:学术,
-        kg:学术期刊,
-        kg:学术界,
-        kg:学术研究,
-        kg:学科,
-        kg:工科,
-        kg:性质,
-        kg:情报学,
-        kg:技术,
-        kg:教育,
-        kg:数学,
-        kg:数学模型,
-        kg:数据,
-        kg:数据处理,
-        kg:方式,
-        kg:时代,
-        kg:望远镜,
-        kg:期刊,
-        kg:概念,
-        kg:模型,
-        kg:比如信息技术,
-        kg:活跃,
-        kg:浏览器,
-        kg:游戏,
-        kg:理论,
-        kg:研究,
-        kg:研究成果,
-        kg:科学技术,
-        kg:科学系,
-        kg:程序,
-        kg:算法,
-        kg:系统,
-        kg:系统性,
-        kg:绘制,
-        kg:自动,
-        kg:自动机,
-        kg:英语,
-        kg:英语UCPH_Department_of_Computer_Science,
-        kg:计算机,
-        kg:计算机系统,
-        kg:计算理论,
-        kg:话题,
-        kg:课程,
-        kg:資訊,
-        kg:資訊革命,
-        kg:软件,
-        kg:逻辑,
-        kg:门类,
-        kg:问题,
-        kg:革命,
-        kg:领域,
-        kg:驱动力 ;
-    kg:supports kg:教师 ;
-    kg:used_for kg:主体,
-        kg:分析,
-        kg:学术,
-        kg:学术研究,
-        kg:学科,
-        kg:绘制 ;
-    kg:uses kg:datalogy,
-        kg:事实,
-        kg:代表,
-        kg:作者,
-        kg:关键词,
-        kg:学术,
-        kg:文字,
-        kg:文献,
-        kg:有关,
-        kg:术语,
-        kg:机构,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验,
-        kg:节点 .
-
-kg:信息 a kg:Entity ;
-    rdfs:label "信息"@zh ;
-    kg:affects kg:影响 ;
-    kg:composed_of kg:信号处理,
-        kg:克劳德香农,
-        kg:香农 ;
-    kg:implements kg:学科,
-        kg:实用技术,
-        kg:技术 ;
-    kg:includes kg:Freebase,
-        kg:世界,
-        kg:概况,
-        kg:百科1,
-        kg:维基百科 ;
-    kg:is_a kg:公元17501850年,
-        kg:工业,
-        kg:工业革命,
-        kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:经验,
-        kg:資訊,
-        kg:資訊革命,
-        kg:革命,
-        kg:驱动力 ;
-    kg:used_for kg:信号处理,
-        kg:数据 ;
-    kg:uses kg:感官,
-        kg:文字,
-        kg:有关,
-        kg:游戏,
-        kg:玩游戏,
-        kg:用户,
-        kg:经验 .
+    rdfs:label "领域"@zh .
 
 kg:Entity a owl:Class .
 

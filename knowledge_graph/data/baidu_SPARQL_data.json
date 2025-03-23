@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "title": "SPARQL",
+    "url": "https://zh.wikipedia.org/wiki/SPARQL",
+    "summary": "SPARQL（讀做「sparkle」[2]）是一種用於資源描述框架上的查詢語言，它的名字是一個遞迴縮寫，代表「SPARQL Protocol and RDF Query Language（SPARQL協定與RDF查詢語言）」。它的標準化為全球資訊網協會的RDF資料存取工作小組（DAWG）所進行，被認為是語意網科技的一個關鍵。2008年1月15日，SPARQL正式成為一項W3C推薦標準[3]。",
+    "content": "SPARQL（讀做「sparkle」[2]）是一種用於資源描述框架上的查詢語言，它的名字是一個遞迴縮寫，代表「SPARQL Protocol and RDF Query Language（SPARQL協定與RDF查詢語言）」。它的標準化為全球資訊網協會的RDF資料存取工作小組（DAWG）所進行，被認為是語意網科技的一個關鍵。2008年1月15日，SPARQL正式成為一項W3C推薦標準[3]。\n一個SPARQL查詢由一些三體（英语：Triplestore）組合、與邏輯、或邏輯，及選項組合所組成[4] 。\nSPARQL現已有在多個程式語言上的实现了[5]。在一個2006年5月的訪問裡，提姆·柏納李說到：「SPARQL將會帶來很大的變化」。\nSPARQL可以讓使用者寫出廣域上不含糊的詢問。舉例來說，以下的詢問可以取得世界上所有人的姓名與Email：\n假設用來描述人的本體最終統一為FOAF。注意到所有在SPARQL裡的標示都是URI都是廣域上不含糊的，與SQL常用的欄位名「email」或是「e-mail」有所不同。這是此詢問不含糊的根本原因。\n這個詢問可以被散布到多個SPARQL節點上，被計算之後結果再聚合起來，這個過程被稱作聯合式搜尋。\n另一個SPARQL詢問的例子如下，這模擬了以下的問題「非洲裡有哪些國家首都？」：\n變數的字首是?或$。回傳會包含?captial跟?country的所有可能答案。\nSPARQL詢問處理器會找到所有滿足這4個三體組合的配對，將對應的變數代表的值找出來。很重要的一點是這是「屬性導向」的（類的配對只能從屬性裡找出來。\n為了讓詢問變得更精簡，SPARQL可以讓使用者定義前輟與URI底，與Turtle類似。在這個詢問中，「abc」這個前輟代表「http://example.com/exampleOntology#」。\n公开的 SPARQL Web服务\n",
+    "info_box": {
+      "编程范型": "查詢語言",
+      "實作者": "W3C",
+      "发行时间": "2008年，​17年前​（2008）",
+      "当前版本": "1.1[1]",
+      "網站": "www.w3.org/TR/sparql11-query/"
+    },
+    "categories": [
+      "语义网",
+      "数据查询语言",
+      "W3C标准",
+      "Web服务",
+      "宣告式編程語言",
+      "資源描述架構",
+      "使用未知编程语言信息框参数的页面",
+      "包含FAST标识符的维基百科条目",
+      "包含GND标识符的维基百科条目",
+      "包含J9U标识符的维基百科条目",
+      "包含LCCN标识符的维基百科条目"
+    ],
+    "source": "wikipedia"
+  }
+]

@@ -5,7 +5,9 @@ import time
 import requests
 from bs4 import BeautifulSoup
 import logging
+import asyncio
 from urllib.parse import urljoin, urlparse
+from knowledge_graph.utils.agent import agent_crawler
 
 # 配置日志
 logging.basicConfig(
@@ -16,8 +18,7 @@ logger = logging.getLogger(__name__)
 
 class KnowledgeGraphCrawler:
     """知识图谱爬虫类，用于抓取关于知识图谱的数据"""
-    
-    def __init__(self, output_dir='knowledge_graph/data'):
+    def __init__(self, output_dir='knowledge_graph/data', use_agent=1, use_trad_method=1):
         """初始化爬虫
         
         Args:
@@ -32,7 +33,8 @@ class KnowledgeGraphCrawler:
         self.zhihu_base_url = 'https://www.zhihu.com'
         self.csdn_base_url = 'https://blog.csdn.net'
         self.visited_urls = set()
-        
+        self.use_agent = use_agent
+        self.use_trad_method = use_trad_method
         # 确保输出目录存在
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
@@ -373,6 +375,12 @@ class KnowledgeGraphCrawler:
         logger.info(f"CSDN博客抓取完成，共抓取 {len(results)} 篇")
         return results
     
+    def crawl_browser_use(self, keyword='知识图谱', max_pages=5):
+        results = asyncio.run(agent_crawler(topic=keyword, pages=max_pages))
+        # results = await agent_crawler(topic=keyword, pages=max_pages)
+        logger.info(f"Agent 运行完毕，共抓取 {len(results)} 篇")
+        return results
+
     def save_data(self, data, filename):
         """保存抓取的数据到文件
         
@@ -389,39 +397,51 @@ class KnowledgeGraphCrawler:
     def run(self):
         """运行爬虫"""
         # 抓取百度百科
-        baidu_data = self.crawl_baidu_baike(keyword='知识图谱', max_pages=20)
+        baidu_data = self.crawl_baidu_baike(keyword='知识图谱', max_pages=10)
         self.save_data(baidu_data, 'baidu_kg_data.json')
         
-        # 抓取维基百科
-        try:
-            wiki_data = self.crawl_wikipedia(keyword='知识图谱', max_pages=10)
-            self.save_data(wiki_data, 'wiki_kg_data.json')
-        except Exception as e:
-            logger.error(f"抓取维基百科失败: {str(e)}")
+        if(self.use_trad_method):
+            # 抓取维基百科
+            try:
+                wiki_data = self.crawl_wikipedia(keyword='知识图谱', max_pages=5)
+                self.save_data(wiki_data, 'wiki_kg_data.json')
+            except Exception as e:
+                logger.error(f"抓取维基百科失败: {str(e)}")
+            
+            # 抓取CSDN博客
+            try:
+                csdn_data = self.crawl_csdn_blogs(keyword='知识图谱', max_pages=5)
+                self.save_data(csdn_data, 'csdn_kg_data.json')
+            except Exception as e:
+                logger.error(f"抓取CSDN博客失败: {str(e)}")
+
+            # 抓取相关概念的数据
+            related_keywords = [
+                '本体论', '语义网', 'RDF', '图数据库', 'SPARQL', '知识表示', 
+                '知识推理', '知识抽取', '实体识别', '关系抽取', '知识融合', 
+                '链接数据', '知识问答', '知识计算', '知识工程'
+            ]
         
-        # 抓取CSDN博客
-        try:
-            csdn_data = self.crawl_csdn_blogs(keyword='知识图谱', max_pages=5)
-            self.save_data(csdn_data, 'csdn_kg_data.json')
-        except Exception as e:
-            logger.error(f"抓取CSDN博客失败: {str(e)}")
+            for keyword in related_keywords:
+                logger.info(f"抓取相关概念: {keyword}")
+                self.visited_urls = set()  # 重置已访问URL集合
+                related_data = self.crawl_wikipedia(keyword=keyword, max_pages=1)
+                # related_data = self.crawl_baidu_baike(keyword=keyword, max_pages=5)
+                self.save_data(related_data, f'wikipedia_{keyword}_data.json')
+
+        if(self.use_agent):
+            try:
+                agent_data = self.crawl_browser_use(keyword='知识图谱', max_pages=10)
+                with open('agent_kg_data.json', 'w', encoding='utf-8') as f:
+                    f.write(agent_data)
+                logger.info(f"数据已保存到: agent_kg_data.json")
+            except Exception as e:
+                logger.error(f"Agent运行失败: {str(e)}")
         
-        # 抓取相关概念的数据
-        related_keywords = [
-            '本体论', '语义网', 'RDF', '图数据库', 'SPARQL', '知识表示', 
-            '知识推理', '知识抽取', '实体识别', '关系抽取', '知识融合', 
-            '链接数据', '知识问答', '知识计算', '知识工程'
-        ]
-        
-        for keyword in related_keywords:
-            logger.info(f"抓取相关概念: {keyword}")
-            self.visited_urls = set()  # 重置已访问URL集合
-            related_data = self.crawl_baidu_baike(keyword=keyword, max_pages=5)
-            self.save_data(related_data, f'baidu_{keyword}_data.json')
 
 def main():
     """主函数"""
-    crawler = KnowledgeGraphCrawler()
+    crawler = KnowledgeGraphCrawler(use_agent=1, use_trad_method=1)
     crawler.run()
 
 if __name__ == "__main__":

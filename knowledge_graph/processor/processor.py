@@ -97,11 +97,12 @@ class KnowledgeProcessor:
         if self.use_openai:
             try:
                 # 从环境变量获取API密钥
-                openai.api_key = os.environ.get("OPENAI_API_KEY")
-                if not openai.api_key:
+                openai_api_key = os.environ.get("OPENAI_API_KEY")
+                if not openai_api_key:
                     logger.warning("未找到OpenAI API密钥，将不使用OpenAI API")
                     self.use_openai = False
                 else:
+                    openai.api_key = openai_api_key
                     logger.info("已初始化OpenAI API")
             except Exception as e:
                 logger.error(f"初始化OpenAI API失败: {str(e)}")
@@ -123,7 +124,7 @@ class KnowledgeProcessor:
         logger.info(f"已加载自定义词典: {kg_dict_path}")
     
     def load_data(self, filename):
-        """加载JSON数据文件
+        """加载数据文件
         
         Args:
             filename: 文件名
@@ -135,9 +136,24 @@ class KnowledgeProcessor:
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
+            
+            # 对于从agent获取的数据，其结构可能不同，需要特殊处理
+            if filename == 'agent_kg_data.json':
+                # 确保数据格式一致，每个条目都有所需的字段
+                processed_data = []
+                for item in data:
+                    processed_item = {
+                        'title': item.get('title', ''),
+                        'url': item.get('url', ''),
+                        'summary': item.get('summary', ''),
+                        'content': item.get('content', ''),
+                        'source': item.get('source', 'agent')
+                    }
+                    processed_data.append(processed_item)
+                return processed_data
             return data
         except Exception as e:
-            logger.error(f"加载文件 {filepath} 失败: {str(e)}")
+            logger.error(f"加载数据文件 {filepath} 失败: {str(e)}")
             return []
     
     def clean_text(self, text):
@@ -374,7 +390,8 @@ class KnowledgeProcessor:
         Returns:
             关系三元组列表
         """
-        if not self.use_openai or not openai.api_key:
+        if not self.use_openai or not os.environ.get("OPENAI_API_KEY"):
+            logger.warning("OpenAI API不可用，跳过大模型关系抽取")
             return []
             
         relations = []
@@ -394,7 +411,7 @@ class KnowledgeProcessor:
 
 已识别的实体: {entity_list}
 
-请分析文本，找出这些实体之间的关系。关系类型包括但不限于:
+请分析文本，找出这些实体之间的关系。关系类型主要包括（尽可能规约到以下关系）:
 - is_a (是一种)
 - includes (包括)
 - contains (包含)
@@ -415,25 +432,27 @@ class KnowledgeProcessor:
 - implements (实现)
 - extends (扩展)
 - uses (使用)
-
-请以以下JSON格式返回结果:
+注意，所有的关系类型必须使用英文（例如"is_a"是正确的，但是"是一种"则是错误的），括号里的中文仅供你参考。
+请严格按照以下格式返回结果:
 [
-  {
+  {{
     "subject": "实体1",
     "predicate": "关系类型",
     "object": "实体2",
     "sentence": "包含这种关系的原始句子",
     "confidence": 0.9
-  },
-  ...
+  }}
 ]
-
+注意，所有的关系类型必须使用英文（例如"is_a"是正确的，但是"是一种"则是错误的）
 只返回JSON数组，不要有其他文字说明。
 """
         
         try:
-            # 调用OpenAI API
-            response = openai.chat.completions.create(
+            # 调用OpenAI API - 更新的API调用方式
+            from openai import OpenAI
+            client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+            
+            response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system", "content": "你是一个专业的知识图谱关系提取助手，擅长从文本中识别实体间的语义关系。"},
@@ -446,22 +465,32 @@ class KnowledgeProcessor:
             # 解析响应
             result = response.choices[0].message.content.strip()
             
-            # 提取JSON部分
-            json_match = re.search(r'\[.*\]', result, re.DOTALL)
-            if json_match:
-                json_str = json_match.group(0)
-                try:
-                    extracted_relations = json.loads(json_str)
-                    for relation in extracted_relations:
-                        # 添加方法标记
-                        relation['method'] = 'openai'
-                        relations.append(relation)
-                    
-                    logger.info(f"使用OpenAI API提取了 {len(relations)} 个关系")
-                except json.JSONDecodeError as e:
-                    logger.error(f"解析OpenAI响应JSON失败: {str(e)}")
-            else:
-                logger.warning("OpenAI响应中未找到有效的JSON数据")
+            try:
+                # 直接尝试解析整个JSON
+                extracted_relations = json.loads(result)
+                for relation in extracted_relations:
+                    # 添加方法标记
+                    relation['method'] = 'openai'
+                    relations.append(relation)
+                
+                logger.info(f"使用OpenAI API提取了 {len(relations)} 个关系")
+            except json.JSONDecodeError:
+                # 尝试提取JSON部分
+                json_match = re.search(r'\[\s*\{.*\}\s*\]', result, re.DOTALL)
+                if json_match:
+                    json_str = json_match.group(0)
+                    try:
+                        extracted_relations = json.loads(json_str)
+                        for relation in extracted_relations:
+                            # 添加方法标记
+                            relation['method'] = 'openai'
+                            relations.append(relation)
+                        
+                        logger.info(f"使用OpenAI API提取了 {len(relations)} 个关系")
+                    except json.JSONDecodeError as e:
+                        logger.error(f"解析OpenAI响应JSON失败: {str(e)}")
+                else:
+                    logger.warning("OpenAI响应中未找到有效的JSON数据")
                 
         except Exception as e:
             logger.error(f"调用OpenAI API失败: {str(e)}")
@@ -483,11 +512,16 @@ class KnowledgeProcessor:
         
         # 使用OpenAI API提取关系
         openai_relations = []
-        if self.use_openai and openai.api_key:
+        if self.use_openai and os.environ.get("OPENAI_API_KEY"):
+            logger.info("开始使用OpenAI API提取关系...")
             openai_relations = self.extract_relations_with_openai(text, entities)
+            logger.info(f"OpenAI API返回了 {len(openai_relations)} 个关系")
         
         # 合并关系
         all_relations = pattern_relations + openai_relations
+        
+        # 记录提取结果
+        logger.info(f"共提取到 {len(all_relations)} 个关系，其中模式匹配方法: {len(pattern_relations)}，OpenAI方法: {len(openai_relations)}")
         
         return all_relations
     
@@ -592,7 +626,8 @@ class KnowledgeProcessor:
     def run(self):
         """运行处理器处理所有数据"""
         try:
-            json_files = [f for f in os.listdir(self.input_dir) if f.endswith('.json') and ('baidu' in f or 'wiki' in f or 'csdn' in f)]
+            # json_files = [f for f in os.listdir(self.input_dir) if f.endswith('.json') and ('baidu' in f or 'wiki' in f or 'csdn' in f)]
+            json_files = [f for f in os.listdir(self.input_dir) if f.endswith('.json') and ('agent' in f)]
             
             if not json_files:
                 logger.error(f"在 {self.input_dir} 目录中没有找到JSON数据文件")

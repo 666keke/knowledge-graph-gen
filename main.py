@@ -28,14 +28,14 @@ def run_pipeline():
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
     
-    # 步骤1: 数据抓取
-    logger.info("步骤1: 开始数据抓取...")
-    crawler = KnowledgeGraphCrawler()
-    crawler.run()
+    # # 步骤1: 数据抓取
+    # logger.info("步骤1: 开始数据抓取...")
+    # crawler = KnowledgeGraphCrawler(use_trad_method=0)
+    # crawler.run()
     
     # 步骤2: 数据处理
     logger.info("步骤2: 开始数据处理...")
-    processor = KnowledgeProcessor()
+    processor = KnowledgeProcessor(use_openai=True)
     processor.run()
     
     # 步骤3: 图谱构建

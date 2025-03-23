@@ -1,26 +1,6 @@
 [
   {
-    "text": "Knowledge Graph",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "21980年代后期",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "格罗宁根大学",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "特文特大学",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "GoogleBing",
+    "text": "Graph",
     "label": "PERSON",
     "type": "NER"
   },
@@ -30,38 +10,8 @@
     "type": "NER"
   },
   {
-    "text": "2012年5月17日",
+    "text": "2012年",
     "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "2006年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "linked",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "URI",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "RDF",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "3 三元组",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "通用",
-    "label": "ORG",
     "type": "NER"
   },
   {
@@ -70,148 +20,13 @@
     "type": "NER"
   },
   {
-    "text": "中国",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "19880908",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "(attributevalue",
-    "label": "QUANTITY",
-    "type": "NER"
-  },
-  {
     "text": "数据层",
     "label": "CARDINAL",
     "type": "NER"
   },
   {
-    "text": "百科类",
-    "label": "PERCENT",
-    "type": "NER"
-  },
-  {
-    "text": "第一",
-    "label": "ORDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "named",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "NER",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "2004年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "70",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "72008年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "82010年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "中汇集属性信息",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "10",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "第三方",
-    "label": "ORDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "数据化",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "ontology",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "11",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "康熙)",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "2011年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "1000",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "12",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "Freebase",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "13",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "Data Microsoft",
-    "label": "PRODUCT",
-    "type": "NER"
-  },
-  {
-    "text": "Data The World Book Encyclopedia Y",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "圖譜",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
     "text": "图谱",
     "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "英語",
-    "label": "nz",
     "type": "JIEBA"
   },
   {
@@ -231,11 +46,6 @@
   },
   {
     "text": "符号",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "形式",
     "label": "n",
     "type": "JIEBA"
   },
@@ -260,36 +70,6 @@
     "type": "JIEBA"
   },
   {
-    "text": "基本",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "单位",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "实体",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "属性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "网状",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "知识结构",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
     "text": "网页",
     "label": "n",
     "type": "JIEBA"
@@ -310,37 +90,12 @@
     "type": "JIEBA"
   },
   {
-    "text": "字符串",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
     "text": "检索",
     "label": "vn",
     "type": "JIEBA"
   },
   {
-    "text": "搜索引擎",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "图形",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "方式",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "大量",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "定位",
+    "text": "全面",
     "label": "n",
     "type": "JIEBA"
   },
@@ -350,227 +105,17 @@
     "type": "JIEBA"
   },
   {
-    "text": "數據",
+    "text": "搜索引擎",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "结构",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数据模型",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "联系",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "實體",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "格罗宁根",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "大学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "特文特",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "启动",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "项目",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "界面",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "定义",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "功能",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "辅助",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "问世",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "网络",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "技术",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "研究",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "领域",
+    "text": "表示法",
     "label": "n",
     "type": "JIEBA"
   },
   {
     "text": "数据",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "思想",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "技术标准",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "基础",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "条件",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "代表",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "元素",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "类别",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "对象",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "类型",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "事物",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "种类",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "人物",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "地理",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "特征",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "特性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "特点",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "参数",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "国籍",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "外延",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "全局",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "标识",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "刻画",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "关联",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "逻辑",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "架构",
     "label": "n",
     "type": "JIEBA"
   },
@@ -585,288 +130,8 @@
     "type": "JIEBA"
   },
   {
-    "text": "数据库",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "本体",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "规范",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "体系",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "部分",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
     "text": "融合",
     "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "发展",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "百科",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "网站",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数据源",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "信息",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "自动",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "资源",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "人工",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "异构",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "单元",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "命名",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "自动识别",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "关键",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "准确率",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "效率",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "质量",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "影响",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "准召率",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "理想",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "字典",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "算法",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "论文",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "实例",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "建模",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "利用",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "模型",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "海量",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "列表",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "语料库",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "面向",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "监督",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "分类",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "日志",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "聚类",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "文本",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "语料",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "信息源",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "公众",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "昵称",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "教育",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "背景",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "结果",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "层次性",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "逻辑性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "歧义",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "错误",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "指将",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "产品",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "关系数据库",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "网络化",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "一段距离",
-    "label": "n",
     "type": "JIEBA"
   },
   {
@@ -875,52 +140,7 @@
     "type": "JIEBA"
   },
   {
-    "text": "评估",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "关系数据",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "乾隆",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "父亲",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "雍正",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "祖父",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "孙子",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "老虎",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "猫科",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "食肉",
+    "text": "关键技术",
     "label": "n",
     "type": "JIEBA"
   },
@@ -930,87 +150,7 @@
     "type": "JIEBA"
   },
   {
-    "text": "对应",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "句子",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "训练",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "斯蒂",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "系统",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "置信度",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "全网",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "范围",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "过程",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "频率",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "评分",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "先验",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "修正",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "方法",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "正误",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "不确定性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "扩展性",
+    "text": "精确性",
     "label": "n",
     "type": "JIEBA"
   },
@@ -1020,137 +160,7 @@
     "type": "JIEBA"
   },
   {
-    "text": "消歧",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "效果",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "空间",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "标准",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "指标",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "思维",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "Knowledge Graph）",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "数据层和模式层",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：Knowledge Graph",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "linked data",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "uniform resource identifier",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "resource description framework",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "Web ontology language",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "E, R, S",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "概念的外延",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "attributevalue pair, AVP",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "fact",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "information extraction",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "named entity recognition，NER",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "entity linking",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "乾隆, 父亲, 雍正",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "雍正, 父亲, 康熙",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "乾隆, 祖父, 康熙",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "康熙, 孙子, 乾隆",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "老虎, 科, 猫科",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "猫科, 目, 食肉目",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "老虎, 目, 食肉目",
+    "text": "Knowledge Graph",
     "label": "PARENTHESIS",
     "type": "REGEX"
   },
@@ -1160,1102 +170,22 @@
     "type": "TERM"
   },
   {
-    "text": "语义网",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "图数据库",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "推理",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
     "text": "知识抽取",
     "label": "KG_TERM",
     "type": "TERM"
   },
   {
-    "text": "知识表示",
+    "text": "语义搜索",
     "label": "KG_TERM",
     "type": "TERM"
   },
   {
-    "text": "知识推理",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "知识融合",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "实体识别",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "命名实体",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "关系抽取",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "语义网络",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "知识获取",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "知识计算",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "知识图谱可以指",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "消歧義",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "nlneq",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "001",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "00",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "100",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "111",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "0000",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "1001",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "1010",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "1100",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "二元",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "101",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "literal",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "string",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "汉语",
-    "label": "LANGUAGE",
-    "type": "NER"
-  },
-  {
-    "text": "日语",
-    "label": "LANGUAGE",
-    "type": "NER"
-  },
-  {
-    "text": "朝鲜",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "256",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "Unicode字符串数据类型（通常是UTF16",
+    "text": "通用",
     "label": "ORG",
     "type": "NER"
   },
   {
-    "text": "UN",
-    "label": "NORP",
-    "type": "NER"
-  },
-  {
-    "text": "字符",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "序列",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "编程语言",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数据类型",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "整体",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "子串",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "长度",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "运算",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "模式匹配",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "顺序存储",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "字母表",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数目",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "整数",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "空串",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "可数",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "子集",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "偶数",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "函数",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "同态",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "因子",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "偏序",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "次序",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "全序",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "字母",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "词典",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "理论",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "经常出现",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "条目",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "语言",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "语法",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "常值",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "字串",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "实际",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "极大值",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数量",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "内存",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "名字",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "历史",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "分配",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "字节",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "字符集",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "区域",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "编码",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "程序员",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "典型",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "意音",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "文字",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "朝鲜语",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "合理",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "个字符",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "常规",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "单字节",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "字形",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "现存",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "代码",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "程度",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "设计",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "位面",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "传输",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "标记",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "规则",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "面向对象",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "情况",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "表示法",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数组",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "结束符",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数值",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "例子",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "意义",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "处理程序",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "实用程序",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "文件",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "string）",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "在串中查找某个子串求取一个子串在串的某个位置上插入一个子串以及删除一个子串等",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "长度相等",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "concatenation）是Σ上的重要二元运算",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "substring）或因子（英語：factor）",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "literal）或字串常值（英語：string literal）",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "定长字符串",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "保持对ASCII码的单字节表示",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "上面的字符串的长度为5个字符",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "当然",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "很多UNIX实用程序进行简单的字符串处理",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：string",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "0  n   displaystyle 0leq nlneq infty",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "或字",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "序列的长度",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "就是Σ的任何子集",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "ε, 1, 00, 11, 001, 010, 100, 111, 0000, 0011, 0101, 0110, 1001, 1010, 1100, 1111,",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：concatenation",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：substring",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：factor",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "可能为空",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "cf. 字母序",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "Data type",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：literal",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：string literal",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "但有限",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "合称为CJK",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "每字符一个字节编码的极限",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "通常是UTF16，因为它在Unicode补充位面介入之前就被增加了",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "mutable",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "immutable",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "如在ASCII代码中",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "如在unicode中",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "一般是NUL，ASCII代码是0，在C编程语言中使用这种方法",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "在Pascal语言中使用这种方法",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "如插入和删除",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "科學",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "人工智能",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "領域",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "問題",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "儲存",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "處理",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "資料",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "目標",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "程式",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "人類",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "智慧",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "答案",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "角度",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "Knowledge base",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "管理",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "有关",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "整理",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "领域专家",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "Graph",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "柯尼斯堡七桥",
-    "label": "PRODUCT",
-    "type": "NER"
-  },
-  {
-    "text": "1736年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "欧拉于",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "柯尼斯堡",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "欧拉路",
-    "label": "LOC",
-    "type": "NER"
-  },
-  {
-    "text": "周游",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "莱布尼茨",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "45",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "1857年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "英语",
-    "label": "LANGUAGE",
-    "type": "NER"
-  },
-  {
-    "text": "西尔维斯特",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "1878年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "一个多世纪",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "1935至1937年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "1959年",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "法兰西斯古德里",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "1852年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "哈密顿",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "凯莱",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "Alfred Kempe",
-    "label": "FAC",
-    "type": "NER"
-  },
-  {
-    "text": "泰特",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "Peter",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "德拉姆齐",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "Hadwige",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "Hugo Hadwiger",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "一百多年后",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "1969年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "Heinrich Heesch",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "1976年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "阿佩爾",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "1936",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "1860年之1930年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "惠特尼",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "物理学家基尔霍夫",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "1845年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "埃尔德什",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "Alfréd Rényi",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "與之相關",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "Esubsete",
-    "label": "PRODUCT",
-    "type": "NER"
-  },
-  {
-    "text": "displaystyle",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "E,phi",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "Eto leftleftx,yright",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "射到",
-    "label": "LOC",
-    "type": "NER"
-  },
-  {
-    "text": "图 G",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "displaystyle G",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "平面图",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "库拉托夫斯基",
-    "label": "PERCENT",
-    "type": "NER"
-  },
-  {
-    "text": "图论",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "分支",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "群论",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "矩阵",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "拓扑学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "顶点",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "边所",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "边则",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "七桥",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "欧拉",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "创始人",
+    "text": "初学",
     "label": "n",
     "type": "JIEBA"
   },
@@ -2265,2712 +195,32 @@
     "type": "JIEBA"
   },
   {
-    "text": "笔画",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "德蒙",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "骑士",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "分析",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数棱数",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "面数",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "公式",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "柯西",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "起源",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "遊戲",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "路径",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "名词",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "世纪",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "树状",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "分子",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "化学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "性质",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计数问题",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "成果",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "波利亚",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "研究成果",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计数",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "化合物",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "术语",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "四色问题",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "产生",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "平面",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "地图",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "颜色",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "染色",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "法兰西斯",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "古德里",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "摩根",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "证明",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "希伍德",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "拉姆齐",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "亏格",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "曲面",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "着色",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算机",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "利用计算机",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "托夫斯",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "基和",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "内容",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "代数",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "道路",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "物理学家",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "电路",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "定律",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "概率",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "埃尔德",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "什和",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "圖論",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "定義",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "有序",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "無序",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "頂點",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "端點",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "自環",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "個數",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "性質",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "空集合",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "階是",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "邊數",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "次數",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "图同构",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "子图",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "同構",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "定理",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "重构",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "阶图",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "将图",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "Graph theory）",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "icosian game）（icosian game）",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Nicolaas Govert de Bruijn）做了一些推广",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "是否任何一幅画在平面上的地图都可以用四种颜色染色",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Alfred Kempe）等在内的许多人都曾给出过错误的证明",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Peter Guthrie Tait）（Peter Guthrie Tait）希伍德拉姆齐和Hadwige（英语：Hugo Hadwiger）（Hugo Hadwiger）对此问题的研究与推广引发了对嵌入具有不同亏格的曲面的图的着色问题的研究",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Heinrich Heesch）发表了一个用计算机解决此问题的方法",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Alfréd Rényi）关于随机图连通的渐进概率的研究使得图论产生了新的分支随机图论",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "( x",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "(x",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "圖是有序三元組 G  ( V",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "E    x",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Eto leftleftx",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "圖的階是其頂點個數  V  displaystyle V",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "给定两个图 G displaystyle G 和 H displaystyle H",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "类似地",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "平面图判定：判定给定的图是否是平面图（此问题与子图的关系",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "一个n阶图是否能够由其所有n1阶导出子图唯一确定",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：Graph theory",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：icosian game",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "icosian game",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：Nicolaas Govert de Bruijn",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：Alfred Kempe",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：Peter Guthrie Tait",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "Peter Guthrie Tait",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：Hugo Hadwiger",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：Heinrich Heesch",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：Alfréd Rényi",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "V , E",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "V,E",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "x , y",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "x,y",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "換句話說，邊連接了頂點對",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "V , E , ϕ",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "V,E,phi",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "此時 E displaystyle E 不再如前面限定是該集合的子集",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "於是邊連接了頂點對",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "自環會被算兩次",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "此问题与子图的关系，参见库拉托夫斯基定理",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "Reconstruction conjecture",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "中国大陆",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "科学知识",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "可视化",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "绘制",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "学科",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "学术研究",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "主体",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "进程",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "工具",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "节点",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "作者",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "学术",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "机构",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "科学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "文献",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "关键词",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "连线",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "合作",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "大陆",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "地区",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "内涵",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "图书",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "情报学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "侧重于",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算机领域",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "客观",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "Mapping Knowledge Domains",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "如RDF",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "图书馆信息学",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "圖書",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "library and information science",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "LIS",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "20世纪70年代",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "英文",
-    "label": "LANGUAGE",
-    "type": "NER"
-  },
-  {
-    "text": "日文",
-    "label": "LANGUAGE",
-    "type": "NER"
-  },
-  {
-    "text": "台湾",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "图书馆",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "信息学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "資訊",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "图书馆学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "出版学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "档案学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "博物馆学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "文献学",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "文献分类",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "中同",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "同属",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "上位",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "情报",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "和訊",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "汉译",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "资讯",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "广义",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "上訊息",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "自然界",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "社会",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "消息",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "訊息",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "方可",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "业务流程",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "哲学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "业务",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "情报检索",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "编辑",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "热点",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "技术性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "流传",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "档案",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "专业",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "流派",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "平台",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "传播",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "学问",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "英語：library and information science, LIS",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "查询",
-    "label": "KG_TERM",
-    "type": "TERM"
-  },
-  {
-    "text": "2012年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "2012年5月16日",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "美国",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "百科1",
-    "label": "PERCENT",
-    "type": "NER"
-  },
-  {
-    "text": "Missing",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "570亿",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "18亿",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "34 2012年11月4日",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "西班牙语",
-    "label": "LANGUAGE",
-    "type": "NER"
-  },
-  {
-    "text": "56",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "六十年代",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "1998年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "2003年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "10 自2003年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "11 12",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "15",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "16",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "2013年5月",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "阿米特辛格尔",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "1.",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "阿密特",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "Conversational",
-    "label": "NORP",
-    "type": "NER"
-  },
-  {
-    "text": "17",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "IO大会",
-    "label": "FAC",
-    "type": "NER"
-  },
-  {
-    "text": "圣克鲁斯",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "约翰娜怀特",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "1718",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "来源",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "目标",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "汇总",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "概况",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "维基百科",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "系統",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "含义",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "法语",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "德语",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "葡萄牙语",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "俄罗斯语",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "意大利语",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "万维网",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "系统性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "智能",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "专著",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "区别",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "文档",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "框架",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "联网",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "专家",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "工作",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "大会",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "辛格尔",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "设想",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "对话",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "预测",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "电脑",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "梦想",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "负责人",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "观众",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "地名",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "谈话",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "怀特",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "地方",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "Google Knowledge Graph",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "西班牙语法语德语葡萄牙语日语俄罗斯语及意大利语",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "搜索引擎的三个主要功能将需要改进",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Conversational search）技术包含阿密特推出的一种热关键词的搜索技术",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "知识图谱知道",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：Google Knowledge Graph，也称Google知识图",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "2012Missing required parameter 1month!",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "Semantic Link Network",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "详细比较了与六十年代提出的语义网Semantic Net的区别",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：Conversational search",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "專注于",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "丹麦",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "UCPH Department of Computer Science",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "北欧",
-    "label": "LOC",
-    "type": "NER"
-  },
-  {
-    "text": "epistemologist",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "10 三个月",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "第二年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "欧洲大陆",
-    "label": "LOC",
-    "type": "NER"
-  },
-  {
-    "text": "automatic",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "斯拉夫",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "艾兹",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "12 早期",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "艾伦",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "Rózs",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "佐邱奇",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "1623年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "布莱兹",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "帕斯卡",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "1642年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "1673年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "莱布尼兹",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "1694年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "二进制",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "埃达洛夫莱斯",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "维多利亚时代",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "1415",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "20世纪40年代",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "17计算机",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "20世纪50年代至20世纪60年代早期",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "18",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "普渡大学",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "1962年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "19",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "50年",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "20",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "之一",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "IBM",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "704",
-    "label": "MONEY",
-    "type": "NER"
-  },
-  {
-    "text": "709计算机",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "2020世纪50年代后期",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "資訊革命",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "公元17501850年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "新石器革命（",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "第三",
-    "label": "ORDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "Peter Wegner",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "Amnon H",
-    "label": "FAC",
-    "type": "NER"
-  },
-  {
-    "text": "Eden",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "3233 CSAB",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "Computing Sciences Accreditation Board",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "for Computing Machinery",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "IEEE计算机协会",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "Society",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "34",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "35",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "Peter J",
-    "label": "PRODUCT",
-    "type": "NER"
-  },
-  {
-    "text": "Denning",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "第二",
-    "label": "ORDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "千禧年",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "36",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "信息论",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "克劳德香农",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "并发性",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "concurrency",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "Petri网",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "加密",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "电机工程学",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "37",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "38",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "Special Interest",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "for Computational",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "北美",
-    "label": "LOC",
-    "type": "NER"
-  },
-  {
-    "text": "EMNLP(Conference",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "2010年10月",
-    "label": "DATE",
-    "type": "NER"
-  },
-  {
-    "text": "档案馆",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "CSTA",
-    "label": "ORG",
-    "type": "NER"
-  },
-  {
-    "text": "12 Computer",
-    "label": "QUANTITY",
-    "type": "NER"
-  },
-  {
-    "text": "14",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "Computing",
-    "label": "GPE",
-    "type": "NER"
-  },
-  {
-    "text": "CinC",
-    "label": "PERSON",
-    "type": "NER"
-  },
-  {
-    "text": "三级",
-    "label": "CARDINAL",
-    "type": "NER"
-  },
-  {
-    "text": "计算机科学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算机系统",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "实用技术",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "形容",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "图形学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "复杂性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "語言",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "理論",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "程式设计",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "事业",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "信息技术",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "经验",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "玩游戏",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "游戏",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "浏览器",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "软件",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "程序",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算机本身",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "重点",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "院系",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "科学家",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "建议",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数据处理",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "哥本哈根大学",
-    "label": "nt",
-    "type": "JIEBA"
-  },
-  {
-    "text": "科学系",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "学院",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "教授",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "北欧国家",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算技术",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "通讯",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "圖靈",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "工程",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "流程",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "圖人",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "數學家",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "論者",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "期刊",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "欧洲",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "语族",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "赫尔",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "戴克",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "天文学",
-    "label": "nt",
-    "type": "JIEBA"
-  },
-  {
-    "text": "望远镜",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "部署",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算机硬件",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "商业",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "信息系统",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算机相关",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "交叉",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "工程学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "认知科学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "经济学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "观察者",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "哥德尔",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "图灵",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "阿隆佐",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "邱奇",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数学家",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数理逻辑",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "范畴",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "论域",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "有益",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "交流",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "电子计算机",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "任务",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "机器",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "古希腊",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "时期",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "古老",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "仪器",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "机械",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算器",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "记录",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "理论家",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "埃达",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "查尔斯",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "巴贝奇",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "维多利亚",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "时代",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "差分",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "打孔机",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "局限",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "充其量",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "电子",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数值积分",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "指代",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "祖先",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "学位点",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "科学研究",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "学术界",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "公司",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "革命",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "参与者",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "事情",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "指令",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "階段",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "时间",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "科学技术",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "可用性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "有效性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "专业人士",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "操作员",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "普及",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "专人",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "时候",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "援助",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "根本性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "贡献",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "电子学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "信息时代",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "奠基",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "驱动力",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "工业革命",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "新石器",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "人类",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "范式",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "硬件",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "协会",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数据结构",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "编程",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算机网络",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数据库系统",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "分布式计算",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "符号计算",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "经典",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "方面",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "杂项",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数论",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "递归论",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "检验",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "目的",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "消耗",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "大奖",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "难题",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "香农",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "信号处理",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "密码学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "个体",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "语言学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "活跃",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "学术期刊",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "出版物",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "动机",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "可靠性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "健壮性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "成本",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "高可靠性",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "保安",
-    "label": "nz",
-    "type": "JIEBA"
-  },
-  {
-    "text": "自动机",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "语义学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数字",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "概念设计",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "运作",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "地址",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "组件",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "性能",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "电脑程式",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "核心",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "基石",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "作业系统",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "记忆体",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "系统资源",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "供需",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "优先",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "装置",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "网路",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "事务",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "使用者",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "电脑设备",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "介面",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "数学模型",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
     "text": "网络连接",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "全球",
+    "text": "信息",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "连接成",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "计算机技术",
+    "text": "代表",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "中断",
-    "label": "ns",
-    "type": "JIEBA"
-  },
-  {
-    "text": "预期",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "解密",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "管理系统",
+    "text": "实体",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "查询语言",
-    "label": "nr",
-    "type": "JIEBA"
-  },
-  {
-    "text": "视觉",
+    "text": "网络",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "图像",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "图像处理",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "运用",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "电子游戏",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "科学计算",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "多媒体技术",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "图形图像",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "动画",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "声音",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "媒体",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "综合",
-    "label": "vn",
-    "type": "JIEBA"
-  },
-  {
-    "text": "感官",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "动物",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "人造",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "研究者",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "专长",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "符号学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "电机",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "精神",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "神经",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "生理学",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "智力",
+    "text": "行业",
     "label": "n",
     "type": "JIEBA"
   },
@@ -4980,112 +230,472 @@
     "type": "JIEBA"
   },
   {
-    "text": "先驱",
+    "text": "社交",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "试验",
+    "text": "场景",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "详细描述",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "建模",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "初学篇",
+    "label": "PARENTHESIS",
+    "type": "REGEX"
+  },
+  {
+    "text": "语义网",
+    "label": "KG_TERM",
+    "type": "TERM"
+  },
+  {
+    "text": "语义网络",
+    "label": "KG_TERM",
+    "type": "TERM"
+  },
+  {
+    "text": "可视化",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "技术",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "美团",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "利用",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "框架",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "布局",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "策略",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "视觉",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "功能",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "业务",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "设计",
     "label": "vn",
     "type": "JIEBA"
   },
   {
-    "text": "终极",
+    "text": "效果",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "高质量",
+    "text": "发展",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "方向",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "价格",
+    "text": "图谱可视化",
+    "label": "KG_TERM",
+    "type": "TERM"
+  },
+  {
+    "text": "阿里云文",
+    "label": "PERSON",
+    "type": "NER"
+  },
+  {
+    "text": "举例",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "可维护性",
+    "text": "文档",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "争议",
+    "text": "银行",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "话题",
+    "text": "欺诈",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "分析",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "理论",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "分会",
+    "text": "案例",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "程序设计",
+    "text": "检测",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "答案",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "媒介",
+    "text": "1.",
+    "label": "CARDINAL",
+    "type": "NER"
+  },
+  {
+    "text": "博客",
+    "label": "nr",
+    "type": "JIEBA"
+  },
+  {
+    "text": "定义",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "中学",
+    "text": "结构",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "职业培训",
+    "text": "数据类型",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "课程",
+    "text": "架构",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "工业",
+    "text": "感兴趣",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "技能",
+    "text": "初学者",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "日益",
+    "text": "逻辑",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "经济",
+    "text": "本体",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "页面",
+    "text": "质量",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "备份",
+    "text": "推理",
+    "label": "KG_TERM",
+    "type": "TERM"
+  },
+  {
+    "text": "图谱构建",
+    "label": "KG_TERM",
+    "type": "TERM"
+  },
+  {
+    "text": "IBM",
+    "label": "ORG",
+    "type": "NER"
+  },
+  {
+    "text": "图形",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "互联网",
+    "text": "数据库",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "教师",
+    "text": "驱动",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "原理",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "机器",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "对象",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "零售",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "娱乐",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "医疗",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "领域",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "机器学习",
+    "label": "KG_TERM",
+    "type": "TERM"
+  },
+  {
+    "text": "自然语言处理",
+    "label": "KG_TERM",
+    "type": "TERM"
+  },
+  {
+    "text": "百度",
+    "label": "ORG",
+    "type": "NER"
+  },
+  {
+    "text": "学科",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "目的",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "百科",
+    "label": "nz",
+    "type": "JIEBA"
+  },
+  {
+    "text": "资源",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "研究",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "动态",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "规律",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "方法",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "核心",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "智能化",
+    "label": "nr",
+    "type": "JIEBA"
+  },
+  {
+    "text": "文本",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "监控",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "风险",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "多学科融合目的的现代理论",
+    "label": "PARENTHESIS",
+    "type": "REGEX"
+  },
+  {
+    "text": "GitHub仓库",
+    "label": "FAC",
+    "type": "NER"
+  },
+  {
+    "text": "仓库",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "学习材料",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "系统",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "纲要",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "文献",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "工具",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "对话",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "NLP",
+    "label": "KG_TERM",
+    "type": "TERM"
+  },
+  {
+    "text": "华为云",
+    "label": "NORP",
+    "type": "NER"
+  },
+  {
+    "text": "平台",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "华为",
+    "label": "nr",
+    "type": "JIEBA"
+  },
+  {
+    "text": "服务",
+    "label": "vn",
+    "type": "JIEBA"
+  },
+  {
+    "text": "增量",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "高可靠性",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "实时性",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "特征",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "CC",
+    "label": "PERSON",
+    "type": "NER"
+  },
+  {
+    "text": "第21",
+    "label": "ORDINAL",
+    "type": "NER"
+  },
+  {
+    "text": "数图",
+    "label": "n",
+    "type": "JIEBA"
+  },
+  {
+    "text": "焦点",
     "label": "n",
     "type": "JIEBA"
   },
@@ -5095,313 +705,53 @@
     "type": "JIEBA"
   },
   {
-    "text": "毕业",
+    "text": "转型",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "篇文章",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "无党派",
-    "label": "n",
-    "type": "JIEBA"
-  },
-  {
-    "text": "宣传",
+    "text": "管理",
     "label": "vn",
     "type": "JIEBA"
   },
   {
-    "text": "联邦",
+    "text": "趋势",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "政府",
+    "text": "编辑",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "政策",
+    "text": "寄语",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "计划",
+    "text": "智能",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "工科",
+    "text": "重要性",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "门类",
+    "text": "生命周期",
     "label": "n",
     "type": "JIEBA"
   },
   {
-    "text": "细分",
-    "label": "n",
+    "text": "教育",
+    "label": "vn",
     "type": "JIEBA"
   },
   {
-    "text": "datalogy",
-    "label": "QUOTED_TERM",
-    "type": "REGEX"
-  },
-  {
-    "text": "Computer science is no more about computers than astronomy is about telescopes.",
-    "label": "QUOTED_TERM",
-    "type": "REGEX"
-  },
-  {
-    "text": "Computer science",
+    "text": "知识图谱 | CCF DL Focus On Knowledge Graph",
     "label": "DEFINITION",
     "type": "REGEX"
-  },
-  {
-    "text": "UCPH Department of Computer Science）",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "圖靈工程師（turingineer）",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "计算机科学并不只是关于计算机",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Rózsa Péter）",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Stepped reckoner）的建造工作并于1694年竣工",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Peter Wegner（英语：Peter Wegner）提出计算机科学可以分成三个领域：数学工程学科學",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "31 作为一个学科",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "IEEE Computer Society）（IEEECS）的代表组成34",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "计算理论",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "计算机能够思考吗",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "The Failure to Teach K12 Computer Science in the Digital Age的报告",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "Computing in the Core（CinC）被建立",
-    "label": "DEFINITION",
-    "type": "REGEX"
-  },
-  {
-    "text": "英語：Computer science，有时缩写为CS",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "比如信息技术",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "computer science",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "computing science",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：UCPH Department of Computer Science",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "turingineer",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "flowchartsman",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "applied metamathematician",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "applied epistemologist",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "information",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "computation",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "斯拉夫语族",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "\"Computer science is no more about computers than astronomy is about telescopes.\"",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：Rózsa Péter",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：Stepped reckoner",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "如ABC计算机电子数值积分计算机",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "International Business Machines的缩写",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "公元前80005000年",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：Peter Wegner",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "以前被叫做Computing Sciences Accreditation Board",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "ACM",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "英语：IEEE Computer Society",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "IEEECS",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "code",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "security",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "或者计算科学",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "Special Interest Group on Information Retrieval",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "Knowledge Discovery and Data Mining",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "the Association for the Advance of Artificial Intelligence",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "Annual Meeting of the Association for Computational Linguistics",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "The North American Chapter of the Association for Computational Linguistics",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "Conference on Empirical Methods in Natural Language Processing",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "International Joint Conference on Artificial Intelligence",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "页面存档备份，存于互联网档案馆",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "一级门类",
-    "label": "PARENTHESIS",
-    "type": "REGEX"
-  },
-  {
-    "text": "NLP",
-    "label": "KG_TERM",
-    "type": "TERM"
   }
 ]
